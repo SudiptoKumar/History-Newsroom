@@ -1,4 +1,4 @@
-# Today in History Bot V1
+# Today in History Bot V1.2
 
 A lightweight Telegram bot that publishes historical events from the supplied 12-month dataset. The CSV dataset is the source of truth. V1 does not perform news discovery or invent missing events.
 
@@ -20,13 +20,13 @@ A lightweight Telegram bot that publishes historical events from the supplied 12
 
 The repository contains all 12 supplied CSV files in `data/`. The final TIH logo is kept as channel/bot branding and is not composited onto event photographs.
 
-Current dataset validation result: **6,879 records**. Most calendar dates have 20 events, but April is incomplete at 5–6 events per day and six November dates have fewer than 20. V1 publishes only records actually present for a date.
+Current dataset validation result: **6,879 records**. The default Telegram channel is `@HistoryNewsroom`; the GitHub Actions workflow still prefers the `TELEGRAM_CHANNEL` secret when present. Most calendar dates have 20 events, but April is incomplete at 5–6 events per day and six November dates have fewer than 20. V1 publishes only records actually present for a date.
 
 ## Environment variables
 
 ```text
 TELEGRAM_BOT_TOKEN=...
-TELEGRAM_CHANNEL=@TodayInHistory
+TELEGRAM_CHANNEL=@HistoryNewsroom
 EXA_API_KEY=...
 TIMEZONE=Asia/Dhaka
 MAX_EVENTS_PER_DAY=20
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Set `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHANNEL` before publishing.
+Set `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHANNEL` before publishing. `TELEGRAM_CHANNEL` accepts `@HistoryNewsroom`, `https://t.me/HistoryNewsroom`, or a numeric channel ID.
 
 ## Test and preview
 
@@ -63,7 +63,7 @@ The workflow uses UTC cron entries corresponding to Dhaka local time (UTC+6):
 - 08:00: batch 1
 - 20:00: batch 2
 
-It can also be started manually with a selected batch. The workflow runs the self-test before publishing and commits the posting state after execution.
+It can also be started manually with a selected batch. The workflow runs the self-test before publishing and commits the posting state after execution. It also falls back to `@HistoryNewsroom` if the channel secret is accidentally empty, and normalizes a `t.me` URL to the Telegram username form.
 
 Required repository secrets:
 

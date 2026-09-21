@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 20
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+      TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL || '@HistoryNewsroom' }}
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
       TIMEZONE: Asia/Dhaka
       MAX_EVENTS_PER_DAY: "20"
@@ -74,7 +74,7 @@ jobs:
         run: |
           git config user.name "Today in History Bot"
           git config user.email "actions@github.com"
-          git add state/posted_state.json
+          git add -A state/
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else

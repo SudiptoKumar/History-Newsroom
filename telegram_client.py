@@ -15,6 +15,10 @@ def _url(method: str) -> str:
 
 
 def _post(method: str, *, data=None, files=None) -> dict:
+    if not SETTINGS.telegram_bot_token.strip():
+        raise RuntimeError("TELEGRAM_BOT_TOKEN is not configured.")
+    if not SETTINGS.telegram_channel.strip():
+        raise RuntimeError("TELEGRAM_CHANNEL is not configured. Use @HistoryNewsroom or a numeric channel ID.")
     last = None
     for attempt in range(1, 4):
         try:

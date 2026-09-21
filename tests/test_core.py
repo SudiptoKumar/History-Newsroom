@@ -3,6 +3,7 @@ from datetime import date
 from dataset import events_for_date, load_all, validate_dataset
 from formatter import format_caption
 from main import choose_batch
+from config import normalize_telegram_channel
 
 
 def test_dataset_valid():
@@ -37,3 +38,10 @@ def test_caption_contains_source_and_fits_telegram_limit():
     assert event.event_title in caption
     assert event.source_1_name in caption
     assert "#TodayInHistory" in caption
+
+
+def test_telegram_channel_normalization():
+    assert normalize_telegram_channel("@HistoryNewsroom") == "@HistoryNewsroom"
+    assert normalize_telegram_channel("https://t.me/HistoryNewsroom") == "@HistoryNewsroom"
+    assert normalize_telegram_channel("t.me/HistoryNewsroom") == "@HistoryNewsroom"
+    assert normalize_telegram_channel("-1001234567890") == "-1001234567890"

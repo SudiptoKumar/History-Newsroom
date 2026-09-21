@@ -11,6 +11,19 @@ GENERATED_DIR = BASE_DIR / "generated"
 STATE_DIR = BASE_DIR / "state"
 STATE_FILE = STATE_DIR / "posted_state.json"
 
+def normalize_telegram_channel(value: str) -> str:
+    """Accept @username, t.me/username, or https://t.me/username forms."""
+    value = (value or "").strip()
+    if not value:
+        return ""
+    for prefix in ("https://t.me/", "http://t.me/", "https://telegram.me/", "http://telegram.me/", "t.me/", "telegram.me/"):
+        if value.lower().startswith(prefix):
+            value = value[len(prefix):].split("/", 1)[0].strip()
+            break
+    if value and not value.startswith("@") and not value.startswith("-") and not value.isdigit():
+        value = "@" + value
+    return value
+
 MONTHS = {
     1: "January", 2: "February", 3: "March", 4: "April",
     5: "May", 6: "June", 7: "July", 8: "August",
@@ -20,7 +33,7 @@ MONTHS = {
 @dataclass(frozen=True)
 class Settings:
     telegram_bot_token: str = os.getenv("TELEGRAM_BOT_TOKEN", "")
-    telegram_channel: str = os.getenv("TELEGRAM_CHANNEL", "@TodayInHistory")
+    telegram_channel: str = normalize_telegram_channel(os.getenv("TELEGRAM_CHANNEL", "@HistoryNewsroom"))
     timezone: str = os.getenv("TIMEZONE", "Asia/Dhaka")
     max_events_per_day: int = int(os.getenv("MAX_EVENTS_PER_DAY", "20"))
     batch_size: int = int(os.getenv("BATCH_SIZE", "10"))
