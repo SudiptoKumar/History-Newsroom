@@ -77,6 +77,12 @@
       "batch_index": 1,
       "selected": 10,
       "published_now": 10
+    },
+    {
+      "date": "2026-09-21",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 0
     }
   ]
 }
