@@ -69,12 +69,88 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File:The_Hobbit_-_title_page_of_first_American_print.jpg",
       "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-07": {
+      "published_at": "2026-09-21T18:57:52.013301+00:00",
+      "message_id": 43,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Memories_of_the_Union_-_execution_of_Nathan_Hale_on_the_site_of_east_Broadway,_corner_of_Market_Street,_New_York,_September_21,_1776_-_M._Nevin._LCCN2006691565.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-09": {
+      "published_at": "2026-09-21T18:57:59.237298+00:00",
+      "message_id": 44,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Rymnik-1789.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-13": {
+      "published_at": "2026-09-21T18:58:04.505736+00:00",
+      "message_id": 45,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AL%C3%B3pez_curupayty_trench.jpg",
+      "image_credit": "Wikimedia Commons · Museo Histórico Nacional, unidentified photographer; Cándido López (1840-1902) · Public domain"
+    },
+    "GHC-SEP-22-15": {
+      "published_at": "2026-09-21T18:58:08.484886+00:00",
+      "message_id": 46,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGresford_Mining_disaster_memorial_-_geograph.org.uk_-_5801642.jpg",
+      "image_credit": "Wikimedia Commons · Richard Hoare · CC BY-SA 2.0"
+    },
+    "GHC-SEP-22-16": {
+      "published_at": "2026-09-21T18:58:20.985931+00:00",
+      "message_id": 47,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Heinz_Guderian_presides_the_German%E2%80%93Soviet_military_parade_in_Brest-Litovsk,_1939_(50692303581).png",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-17": {
+      "published_at": "2026-09-21T18:58:25.813201+00:00",
+      "message_id": 48,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:C-54_dropping_candy_during_Berlin_Airlift_c1949.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-05": {
+      "published_at": "2026-09-21T18:58:31.485043+00:00",
+      "message_id": 49,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Tuscarora_War",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-08": {
+      "published_at": "2026-09-21T18:58:36.110611+00:00",
+      "message_id": 50,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Amos-Kendall.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-11": {
+      "published_at": "2026-09-21T18:58:41.884988+00:00",
+      "message_id": 51,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Joseph_Smith_receiving_golden_plates.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-22-20": {
+      "published_at": "2026-09-21T18:58:48.230900+00:00",
+      "message_id": 52,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Emperor_Zhaozong_of_Tang",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
     {
       "date": "2026-09-21",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-22",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
