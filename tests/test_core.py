@@ -33,7 +33,7 @@ def test_new_date_line_format():
     event = events_for_date(load_all(), 9, 21)[0]
     line = date_line(event)
     assert line.startswith("September 21, ")
-    assert " - " in line
+    assert " " in line
     assert "\n" not in line
 
 

@@ -31,7 +31,7 @@ def primary_location(event: Event) -> str:
 
 
 def date_line(event: Event) -> str:
-    return f"{event.month.strip()} {event.day}, {year_label(event)} - {country_flag(event.modern_country)} {primary_location(event)}"
+    return f"{event.month.strip()} {event.day}, {year_label(event)} {country_flag(event.modern_country)} {primary_location(event)}"
 
 
 def source_display_name(event: Event) -> str:
