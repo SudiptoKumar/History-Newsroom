@@ -1,13 +1,13 @@
-# Today in History Bot V1.7
+# Today in History Bot V1
 
 A dataset-first Telegram history channel bot. It publishes real historical photographs with concise reader-first stories and modern Telegram Rich Messages.
 
-## V1.7 changes
+## V1 changes
 
-- Date line is one clean line: `September 21, 1745 - 🇬🇧 Prestonpans`.
+- Date line is one clean line: `September 21, 1745 🇬🇧 Prestonpans`.
 - Event year is no longer duplicated on a second line.
 - `People`, `Entity`, and `Category` metadata are removed from posts.
-- Cerebras rewrites the title and story into a short historical-news style explainer, targeting a slightly fuller 45–70 word story.
+- Cerebras rewrites the title and story into a short historical-news style explainer, targeting a fuller 45–70 word story that explains what happened for a general reader.
 - Exa adds web context only when the dataset description is weak or clearly missing context.
 - Exactly 3 relevant hashtags are generated. `#TodayInHistory` and date-number hashtags are removed.
 - `Today in History` is bold and linked to `https://t.me/HistoryNewsroom`.
@@ -23,16 +23,16 @@ A dataset-first Telegram history channel bot. It publishes real historical photo
 ```text
 [real historical photograph]
 
-September 21, 1745 - 🇬🇧 Prestonpans
+September 21, 1745 🇬🇧 Prestonpans
 
 Nikita Khrushchev Elected Soviet Leader
 
 Six months after the death of Soviet leader Joseph Stalin, Nikita Khrushchev succeeds him with his election as first secretary of the Communist Party of the Soviet Union.
 
 Today in History
-Source: Wikipedia
-
 #SovietUnion #Leadership #PoliticalHistory
+
+Source: Wikipedia
 ```
 
 The bot does not copy the exact layout of another channel. It uses current Telegram Rich Message primitives (Bot API 10.3) to create the clean structure above.
@@ -41,7 +41,7 @@ The bot does not copy the exact layout of another channel. It uses current Teleg
 
 The 12 supplied CSV files are the authoritative event dataset. External context is used only to clarify an event when the database description is weak, and the AI prompt is instructed not to invent dates, people, figures, quotations, motives, or political judgments.
 
-The generated story is compact but more informative: typically 45–70 words and 2–4 sentences. The generator retries once when a first draft is under 45 words. It should read like a short historical news brief, explaining what happened and adding only the essential context needed to understand the event.
+The generated story is compact but more informative: typically 45–70 words and 3–4 sentences. If AI enrichment is unavailable, the local fallback expands a very short record only with facts already present in the dataset. The generator retries once when a first draft is under 45 words. It should read like a short historical news brief, explaining what happened and adding only the essential context needed to understand the event.
 
 ## Images
 
@@ -148,10 +148,3 @@ TodayInHistoryBot/
 ├── telegram_client.py
 └── README.md
 ```
-
-### V1.7 changes
-
-- Stories target 45-70 words and 3-4 sentences.
-- Short AI failures use web context or dataset facts for a longer fallback.
-- Cerebras requests use minimum spacing and 429 backoff/retry handling.
-- Footer order is Today in History → hashtags → Source.

@@ -14,7 +14,7 @@ from dataset import Event
 
 logger = logging.getLogger("today-in-history.images")
 
-UA = "TodayInHistoryBot/1.5 (+https://github.com/)"
+UA = "TodayInHistoryBot/1.0 (+https://github.com/)"
 TIMEOUT = 15
 
 @dataclass(frozen=True)
