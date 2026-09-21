@@ -1,1 +1,82 @@
-{"published_event_ids": {}, "runs": []}
+{
+  "published_event_ids": {
+    "GHC-SEP-21-05": {
+      "published_at": "2026-09-21T11:35:52.287820+00:00",
+      "message_id": 13,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A21_septembre_1792_-_Extrait_du_proc%C3%A8s-verbal_de_la_Convention_nationale.jpg",
+      "image_credit": "Wikimedia Commons · Henri Demare · CC0"
+    },
+    "GHC-SEP-21-17": {
+      "published_at": "2026-09-21T11:35:59.070587+00:00",
+      "message_id": 14,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMarcos_Declares_Martial_Law.jpg",
+      "image_credit": "Wikimedia Commons · Philippines Daily Express · Public domain"
+    },
+    "GHC-SEP-21-18": {
+      "published_at": "2026-09-21T11:36:04.042370+00:00",
+      "message_id": 15,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AReferendum_for_Armenian_Independence%2C_1991.jpg",
+      "image_credit": "Wikimedia Commons · Armenian Museum of Photo and Video Materials · CC BY-SA 2.0"
+    },
+    "GHC-SEP-21-02": {
+      "published_at": "2026-09-21T11:36:09.987847+00:00",
+      "message_id": 16,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFran%C3%A7ais_5054%2C_fol._86%2C_Conf%C3%A9rences_d%27Arras_%281435%29.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-SEP-21-03": {
+      "published_at": "2026-09-21T11:36:15.336201+00:00",
+      "message_id": 17,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMemorial_to_the_1745_Battle_of_Prestonpans_-_geograph.org.uk_-_1301315.jpg",
+      "image_credit": "Wikimedia Commons · M J Richardson · CC BY-SA 2.0"
+    },
+    "GHC-SEP-21-08": {
+      "published_at": "2026-09-21T11:36:21.442639+00:00",
+      "message_id": 18,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFelice_Beato_%28British%2C_born_Italy_-_Bridge_of_the_Pa-li-k%27um%2C_the_Scene_of_the_Fight_with_Imperial_Chinese_Troops%2C_September_21%2C_1860%2C_n..._-_Google_Art_Project.jpg",
+      "image_credit": "Wikimedia Commons · Felice Beato · Public domain"
+    },
+    "GHC-SEP-21-09": {
+      "published_at": "2026-09-21T11:36:27.087094+00:00",
+      "message_id": 19,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARiver_War_1-6_Capture_Dongola.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-SEP-21-10": {
+      "published_at": "2026-09-21T11:36:34.581631+00:00",
+      "message_id": 20,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Sir_Henry_Arthur_Blake_and_Viceroy_of_Guangdong.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-21-11": {
+      "published_at": "2026-09-21T11:36:43.956118+00:00",
+      "message_id": 21,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1921_Oppau_Explosion.jpg",
+      "image_credit": "Wikimedia Commons · BASF · CC BY-SA 3.0"
+    },
+    "GHC-SEP-21-12": {
+      "published_at": "2026-09-21T11:36:51.505326+00:00",
+      "message_id": 22,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:The_Hobbit",
+      "image_credit": "Wikimedia Commons"
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-09-21",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    }
+  ]
+}
