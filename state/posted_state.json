@@ -1,1 +1,52 @@
-{"published_event_ids": {}, "runs": []}
+{
+  "published_event_ids": {
+    "GHC-SEP-21-05": {
+      "published_at": "2026-09-21T11:00:47.373666+00:00",
+      "message_id": 3
+    },
+    "GHC-SEP-21-17": {
+      "published_at": "2026-09-21T11:00:51.857040+00:00",
+      "message_id": 4
+    },
+    "GHC-SEP-21-18": {
+      "published_at": "2026-09-21T11:00:54.915158+00:00",
+      "message_id": 5
+    },
+    "GHC-SEP-21-02": {
+      "published_at": "2026-09-21T11:00:59.233857+00:00",
+      "message_id": 6
+    },
+    "GHC-SEP-21-03": {
+      "published_at": "2026-09-21T11:01:07.203434+00:00",
+      "message_id": 7
+    },
+    "GHC-SEP-21-08": {
+      "published_at": "2026-09-21T11:01:10.800427+00:00",
+      "message_id": 8
+    },
+    "GHC-SEP-21-09": {
+      "published_at": "2026-09-21T11:01:14.978024+00:00",
+      "message_id": 9
+    },
+    "GHC-SEP-21-10": {
+      "published_at": "2026-09-21T11:01:19.223472+00:00",
+      "message_id": 10
+    },
+    "GHC-SEP-21-11": {
+      "published_at": "2026-09-21T11:01:22.185923+00:00",
+      "message_id": 11
+    },
+    "GHC-SEP-21-12": {
+      "published_at": "2026-09-21T11:01:25.098491+00:00",
+      "message_id": 12
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-09-21",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    }
+  ]
+}
