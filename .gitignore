@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+generated/*.jpg
+state/posted_state.json
+.pytest_cache/

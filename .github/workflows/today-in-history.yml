@@ -1,0 +1,83 @@
+name: Today in History
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+    inputs:
+      batch_index:
+        description: "Batch to publish"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: today-in-history
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+      EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+      TIMEZONE: Asia/Dhaka
+      MAX_EVENTS_PER_DAY: "20"
+      BATCH_SIZE: "10"
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify Python source
+        run: python -m py_compile main.py *.py
+
+      - name: Run self-test
+        run: python main.py --self-test
+
+      - name: Select scheduled batch
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "BATCH_INDEX=${{ inputs.batch_index }}" >> "$GITHUB_ENV"
+          elif [[ "$(date -u +%H)" == "02" ]]; then
+            echo "BATCH_INDEX=1" >> "$GITHUB_ENV"
+          else
+            echo "BATCH_INDEX=2" >> "$GITHUB_ENV"
+          fi
+
+      - name: Publish Today in History
+        run: python main.py --batch "$BATCH_INDEX"
+
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "Today in History Bot"
+          git config user.email "actions@github.com"
+          git add state/posted_state.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "Update Today in History state"
+            git push
+          fi
