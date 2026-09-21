@@ -75,3 +75,15 @@ def test_channel_normalization():
     assert normalize_telegram_channel("https://t.me/HistoryNewsroom") == "@HistoryNewsroom"
     assert normalize_telegram_channel("t.me/HistoryNewsroom") == "@HistoryNewsroom"
     assert normalize_telegram_channel("-1001234567890") == "-1001234567890"
+
+
+def test_story_length_ceiling_and_footer_order():
+    event = events_for_date(load_all(), 9, 21)[0]
+    enriched = enrich_event(event)
+    assert len(enriched.story.split()) <= 70
+    rich = build_rich_message(event, enriched)
+    block_types = [b["type"] for b in rich["blocks"]]
+    today_index = next(i for i, b in enumerate(rich["blocks"]) if "Today in History" in str(b))
+    source_index = next(i for i, b in enumerate(rich["blocks"]) if "Source:" in str(b))
+    hashtag_index = next(i for i, b in enumerate(rich["blocks"]) if "#" in str(b))
+    assert today_index < source_index < hashtag_index

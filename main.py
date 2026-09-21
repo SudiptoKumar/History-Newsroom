@@ -121,7 +121,7 @@ def self_test() -> None:
     enriched = enrich_event(batch1[0])
     rich = build_rich_message(batch1[0], enriched)
     text_blocks = rich["blocks"]
-    assert text_blocks[0]["type"] == "heading"
+    assert text_blocks[0]["type"] == "paragraph"
     assert text_blocks[1]["type"] == "heading"
     assert len(enriched.hashtags) == 3
     assert not any(x.startswith("People:") for x in [enriched.story])

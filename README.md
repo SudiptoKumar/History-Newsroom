@@ -1,13 +1,13 @@
-# Today in History Bot V1.3
+# Today in History Bot V1.5
 
 A dataset-first Telegram history channel bot. It publishes real historical photographs with concise reader-first stories and modern Telegram Rich Messages.
 
-## V1.3 changes
+## V1.5 changes
 
 - Date line is one clean line: `September 21, 1745 - 🇬🇧 Prestonpans`.
 - Event year is no longer duplicated on a second line.
 - `People`, `Entity`, and `Category` metadata are removed from posts.
-- Cerebras rewrites the title and story into a short historical-news style explainer.
+- Cerebras rewrites the title and story into a short historical-news style explainer, targeting a slightly fuller 45–70 word story.
 - Exa adds web context only when the dataset description is weak or clearly missing context.
 - Exactly 3 relevant hashtags are generated. `#TodayInHistory` and date-number hashtags are removed.
 - `Today in History` is bold and linked to `https://t.me/HistoryNewsroom`.
@@ -41,7 +41,7 @@ The bot does not copy the exact layout of another channel. It uses current Teleg
 
 The 12 supplied CSV files are the authoritative event dataset. External context is used only to clarify an event when the database description is weak, and the AI prompt is instructed not to invent dates, people, figures, quotations, motives, or political judgments.
 
-The generated story is intentionally short: 50–80 words and 2–4 sentences. It should tell the reader what happened and provide enough context to understand the event without turning the post into a long article.
+The generated story is compact but more informative: typically 45–70 words and 2–4 sentences. The generator retries once when a first draft is under 45 words. It should read like a short historical news brief, explaining what happened and adding only the essential context needed to understand the event.
 
 ## Images
 

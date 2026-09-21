@@ -14,7 +14,7 @@ logger = logging.getLogger("today-in-history.ai")
 
 CEREBRAS_URL = "https://api.cerebras.ai/v1/chat/completions"
 EXA_URL = "https://api.exa.ai/search"
-UA = "TodayInHistoryBot/1.3 (+https://github.com/)"
+UA = "TodayInHistoryBot/1.5 (+https://github.com/)"
 TIMEOUT = 25
 
 
@@ -126,12 +126,12 @@ def _trim_title(title: str, fallback: str) -> str:
 def _trim_story(story: str) -> str:
     story = re.sub(r"\s+", " ", story.strip())
     words = story.split()
-    if len(words) <= 80:
+    if len(words) <= 70:
         return story
-    clipped = " ".join(words[:80])
+    clipped = " ".join(words[:70])
     # Prefer a clean sentence boundary when one is nearby.
     sentence_end = max(clipped.rfind(". "), clipped.rfind("! "), clipped.rfind("? "))
-    if sentence_end >= 45:
+    if sentence_end >= 42:
         return clipped[:sentence_end + 1]
     return clipped.rstrip(" ,;:") + "…"
 
@@ -186,7 +186,7 @@ Rules:
 - Never invent a date, person, casualty figure, quote, motive, or political judgment.
 - Keep a neutral historical tone with no present-day editorializing.
 - Title: 4-10 words, natural news-history headline, no period.
-- Story: 50-80 words, 2-4 sentences, readable on a phone. Do not use labels such as People, Entity, Category, Context, or Significance.
+- Story: 45-70 words, usually 2-4 sentences, readable on a phone. Aim for a compact mini-narrative: explain what happened, identify the key people or groups when relevant, and add only the essential context needed for a reader to understand the event. Do not simply repeat the dataset description when it is too short. Do not use labels such as People, Entity, Category, Context, or Significance.
 - Return exactly 3 relevant hashtags. Do not include #TodayInHistory or date-number hashtags.
 """
 
@@ -210,40 +210,54 @@ Rules:
         "temperature": 0.35,
     }
 
+    headers = {
+        "Authorization": f"Bearer {SETTINGS.cerebras_api_key}",
+        "Content-Type": "application/json",
+        "User-Agent": UA,
+    }
+
     try:
-        response = requests.post(
-            CEREBRAS_URL,
-            headers={
-                "Authorization": f"Bearer {SETTINGS.cerebras_api_key}",
-                "Content-Type": "application/json",
-                "User-Agent": UA,
-            },
-            json=payload,
-            timeout=TIMEOUT,
-        )
-        response.raise_for_status()
-        raw = response.json()["choices"][0]["message"]["content"]
-        data = json.loads(raw)
-        title = _trim_title(str(data.get("title") or "").strip(), event.event_title.strip() or "Historical Event")
-        story = _trim_story(str(data.get("story") or "").strip())
-        tags = []
-        forbidden = {"todayinhistory", "history", "history21"}
-        for tag in data.get("hashtags", []):
-            cleaned = re.sub(r"[^A-Za-z0-9]+", "", str(tag).replace("#", "").strip())
-            if not cleaned or cleaned.lower() in forbidden:
+        for attempt in range(2):
+            current_payload = dict(payload)
+            messages = list(payload["messages"])
+            if attempt == 1:
+                messages[0] = {
+                    "role": "system",
+                    "content": system + "\nThe previous draft was too short. Rewrite it again and make the story at least 45 words while staying factual and concise.",
+                }
+            current_payload["messages"] = messages
+            response = requests.post(
+                CEREBRAS_URL,
+                headers=headers,
+                json=current_payload,
+                timeout=TIMEOUT,
+            )
+            response.raise_for_status()
+            raw = response.json()["choices"][0]["message"]["content"]
+            data = json.loads(raw)
+            title = _trim_title(str(data.get("title") or "").strip(), event.event_title.strip() or "Historical Event")
+            story = _trim_story(str(data.get("story") or "").strip())
+            tags = []
+            forbidden = {"todayinhistory", "history", "history21"}
+            for tag in data.get("hashtags", []):
+                cleaned = re.sub(r"[^A-Za-z0-9]+", "", str(tag).replace("#", "").strip())
+                if not cleaned or cleaned.lower() in forbidden:
+                    continue
+                candidate = "#" + cleaned[:42]
+                if candidate.lower() not in {item.lower() for item in tags}:
+                    tags.append(candidate)
+            for fallback_tag in relevant_hashtags(event):
+                if len(tags) == 3:
+                    break
+                if fallback_tag.lower() not in {item.lower() for item in tags} and fallback_tag.lstrip("#").lower() not in forbidden:
+                    tags.append(fallback_tag)
+            tags = tags[:3]
+            if len(tags) != 3 or not title or not story:
+                raise ValueError("Structured output was incomplete")
+            if len(story.split()) < 45 and attempt == 0:
                 continue
-            candidate = "#" + cleaned[:42]
-            if candidate.lower() not in {item.lower() for item in tags}:
-                tags.append(candidate)
-        for fallback_tag in relevant_hashtags(event):
-            if len(tags) == 3:
-                break
-            if fallback_tag.lower() not in {item.lower() for item in tags} and fallback_tag.lstrip("#").lower() not in forbidden:
-                tags.append(fallback_tag)
-        tags = tags[:3]
-        if len(tags) != 3 or not title or not story:
-            raise ValueError("Structured output was incomplete")
-        return EnrichedContent(title=title, story=story, hashtags=tags)
+            return EnrichedContent(title=title, story=story, hashtags=tags)
+        raise ValueError("Cerebras returned a story shorter than 45 words after retry")
     except (requests.RequestException, ValueError, KeyError, json.JSONDecodeError, TypeError) as exc:
         logger.warning("Cerebras enrichment failed for %s: %s", event.event_id, exc)
         return _fallback(event)
