@@ -82,6 +82,7 @@ def build_rich_message(event: Event, enriched: EnrichedContent | None = None) ->
                 {"type": "url", "text": [{"type": "bold", "text": "Today in History"}], "url": CHANNEL_URL}
             ],
         },
+        {"type": "paragraph", "text": hashtags},
         {
             "type": "paragraph",
             "text": [
@@ -89,7 +90,6 @@ def build_rich_message(event: Event, enriched: EnrichedContent | None = None) ->
                 {"type": "url", "text": source_name, "url": event.source_1_url},
             ],
         },
-        {"type": "paragraph", "text": hashtags},
     ]
 
     return {"blocks": blocks}
@@ -115,8 +115,8 @@ def format_fallback_caption(event: Event, enriched: EnrichedContent | None = Non
     ])
     footer = "\n\n".join([
         f'<a href="{CHANNEL_URL}"><b>Today in History</b></a>',
-        f'<b>Source:</b> <a href="{source_url}">{esc(source_display_name(event))}</a>',
         hashtags,
+        f'<b>Source:</b> <a href="{source_url}">{esc(source_display_name(event))}</a>',
     ])
     available = 1024 - len(prefix) - len(footer) - 4
     story = esc(content.story)

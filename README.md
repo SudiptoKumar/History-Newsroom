@@ -1,8 +1,8 @@
-# Today in History Bot V1.5
+# Today in History Bot V1.7
 
 A dataset-first Telegram history channel bot. It publishes real historical photographs with concise reader-first stories and modern Telegram Rich Messages.
 
-## V1.5 changes
+## V1.7 changes
 
 - Date line is one clean line: `September 21, 1745 - 🇬🇧 Prestonpans`.
 - Event year is no longer duplicated on a second line.
@@ -148,3 +148,10 @@ TodayInHistoryBot/
 ├── telegram_client.py
 └── README.md
 ```
+
+### V1.7 changes
+
+- Stories target 45-70 words and 3-4 sentences.
+- Short AI failures use web context or dataset facts for a longer fallback.
+- Cerebras requests use minimum spacing and 429 backoff/retry handling.
+- Footer order is Today in History → hashtags → Source.

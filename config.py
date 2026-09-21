@@ -42,6 +42,10 @@ class Settings:
     use_exa_context: bool = os.getenv("USE_EXA_CONTEXT", "true").lower() == "true"
     cerebras_model: str = os.getenv("CEREBRAS_MODEL", "gpt-oss-120b")
     cerebras_api_key: str = os.getenv("CEREBRAS_API_KEY", "")
+    cerebras_min_interval_seconds: float = float(os.getenv("CEREBRAS_MIN_INTERVAL_SECONDS", "6"))
+    cerebras_retry_attempts: int = int(os.getenv("CEREBRAS_RETRY_ATTEMPTS", "4"))
+    cerebras_story_min_words: int = int(os.getenv("CEREBRAS_STORY_MIN_WORDS", "45"))
+    cerebras_story_max_words: int = int(os.getenv("CEREBRAS_STORY_MAX_WORDS", "70"))
     bot_name: str = os.getenv("BOT_NAME", "Today in History")
     exa_api_key: str = os.getenv("EXA_API_KEY", "")
 
