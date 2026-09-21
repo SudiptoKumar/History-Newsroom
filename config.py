@@ -38,7 +38,9 @@ class Settings:
     max_events_per_day: int = int(os.getenv("MAX_EVENTS_PER_DAY", "20"))
     batch_size: int = int(os.getenv("BATCH_SIZE", "10"))
     batch_index: int = int(os.getenv("BATCH_INDEX", "1"))
-    use_cerebras: bool = os.getenv("USE_CEREBRAS", "false").lower() == "true"
+    use_cerebras: bool = os.getenv("USE_CEREBRAS", "true").lower() == "true"
+    use_exa_context: bool = os.getenv("USE_EXA_CONTEXT", "true").lower() == "true"
+    cerebras_model: str = os.getenv("CEREBRAS_MODEL", "gpt-oss-120b")
     cerebras_api_key: str = os.getenv("CEREBRAS_API_KEY", "")
     bot_name: str = os.getenv("BOT_NAME", "Today in History")
     exa_api_key: str = os.getenv("EXA_API_KEY", "")

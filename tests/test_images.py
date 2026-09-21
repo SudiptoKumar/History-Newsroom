@@ -1,11 +1,15 @@
-from image_resolver import _image_url_from_html
+from pathlib import Path
+
+from PIL import Image
+
+from image_pipeline import _prepare_without_crop
 
 
-def test_extract_og_image_absolute():
-    html = '<meta property="og:image" content="https://example.com/photo.jpg">'
-    assert _image_url_from_html("https://example.com/story", html) == "https://example.com/photo.jpg"
-
-
-def test_extract_og_image_relative():
-    html = '<meta property="og:image" content="/media/photo.jpg">'
-    assert _image_url_from_html("https://example.com/story", html) == "https://example.com/media/photo.jpg"
+def test_image_ratio_preserved_without_crop(tmp_path: Path):
+    source = tmp_path / "source.png"
+    output = tmp_path / "output.jpg"
+    with Image.new("RGB", (1200, 700), "white") as image:
+        image.save(source)
+    _prepare_without_crop(source, output)
+    with Image.open(output) as result:
+        assert abs((result.width / result.height) - (1200 / 700)) < 0.01

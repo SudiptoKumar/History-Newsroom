@@ -67,24 +67,25 @@ def _download_image(url: str, destination: Path) -> bool:
     return True
 
 
-def _commons_image(event: Event, destination: Path) -> ResolvedImage | None:
-    query_parts = [event.event_title, event.historical_entity, event.modern_country]
-    query = " ".join(p.strip() for p in query_parts if p.strip())
-    if not query:
-        return None
+def _commons_search(event: Event, query: str, destination: Path) -> ResolvedImage | None:
     api = "https://commons.wikimedia.org/w/api.php"
     params = {
         "action": "query", "generator": "search", "gsrsearch": query,
-        "gsrnamespace": 6, "gsrlimit": 12, "prop": "imageinfo",
-        "iiprop": "url|mime|size|extmetadata", "iiurlwidth": 1800, "format": "json",
+        "gsrnamespace": 6, "gsrlimit": 20, "prop": "imageinfo",
+        "iiprop": "url|mime|size|extmetadata", "iiurlwidth": 2400, "format": "json",
     }
     try:
         r = requests.get(api, params=params, headers={"User-Agent": UA}, timeout=TIMEOUT)
         r.raise_for_status()
         pages = r.json().get("query", {}).get("pages", {})
     except (requests.RequestException, ValueError) as exc:
-        logger.debug("Commons lookup failed: %s", exc)
+        logger.debug("Commons lookup failed for %r: %s", query, exc)
         return None
+
+    title_tokens = [t for t in re.findall(r"[a-z0-9]+", event.event_title.lower()) if len(t) > 2]
+    people_tokens = [t for t in re.findall(r"[a-z0-9]+", event.people_involved.lower()) if len(t) > 2]
+    location_tokens = [t for t in re.findall(r"[a-z0-9]+", (event.city_location or event.modern_country).lower()) if len(t) > 2]
+    year_token = event.year.strip()
 
     candidates = []
     for page in pages.values():
@@ -94,20 +95,39 @@ def _commons_image(event: Event, destination: Path) -> ResolvedImage | None:
         height = int(info.get("height") or 0)
         url = info.get("thumburl") or info.get("url")
         meta = info.get("extmetadata") or {}
-        license_name = (meta.get("LicenseShortName", {}).get("value") or "").lower()
+        license_name = (meta.get("LicenseShortName", {}).get("value") or "").strip()
         author = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value") or "").strip()
-        if mime.startswith("image/") and url and width >= 500 and height >= 300 and license_name:
-            title = page.get("title", "")
-            score = 0
-            lower = title.lower()
-            for token in re.findall(r"[a-z0-9]+", event.event_title.lower()):
-                if len(token) > 3 and token in lower:
-                    score += 1
-            candidates.append((score, width * height, url, title, author, license_name))
-    candidates.sort(reverse=True)
-    if not candidates:
+        title = str(page.get("title", ""))
+        lower = title.lower()
+        if not (mime.startswith("image/") and url and width >= 500 and height >= 300 and license_name):
+            continue
+
+        score = 0
+        if event.event_title.lower() in lower:
+            score += 12
+        for token in title_tokens:
+            if token in lower:
+                score += 2
+        for token in people_tokens:
+            if token in lower:
+                score += 3
+        for token in location_tokens:
+            if token in lower:
+                score += 2
+        if year_token and year_token in lower:
+            score += 4
+
+        # Avoid generic decorative/non-event results unless they have strong textual overlap.
+        generic_terms = ("map", "flag", "coat of arms", "logo", "symbol", "icon", "location map")
+        if any(term in lower for term in generic_terms):
+            score -= 5
+        candidates.append((score, width * height, url, title, author, license_name))
+
+    candidates.sort(key=lambda item: (item[0], item[1]), reverse=True)
+    if not candidates or candidates[0][0] < 2:
         return None
-    _, _, image_url, page_title, author, license_name = candidates[0]
+
+    score, _, image_url, page_title, author, license_name = candidates[0]
     if _download_image(image_url, destination):
         page_url = "https://commons.wikimedia.org/wiki/" + quote_plus(page_title.replace(" ", "_"))
         credit = "Wikimedia Commons"
@@ -115,7 +135,24 @@ def _commons_image(event: Event, destination: Path) -> ResolvedImage | None:
             credit += f" · {author}"
         if license_name:
             credit += f" · {license_name}"
+        logger.info("Commons image selected for %s with match score %d: %s", event.event_id, score, page_title)
         return ResolvedImage(destination, image_url, page_url, credit)
+    return None
+
+
+def _commons_image(event: Event, destination: Path) -> ResolvedImage | None:
+    queries = []
+    title = event.event_title.strip()
+    context = " ".join(p.strip() for p in [event.people_involved, event.city_location, event.modern_country] if p and p.strip())
+    if title:
+        queries.append(f'"{title}" {event.year}'.strip())
+        if context:
+            queries.append(f'"{title}" {event.year} {context}'.strip())
+        queries.append(f'{title} {context}'.strip())
+    for query in queries:
+        result = _commons_search(event, query, destination)
+        if result:
+            return result
     return None
 
 

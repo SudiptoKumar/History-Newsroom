@@ -3,8 +3,11 @@ from __future__ import annotations
 import html
 import re
 
+from content_ai import EnrichedContent, enrich_event, relevant_hashtags
 from dataset import Event
 from flags import country_flag
+
+CHANNEL_URL = "https://t.me/HistoryNewsroom"
 
 
 def esc(value: str) -> str:
@@ -21,75 +24,102 @@ def year_label(event: Event) -> str:
 
 
 def primary_location(event: Event) -> str:
-    parts = [event.city_location, event.modern_country, event.region]
-    for part in parts:
+    for part in (event.city_location, event.modern_country, event.region):
         if part.strip():
             return part.strip()
     return "Historical record"
 
 
-def hashtags(event: Event) -> str:
-    raw = [event.event_category, event.event_type, event.modern_country]
-    tags = []
-    for item in raw:
-        cleaned = re.sub(r"[^A-Za-z0-9]+", "", item.replace("&", "and")).strip()
-        if cleaned:
-            tags.append("#" + cleaned[:40])
-    tags.extend(["#TodayInHistory", f"#History{event.day:02d}"])
-    return " ".join(dict.fromkeys(tags))
+def date_line(event: Event) -> str:
+    return f"{event.month.strip()} {event.day}, {year_label(event)} - {country_flag(event.modern_country)} {primary_location(event)}"
 
 
-MAX_CAPTION_CHARS = 1024
+def source_display_name(event: Event) -> str:
+    name = event.source_1_name.strip() or "Source"
+    if " — " in name:
+        return name.split(" — ", 1)[0].strip()
+    if " – " in name:
+        return name.split(" – ", 1)[0].strip()
+    return name
 
-def _truncate(text: str, limit: int) -> str:
-    text = text.strip()
-    if len(text) <= limit:
-        return text
-    clipped = text[: max(0, limit - 1)].rsplit(" ", 1)[0].rstrip()
-    return clipped + "…"
+
+def _safe_tags(tags: list[str] | None, event: Event) -> list[str]:
+    raw = tags or relevant_hashtags(event)
+    clean: list[str] = []
+    for tag in raw:
+        value = re.sub(r"[^A-Za-z0-9]+", "", tag.replace("#", "").strip())
+        if not value:
+            continue
+        candidate = "#" + value[:42]
+        if candidate.lower() not in {item.lower() for item in clean}:
+            clean.append(candidate)
+        if len(clean) == 3:
+            break
+    for fallback in ("#History", "#HistoricalEvent"):
+        if len(clean) == 3:
+            break
+        if fallback.lower() not in {item.lower() for item in clean}:
+            clean.append(fallback)
+    return clean[:3]
 
 
-def format_caption(event: Event, index: int, total: int, image_credit: str = "", image_page: str = "") -> str:
-    flag = country_flag(event.modern_country)
-    description = _truncate(event.description, 620)
+def build_rich_message(event: Event, enriched: EnrichedContent | None = None) -> dict:
+    content = enriched or enrich_event(event)
+    hashtags = " ".join(_safe_tags(content.hashtags, event))
+    title = esc(content.title)
+    story = esc(content.story)
+    date_text = esc(date_line(event))
+    source_url = html.escape(event.source_1_url, quote=True)
+    source_name = esc(source_display_name(event))
 
-    lines = [
-        f"<b>{esc(event.date_display or f'{event.month} {event.day}')}</b>",
-        f"<b>{esc(year_label(event))}</b> · {esc(flag)} {esc(primary_location(event))}",
-        "",
-        f"<b>{esc(event.event_title)}</b>",
-        "",
-        esc(description),
+    blocks = [
+        {"type": "paragraph", "text": [{"type": "bold", "text": date_text}]},
+        {"type": "heading", "size": 3, "text": title},
+        {"type": "paragraph", "text": story},
+        {
+            "type": "paragraph",
+            "text": [
+                {"type": "url", "text": [{"type": "bold", "text": "Today in History"}], "url": CHANNEL_URL}
+            ],
+        },
+        {
+            "type": "paragraph",
+            "text": [
+                "Source: ",
+                {"type": "url", "text": source_name, "url": event.source_1_url},
+            ],
+        },
+        {"type": "paragraph", "text": hashtags},
     ]
-    if event.people_involved.strip():
-        lines += ["", f"<b>People:</b> {esc(event.people_involved)}"]
-    if event.historical_entity.strip():
-        lines += [f"<b>Entity:</b> {esc(event.historical_entity)}"]
-    if event.event_category.strip():
-        lines += [f"<b>Category:</b> {esc(event.event_category)}"]
-    lines += ["", f"<b>Source:</b> <a href=\"{html.escape(event.source_1_url, quote=True)}\">{esc(event.source_1_name)}</a>"]
-    if event.source_2_url.strip() and event.source_2_name.strip():
-        lines[-1] += f" · <a href=\"{html.escape(event.source_2_url, quote=True)}\">{esc(event.source_2_name)}</a>"
-    if image_credit and image_page:
-        lines += [f"<b>Image:</b> <a href=\"{html.escape(image_page, quote=True)}\">{esc(image_credit)}</a>"]
-    lines += ["", hashtags(event), f"<i>{index}/{total}</i>"]
 
-    caption = "\n".join(lines)
-    if len(caption) > MAX_CAPTION_CHARS:
-        # Remove optional metadata before shortening the core historical description further.
-        lines = [
-            f"<b>{esc(event.date_display or f'{event.month} {event.day}')}</b>",
-            f"<b>{esc(year_label(event))}</b> · {esc(flag)} {esc(primary_location(event))}",
-            "",
-            f"<b>{esc(event.event_title)}</b>",
-            "",
-            esc(_truncate(event.description, 480)),
-            "",
-            f"<b>Source:</b> <a href=\"{html.escape(event.source_1_url, quote=True)}\">{esc(event.source_1_name)}</a>",
-            "", hashtags(event), f"<i>{index}/{total}</i>",
-        ]
-        caption = "\n".join(lines)
+    return {"blocks": blocks}
 
-    if len(caption) > MAX_CAPTION_CHARS:
-        caption = _truncate(caption, MAX_CAPTION_CHARS)
-    return caption
+
+def build_rich_message_with_photo(event: Event, image_field: str, enriched: EnrichedContent | None = None) -> dict:
+    payload = build_rich_message(event, enriched)
+    payload["blocks"].insert(0, {
+        "type": "photo",
+        "photo": {"type": "photo", "media": f"attach://{image_field}"},
+    })
+    return payload
+
+
+def format_fallback_caption(event: Event, enriched: EnrichedContent | None = None) -> str:
+    """Fallback for API/client paths where Rich Messages cannot be used."""
+    content = enriched or enrich_event(event)
+    hashtags = " ".join(_safe_tags(content.hashtags, event))
+    source_url = html.escape(event.source_1_url, quote=True)
+    prefix = "\n\n".join([
+        f"<b>{esc(date_line(event))}</b>",
+        f"<b>{esc(content.title)}</b>",
+    ])
+    footer = "\n\n".join([
+        f'<a href="{CHANNEL_URL}"><b>Today in History</b></a>',
+        f'<b>Source:</b> <a href="{source_url}">{esc(source_display_name(event))}</a>',
+        hashtags,
+    ])
+    available = 1024 - len(prefix) - len(footer) - 4
+    story = esc(content.story)
+    if len(story) > available:
+        story = story[:max(0, available - 1)].rsplit(" ", 1)[0].rstrip() + "…"
+    return "\n\n".join([prefix, story, footer])

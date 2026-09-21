@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import logging
 from pathlib import Path
 
@@ -22,7 +23,7 @@ def _post(method: str, *, data=None, files=None) -> dict:
     last = None
     for attempt in range(1, 4):
         try:
-            r = requests.post(_url(method), data=data, files=files, timeout=40)
+            r = requests.post(_url(method), data=data, files=files, timeout=60)
             r.raise_for_status()
             payload = r.json()
             if not payload.get("ok"):
@@ -34,12 +35,39 @@ def _post(method: str, *, data=None, files=None) -> dict:
     raise RuntimeError(f"Telegram {method} failed: {last}")
 
 
+def send_rich_message(rich_message: dict) -> int:
+    """Send a text-only Telegram Bot API Rich Message."""
+    result = _post(
+        "sendRichMessage",
+        data={"chat_id": SETTINGS.telegram_channel, "rich_message": json.dumps(rich_message, ensure_ascii=False)},
+    )
+    return int(result["message_id"])
+
+
+def send_rich_photo(path: str, rich_message: dict) -> int:
+    """Send a Telegram Bot API 10.3+ Rich Message with an uploaded photo block."""
+    with open(path, "rb") as handle:
+        result = _post(
+            "sendRichMessage",
+            data={"chat_id": SETTINGS.telegram_channel, "rich_message": json.dumps(rich_message, ensure_ascii=False)},
+            files={"photo": handle},
+        )
+    return int(result["message_id"])
+
+
 def send_photo(path: str, caption: str) -> int:
     with open(path, "rb") as handle:
-        result = _post("sendPhoto", data={"chat_id": SETTINGS.telegram_channel, "caption": caption, "parse_mode": "HTML"}, files={"photo": handle})
+        result = _post(
+            "sendPhoto",
+            data={"chat_id": SETTINGS.telegram_channel, "caption": caption, "parse_mode": "HTML"},
+            files={"photo": handle},
+        )
     return int(result["message_id"])
 
 
 def send_message(caption: str) -> int:
-    result = _post("sendMessage", data={"chat_id": SETTINGS.telegram_channel, "text": caption, "parse_mode": "HTML", "disable_web_page_preview": "false"})
+    result = _post(
+        "sendMessage",
+        data={"chat_id": SETTINGS.telegram_channel, "text": caption, "parse_mode": "HTML", "disable_web_page_preview": "false"},
+    )
     return int(result["message_id"])

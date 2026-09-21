@@ -5,8 +5,6 @@ from datetime import datetime, timezone
 
 from config import STATE_DIR, STATE_FILE
 
-DEFAULT_STATE = {"published_event_ids": {}, "runs": []}
-
 
 def _fresh_state() -> dict:
     return {"published_event_ids": {}, "runs": []}
@@ -20,7 +18,6 @@ def load_state() -> dict:
         data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
             return _fresh_state()
-        # Migrate the temporary/legacy "published" key used by early V1 builds.
         published = data.get("published_event_ids")
         if not isinstance(published, dict):
             legacy = data.get("published")
@@ -48,10 +45,21 @@ def is_published(state: dict, event_id: str) -> bool:
     return event_id in state.get("published_event_ids", {})
 
 
-def mark_published(state: dict, event_id: str, message_id: int | None) -> None:
+def mark_published(
+    state: dict,
+    event_id: str,
+    message_id: int | None,
+    *,
+    image_page: str = "",
+    image_credit: str = "",
+    send_mode: str = "",
+) -> None:
     state.setdefault("published_event_ids", {})[event_id] = {
         "published_at": datetime.now(timezone.utc).isoformat(),
         "message_id": message_id,
+        "send_mode": send_mode,
+        "image_page": image_page,
+        "image_credit": image_credit,
     }
 
 

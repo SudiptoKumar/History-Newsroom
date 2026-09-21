@@ -6,13 +6,14 @@ from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from config import GENERATED_DIR, MONTHS, SETTINGS
+from config import SETTINGS
+from content_ai import enrich_event
 from dataset import Event, events_for_date, load_all, validate_dataset
-from formatter import format_caption
+from formatter import build_rich_message, build_rich_message_with_photo, format_fallback_caption
 from image_pipeline import prepare_event_image
 from image_resolver import resolve_event_image
 from state_store import add_run, is_published, load_state, mark_published, save_state
-from telegram_client import send_message, send_photo
+from telegram_client import send_message, send_photo, send_rich_message, send_rich_photo
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
 logger = logging.getLogger("today-in-history")
@@ -48,20 +49,49 @@ def run(run_date: date, batch_index: int, dry_run: bool = False) -> None:
     state = load_state()
     batch = choose_batch(day_events, batch_index)
     pending = [e for e in batch if not is_published(state, e.event_id)]
-
     logger.info("Date=%s | dataset_events=%d | selected_batch=%d | pending=%d", run_date, len(day_events), batch_index, len(pending))
 
     for index, event in enumerate(pending, start=1):
+        enriched = enrich_event(event)
         resolved = resolve_event_image(event)
         image = prepare_event_image(event, resolved) if resolved else None
-        caption = format_caption(event, index, len(pending), resolved.source_name if resolved else "", resolved.source_page if resolved else "")
         if dry_run:
-            logger.info("DRY RUN | %s | %s | image=%s", event.event_id, event.event_title, image)
+            logger.info("DRY RUN | %s | %s | image=%s | title=%s", event.event_id, event.event_title, image, enriched.title)
+            logger.info("STORY | %s", enriched.story)
             continue
-        message_id = send_photo(str(image), caption) if image else send_message(caption)
-        mark_published(state, event.event_id, message_id)
+
+        message_id: int
+        send_mode = "text"
+        try:
+            if image:
+                rich = build_rich_message_with_photo(event, "photo", enriched)
+                message_id = send_rich_photo(str(image), rich)
+                send_mode = "rich_photo"
+            else:
+                rich = build_rich_message(event, enriched)
+                message_id = send_rich_message(rich)
+                send_mode = "rich_text"
+        except Exception as exc:
+            logger.warning("Rich publish failed for %s: %s", event.event_id, exc)
+            # Fall back to the standard Bot API path so one Rich Message incompatibility does not stop a batch.
+            fallback = format_fallback_caption(event, enriched)
+            if image:
+                message_id = send_photo(str(image), fallback)
+                send_mode = "photo_fallback"
+            else:
+                message_id = send_message(fallback)
+                send_mode = "text_fallback"
+
+        mark_published(
+            state,
+            event.event_id,
+            message_id,
+            image_page=resolved.source_page if resolved else "",
+            image_credit=resolved.source_name if resolved else "",
+            send_mode=send_mode,
+        )
         save_state(state)
-        logger.info("Published %s -> message %s", event.event_id, message_id)
+        logger.info("Published %s -> message %s (%s)", event.event_id, message_id, send_mode)
 
     if not dry_run:
         add_run(state, {
@@ -80,16 +110,22 @@ def self_test() -> None:
     events = load_all()
     errors = validate_dataset(events)
     assert not errors, "\n".join(errors[:10])
-    assert len(events) >= 6000, f"Unexpected dataset size: {len(events)}"
+    assert len(events) == 6879, f"Unexpected dataset size: {len(events)}"
     today = date(2026, 9, 21)
     todays = events_for_date(events, today.month, today.day)
-    assert todays, "September 21 should have dataset records"
+    assert len(todays) == 20
     batch1 = choose_batch(todays, 1)
     batch2 = choose_batch(todays, 2)
     assert len(batch1) == SETTINGS.batch_size
     assert len(batch2) == SETTINGS.batch_size
-    caption = format_caption(batch1[0], 1, len(batch1))
-    assert "TodayInHistory" in caption
+    enriched = enrich_event(batch1[0])
+    rich = build_rich_message(batch1[0], enriched)
+    text_blocks = rich["blocks"]
+    assert text_blocks[0]["type"] == "heading"
+    assert text_blocks[1]["type"] == "heading"
+    assert len(enriched.hashtags) == 3
+    assert not any(x.startswith("People:") for x in [enriched.story])
+    assert "Today in History" in str(rich)
     assert (Path(__file__).resolve().parent / "assets" / "today-in-history-logo.png").exists()
     logger.info("Self-test passed: %d events loaded.", len(events))
 
@@ -100,7 +136,8 @@ def preview(run_date: date, batch_index: int) -> None:
     batch = choose_batch(day_events, batch_index)
     print(f"{run_date.strftime('%B %d')} | {len(day_events)} total | batch {batch_index} | {len(batch)} selected")
     for i, e in enumerate(batch, 1):
-        print(f"{i:02d}. [{e.event_id}] {e.year} {e.era} | {e.event_title} | score={e.significance_score:g}")
+        enriched = enrich_event(e)
+        print(f"{i:02d}. [{e.event_id}] {e.year} {e.era} | {enriched.title} | {len(enriched.story.split())} words | {' '.join(enriched.hashtags)}")
 
 
 def main() -> None:
