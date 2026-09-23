@@ -1,0 +1,82 @@
+{
+  "published_event_ids": {
+    "GHC-SEP-23-01": {
+      "published_at": "2026-09-23T11:00:33.950573+00:00",
+      "message_id": 63,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUrkunde_Wormser_Konkordat-bg.png",
+      "image_credit": "Wikimedia Commons · Urkunde_Wormser_Konkordat.jpg: UnknownUnknown  Original uploader was DALIBRI at de.wikipedia\nderivative work: Saibo (Δ) · Public domain"
+    },
+    "GHC-SEP-23-05": {
+      "published_at": "2026-09-23T11:00:42.936871+00:00",
+      "message_id": 64,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJohn_Paul_Jones_%26_the_Battle_of_Flamborough_Head.jpg",
+      "image_credit": "Wikimedia Commons · Kalki · CC0"
+    },
+    "GHC-SEP-23-08": {
+      "published_at": "2026-09-23T11:00:50.048364+00:00",
+      "message_id": 65,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1846_Events_Collage_V_1.0.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
+    },
+    "GHC-SEP-23-12": {
+      "published_at": "2026-09-23T11:00:55.979576+00:00",
+      "message_id": 66,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASaudi_Unification_Map.png",
+      "image_credit": "Wikimedia Commons · Wario2 · CC BY 4.0"
+    },
+    "GHC-SEP-23-16": {
+      "published_at": "2026-09-23T11:01:03.008019+00:00",
+      "message_id": 67,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Bryant%27s_Grocery_Mississippi_Freedom_Trail_Marker_in_Money,_Mississippi.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-17": {
+      "published_at": "2026-09-23T11:01:09.650377+00:00",
+      "message_id": 68,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Operation_Arkansas,_Little_Rock_Nine.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-18": {
+      "published_at": "2026-09-23T11:01:12.827556+00:00",
+      "message_id": 69,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARobert_F._Kennedy_message_to_JFK_recommending_the_nomination_of_Thurgood_Marshall_as_a_judge_on_the_Second_Circuit_726-002-F22_Jfkwhcfchron-014-009-p0131.jpg",
+      "image_credit": "Wikimedia Commons · John F. Kennedy · Public domain"
+    },
+    "GHC-SEP-23-02": {
+      "published_at": "2026-09-23T11:01:15.735478+00:00",
+      "message_id": 70,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Arnemuiden.jpg",
+      "image_credit": "Wikimedia Commons · Jean de Froissart · Public domain"
+    },
+    "GHC-SEP-23-03": {
+      "published_at": "2026-09-23T11:01:26.357726+00:00",
+      "message_id": 71,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Blore_Heath_1459%2C_Audley%27s_Cross_-_geograph.org.uk_-_6833022.jpg",
+      "image_credit": "Wikimedia Commons · Brian Deegan · CC BY-SA 2.0"
+    },
+    "GHC-SEP-23-04": {
+      "published_at": "2026-09-23T11:01:30.792391+00:00",
+      "message_id": 72,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APowick_Bridge_Monument_1.jpg",
+      "image_credit": "Wikimedia Commons · QuintusPetillius · CC BY-SA 4.0"
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-09-23",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    }
+  ]
+}
