@@ -3,7 +3,7 @@ name: Today in History
 on:
   schedule:
     - cron: "0 2 * * *"
-    - cron: "0 14 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       batch_index:
