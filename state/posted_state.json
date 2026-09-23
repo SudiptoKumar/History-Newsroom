@@ -69,12 +69,88 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APowick_Bridge_Monument_1.jpg",
       "image_credit": "Wikimedia Commons · QuintusPetillius · CC BY-SA 4.0"
+    },
+    "GHC-SEP-23-06": {
+      "published_at": "2026-09-23T15:18:59.418063+00:00",
+      "message_id": 73,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Assaye%2C_1803.jpg",
+      "image_credit": "Wikimedia Commons · AnonymousUnknown author · Public domain"
+    },
+    "GHC-SEP-23-07": {
+      "published_at": "2026-09-23T15:19:08.104374+00:00",
+      "message_id": 74,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Siege_of_Tripolitsa.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-09": {
+      "published_at": "2026-09-23T15:19:13.780916+00:00",
+      "message_id": 75,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Grito_de_Lares_%281868%2C_light_blue%29.svg",
+      "image_credit": "Wikimedia Commons · Tektonson · Public domain"
+    },
+    "GHC-SEP-23-10": {
+      "published_at": "2026-09-23T15:19:18.943983+00:00",
+      "message_id": 76,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AStortingets_m%C3%B8te_7._juni_1905.jpg",
+      "image_credit": "Wikimedia Commons · Frederik Hilfling-Rasmussen · Public domain"
+    },
+    "GHC-SEP-23-11": {
+      "published_at": "2026-09-23T15:19:23.081571+00:00",
+      "message_id": 77,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIndian_lancers_in_Haifa_1918.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author\n\nOriginal uploader was Jim Sweeney at en.wikipedia · Public domain"
+    },
+    "GHC-SEP-23-13": {
+      "published_at": "2026-09-23T15:19:27.049703+00:00",
+      "message_id": 78,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGuadMatanikauSep24-27.gif",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-SEP-23-15": {
+      "published_at": "2026-09-23T15:19:30.442724+00:00",
+      "message_id": 79,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACheckers_speech_tour_menu.jpg",
+      "image_credit": "Wikimedia Commons · Southern Pacific Railroad · Public domain"
+    },
+    "GHC-SEP-23-19": {
+      "published_at": "2026-09-23T15:19:39.971921+00:00",
+      "message_id": 80,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Boeing_767-3P6-ER,_Gulf_Air_AN0920954.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-14": {
+      "published_at": "2026-09-23T15:19:51.538832+00:00",
+      "message_id": 81,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKing_George_VI_%2815801734009%29.jpg",
+      "image_credit": "Wikimedia Commons · Thomas's Pics · CC BY 2.0"
+    },
+    "GHC-SEP-23-20": {
+      "published_at": "2026-09-23T15:19:59.518499+00:00",
+      "message_id": 82,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Green_chalcedony_portrait_bust_of_Julia_Drusilla_or_Livia_Livilla_(sisters_of_Caligula),_made_about_AD_37-39,_British_Museum_(14104968429).jpg",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
     {
       "date": "2026-09-23",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-23",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
