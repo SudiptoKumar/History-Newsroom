@@ -139,6 +139,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/Category:Emperor_Zhaozong_of_Tang",
       "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-06": {
+      "published_at": "2026-09-23T06:53:50.582895+00:00",
+      "message_id": 53,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Battle_of_Assaye,_23_September_1803,_engraved_by_J.C._Stadler,_published_by_Thomas_Tegg,_1st_April_1818.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-07": {
+      "published_at": "2026-09-23T06:53:57.923696+00:00",
+      "message_id": 54,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Siege_of_Tripolitsa.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-09": {
+      "published_at": "2026-09-23T06:54:04.369697+00:00",
+      "message_id": 55,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Entrando_a_Lares_%22Ciudad_del_Grito%22,_Puerto_Rico.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-10": {
+      "published_at": "2026-09-23T06:54:11.398600+00:00",
+      "message_id": 56,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AStortingets_m%C3%B8te_7._juni_1905.jpg",
+      "image_credit": "Wikimedia Commons · Frederik Hilfling-Rasmussen · Public domain"
+    },
+    "GHC-SEP-23-11": {
+      "published_at": "2026-09-23T06:54:15.798240+00:00",
+      "message_id": 57,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIndian_lancers_in_Haifa_1918.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author\n\nOriginal uploader was Jim Sweeney at en.wikipedia · Public domain"
+    },
+    "GHC-SEP-23-13": {
+      "published_at": "2026-09-23T06:54:21.968461+00:00",
+      "message_id": 58,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGuadMatanikauSep24-27.gif",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-SEP-23-15": {
+      "published_at": "2026-09-23T06:54:26.517481+00:00",
+      "message_id": 59,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACheckers_speech_tour_menu.jpg",
+      "image_credit": "Wikimedia Commons · Southern Pacific Railroad · Public domain"
+    },
+    "GHC-SEP-23-19": {
+      "published_at": "2026-09-23T06:54:35.013417+00:00",
+      "message_id": 60,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Boeing_767-3P6-ER,_Gulf_Air_AN0920954.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-14": {
+      "published_at": "2026-09-23T06:54:43.688072+00:00",
+      "message_id": 61,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Operation_Chastise_(the_Dambusters%27_Raid)_16_-_17_May_1943_CH9924.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-23-20": {
+      "published_at": "2026-09-23T06:54:51.490001+00:00",
+      "message_id": 62,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Green_chalcedony_portrait_bust_of_Julia_Drusilla_or_Livia_Livilla_(sisters_of_Caligula),_made_about_AD_37-39,_British_Museum_(14104968429).jpg",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
@@ -165,6 +235,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-09-23",
+      "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
