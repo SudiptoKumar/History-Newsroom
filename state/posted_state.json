@@ -69,6 +69,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ANebel_Mexican_War_02_Capture_of_Monterrey.jpg",
       "image_credit": "Wikimedia Commons · Adolphe Jean-Baptiste Bayot / Carl Nebel · Public domain"
+    },
+    "GHC-SEP-24-08": {
+      "published_at": "2026-09-24T15:42:58.539592+00:00",
+      "message_id": 103,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Giffard_dirigible",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-24-10": {
+      "published_at": "2026-09-24T15:43:03.165681+00:00",
+      "message_id": 104,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Shiroyama.JPG",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-SEP-24-11": {
+      "published_at": "2026-09-24T15:43:10.939644+00:00",
+      "message_id": 105,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Fundamentalist_Church_of_Jesus_Christ_of_Latter-Day_Saints",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-SEP-24-12": {
+      "published_at": "2026-09-24T15:43:16.526226+00:00",
+      "message_id": 106,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADevils_Tower_National_Monument%2C_Wyoming_%28401fc7b5-1f30-4f2c-beb5-232e07ccc4be%29.jpg",
+      "image_credit": "Wikimedia Commons · NPS staff · Public domain"
+    },
+    "GHC-SEP-24-13": {
+      "published_at": "2026-09-24T15:43:23.417641+00:00",
+      "message_id": 107,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALe_Petit_Journal_7_Oct_1906.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-SEP-24-16": {
+      "published_at": "2026-09-24T15:43:26.875765+00:00",
+      "message_id": 108,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1975_to_2010_Auto-Manufacturer_Quality_Ranks_by_Overall_Reliability_for_5_Europe-Based_Car_Companies_and_5_Japan-Based_Car_Companies.jpg",
+      "image_credit": "Wikimedia Commons · James Benjamin Bleeker, Web Master of http://CarsOnInfo.net and http://www.AutoOnInfo.net · CC BY-SA 3.0"
+    },
+    "GHC-SEP-24-03": {
+      "published_at": "2026-09-24T15:43:38.582173+00:00",
+      "message_id": 109,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Rowton_Heath_Information_Point%2C_Rowton_-_geograph.org.uk_-_3060504.jpg",
+      "image_credit": "Wikimedia Commons · Jeff Buck · CC BY-SA 2.0"
+    },
+    "GHC-SEP-24-06": {
+      "published_at": "2026-09-24T15:43:46.067616+00:00",
+      "message_id": 110,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_history_of_Sarawak_under_its_two_white_Rajahs%2C_1839-1908.djvu",
+      "image_credit": "Wikimedia Commons · S. (Sabine) Baring-Gould · Public domain"
+    },
+    "GHC-SEP-24-15": {
+      "published_at": "2026-09-24T15:43:50.935886+00:00",
+      "message_id": 111,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1966_HANEDA_VR-HFS_Cathay_Pacific_Airways_Convair_CV-880.jpg",
+      "image_credit": "Wikimedia Commons · Original Photographer Unknown · Public domain"
+    },
+    "GHC-SEP-24-20": {
+      "published_at": "2026-09-24T15:43:57.976088+00:00",
+      "message_id": 112,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:The_coronation_of_Shri_Shivaji.jpg",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
@@ -81,6 +151,12 @@
     {
       "date": "2026-09-24",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-24",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
