@@ -1,11 +1,88 @@
 {
-  "published_event_ids": {},
+  "published_event_ids": {
+    "GHC-SEP-24-04": {
+      "published_at": "2026-09-24T11:08:16.304426+00:00",
+      "message_id": 93,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJudiciary_Act_of_1789.jpg",
+      "image_credit": "Wikimedia Commons · United States Congress · Public domain"
+    },
+    "GHC-SEP-24-09": {
+      "published_at": "2026-09-24T11:08:22.875450+00:00",
+      "message_id": 94,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOur_Sister_Republic_-_Mexico.djvu",
+      "image_credit": "Wikimedia Commons · Hartford: Columbian book co. · Public domain"
+    },
+    "GHC-SEP-24-14": {
+      "published_at": "2026-09-24T11:08:26.178356+00:00",
+      "message_id": 95,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADr._Ambedkar_with_Bar._Jayakar%2C_Sir_Tej_Bahadur_Sapru_and_others_at_Yerwada_%28Pune%29_prison_after_signing_the_%27Poona_Pact%27_that_saved_Mohandas_K._Gandhi%27s_life.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-SEP-24-17": {
+      "published_at": "2026-09-24T11:08:51.474147+00:00",
+      "message_id": 96,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A800_National_Guard_Soldiers%2C_Airmen%2C_and_civilian_cyber_professionals_from_around_the_world_are_participating_in_this_year%E2%80%99s_Cyber_Shield_training_exercise_at_the_Professional_Education_Center%2C_Little_Rock_Ark.%2C_June_2-16%2C_2023_-_3.jpg",
+      "image_credit": "Wikimedia Commons · The National Guard · CC BY 2.0"
+    },
+    "GHC-SEP-24-18": {
+      "published_at": "2026-09-24T11:09:02.355441+00:00",
+      "message_id": 97,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AF-8A_of_VF-62_is_launched_from_USS_Enterprise_%28CVAN-65%29_in_April_1962.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Navy · Public domain"
+    },
+    "GHC-SEP-24-19": {
+      "published_at": "2026-09-24T11:09:07.345489+00:00",
+      "message_id": 98,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASixth_Ministerial_Meeting_on_the_Comprehensive_Nuclear-Test-Ban_Treaty_%28CTBT%29_%288030194841%29.jpg",
+      "image_credit": "Wikimedia Commons · The Official CTBTO Photostream · CC BY 2.0"
+    },
+    "GHC-SEP-24-01": {
+      "published_at": "2026-09-24T11:09:19.883335+00:00",
+      "message_id": 99,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMenologion_of_Basil_024_%E2%80%94_Second_Council_of_Nicaea.jpg",
+      "image_credit": "Wikimedia Commons · Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with Georgios, Michael the Younger, Michael of Blachernae, Symeon, Symeon of Blachernae, Menas, and Nestor \n(Online on Vatican site) · Public domain"
+    },
+    "GHC-SEP-24-02": {
+      "published_at": "2026-09-24T11:09:28.909410+00:00",
+      "message_id": 100,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_San_Juan_de_Ul%C3%BAa.jpg",
+      "image_credit": "Wikimedia Commons · Frederick Whymper · Public domain"
+    },
+    "GHC-SEP-24-05": {
+      "published_at": "2026-09-24T11:09:37.179841+00:00",
+      "message_id": 101,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-SEP-24-07": {
+      "published_at": "2026-09-24T11:09:43.902056+00:00",
+      "message_id": 102,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANebel_Mexican_War_02_Capture_of_Monterrey.jpg",
+      "image_credit": "Wikimedia Commons · Adolphe Jean-Baptiste Bayot / Carl Nebel · Public domain"
+    }
+  },
   "runs": [
     {
       "date": "2026-09-24",
       "batch_index": 10,
       "selected": 0,
       "published_now": 0
+    },
+    {
+      "date": "2026-09-24",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
