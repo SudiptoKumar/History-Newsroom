@@ -139,6 +139,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File:The_coronation_of_Shri_Shivaji.jpg",
       "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-25-07": {
+      "published_at": "2026-09-25T06:48:08.819215+00:00",
+      "message_id": 113,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKazi_Kalu_Pandey_Mausoleum%2C_Kalu_Pandey_Samadhi_Sthal_Dahachowk_Chandragiri_Municipility_Kathmandu_Nepal_Rajesh_Dhungana_%281%29.jpg",
+      "image_credit": "Wikimedia Commons · Rajesh Dhungana · CC BY-SA 4.0"
+    },
+    "GHC-SEP-25-10": {
+      "published_at": "2026-09-25T06:48:16.551357+00:00",
+      "message_id": 114,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-SEP-25-12": {
+      "published_at": "2026-09-25T06:48:40.720881+00:00",
+      "message_id": 115,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABeau_Joie_Champagne_-_March_2024_-_Sarah_Stierch.jpg",
+      "image_credit": "Wikimedia Commons · Missvain · CC BY 4.0"
+    },
+    "GHC-SEP-25-14": {
+      "published_at": "2026-09-25T06:48:53.017591+00:00",
+      "message_id": 116,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASoci%C3%A9t%C3%A9_des_Nations_Convention_relative_%C3%A0_l%27esclavage_1926.djvu",
+      "image_credit": "Wikimedia Commons · Société des Nations · Public domain"
+    },
+    "GHC-SEP-25-15": {
+      "published_at": "2026-09-25T06:48:59.889622+00:00",
+      "message_id": 117,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Pingxingguan_1937.jpg",
+      "image_credit": "Wikimedia Commons · Sha Fei · Public domain"
+    },
+    "GHC-SEP-25-16": {
+      "published_at": "2026-09-25T06:49:06.729343+00:00",
+      "message_id": 118,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThese_are_the_first_pictures_of_the_evacuated_British_forces_from_Arnhem%2C_Bestanddeelnr_24023_007.tif",
+      "image_credit": "Wikimedia Commons · No 5 Army Film &amp; Photographic Unit / Smith, D.M. · CC0"
+    },
+    "GHC-SEP-25-17": {
+      "published_at": "2026-09-25T06:49:16.307204+00:00",
+      "message_id": 119,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AInauguration_von_Papst_Franziskus_%288571451917%29.jpg",
+      "image_credit": "Wikimedia Commons · Österreichische Außenministerium · CC BY 2.0"
+    },
+    "GHC-SEP-25-20": {
+      "published_at": "2026-09-25T06:49:22.553272+00:00",
+      "message_id": 120,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGround_surface_in_northern_Atsuma_Town_after_2018_earthquake.jpg",
+      "image_credit": "Wikimedia Commons · Photo taken by Geospatial Information Authority of JapanComposed by Kkairri (talk) · CC BY 4.0"
+    },
+    "GHC-SEP-25-09": {
+      "published_at": "2026-09-25T06:49:29.252433+00:00",
+      "message_id": 121,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_National_Geographic_Magazine_Vol_16_1905.djvu",
+      "image_credit": "Wikimedia Commons · multiple authors · Public domain"
+    },
+    "GHC-SEP-25-11": {
+      "published_at": "2026-09-25T06:49:44.612315+00:00",
+      "message_id": 122,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADestruction_de_la_Bastille_apr%C3%A8s_la_Victoire_remport%C3%A9_sur_les_ennemis_de_la_Libert%C3%A9_le_14_juillet_1789._G.24019%281%29.jpg",
+      "image_credit": "Wikimedia Commons · Anonyme, graveur · CC0"
     }
   },
   "runs": [
@@ -156,6 +226,12 @@
     },
     {
       "date": "2026-09-24",
+      "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-25",
       "batch_index": 2,
       "selected": 10,
       "published_now": 10
