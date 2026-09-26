@@ -209,6 +209,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ADestruction_de_la_Bastille_apr%C3%A8s_la_Victoire_remport%C3%A9_sur_les_ennemis_de_la_Libert%C3%A9_le_14_juillet_1789._G.24019%281%29.jpg",
       "image_credit": "Wikimedia Commons · Anonyme, graveur · CC0"
+    },
+    "GHC-SEP-26-09": {
+      "published_at": "2026-09-26T06:47:13.958592+00:00",
+      "message_id": 123,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOur_Philadelphia_%28Pennell%2C_1914%29.djvu",
+      "image_credit": "Wikimedia Commons · Elizabeth Robins Pennell / Joseph Pennell · Public domain"
+    },
+    "GHC-SEP-26-10": {
+      "published_at": "2026-09-26T06:47:20.628600+00:00",
+      "message_id": 124,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALetter_of_Thomas_Jefferson%2C_Secretary_of_State%2C_to_the_Gentlemen_of_the_Senate%2C_1792.jpg",
+      "image_credit": "Wikimedia Commons · Jefferson, Thomas, 1743-1826 · Public domain"
+    },
+    "GHC-SEP-26-14": {
+      "published_at": "2026-09-26T06:47:29.694881+00:00",
+      "message_id": 125,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAustralian_infantry_small_box_respirators_Ypres_1917.jpg",
+      "image_credit": "Wikimedia Commons · Frank Hurley · Public domain"
+    },
+    "GHC-SEP-26-17": {
+      "published_at": "2026-09-26T06:47:34.262481+00:00",
+      "message_id": 126,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1954_Events_montage_16-grid_version.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
+    },
+    "GHC-SEP-26-02": {
+      "published_at": "2026-09-26T06:47:39.505862+00:00",
+      "message_id": 127,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AState_Portrait_of_King_William_III%2C_contemporary_copy_of_Sir_Godfrey_Kneller%27s_original%2C_c._1690-1705_-_Green_Satin_Room%2C_Chatsworth_House_-_Derbyshire%2C_England_-_DSC03162.jpg",
+      "image_credit": "Wikimedia Commons · Daderot · Public domain"
+    },
+    "GHC-SEP-26-11": {
+      "published_at": "2026-09-26T06:47:51.313595+00:00",
+      "message_id": 128,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Charles_XIV_John_as_Crown_Prince_of_Sweden_(Fran%C3%A7ois_G%C3%A9rard)",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-26-13": {
+      "published_at": "2026-09-26T06:47:58.918814+00:00",
+      "message_id": 129,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A%22One_is_Man_Controlling_Trade%2C%22_1942_statue_by_Michael_Lantz%2C_at_Federal_Trade_Commission%2C_600_Pennsylvania_Ave.%2C_NW_Washington%2C_D.C_LCCN2010641732.tif",
+      "image_credit": "Wikimedia Commons · Michael Lantz · Public domain"
+    },
+    "GHC-SEP-26-01": {
+      "published_at": "2026-09-26T06:48:05.215974+00:00",
+      "message_id": 130,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWounded_from_battle_of_Vie_%28i.e.%2C_Vic%29_at_Compiegne_LCCN2014697907.jpg",
+      "image_credit": "Wikimedia Commons · Bain News Service, publisher · Public domain"
+    },
+    "GHC-SEP-26-04": {
+      "published_at": "2026-09-26T06:48:08.841534+00:00",
+      "message_id": 131,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Warns%2C_1345_%28Kachel%29.jpg",
+      "image_credit": "Wikimedia Commons · Johann Wilhelm Friedrich Kachel · Public domain"
+    },
+    "GHC-SEP-26-20": {
+      "published_at": "2026-09-26T06:48:12.259568+00:00",
+      "message_id": 132,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Chronicle_of_Henry_of_Huntingdon.djvu",
+      "image_credit": "Wikimedia Commons · Henry of Huntingdon · Public domain"
     }
   },
   "runs": [
@@ -241,6 +311,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-09-26",
+      "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
