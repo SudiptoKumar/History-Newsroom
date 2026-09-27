@@ -279,6 +279,41 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Chronicle_of_Henry_of_Huntingdon.djvu",
       "image_credit": "Wikimedia Commons · Henry of Huntingdon · Public domain"
+    },
+    "GHC-SEP-27-01": {
+      "published_at": "2026-09-27T07:16:49.136044+00:00",
+      "message_id": 133,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_history_of_the_Norman_conquest_of_England%2C_its_causes_and_its_results_Vol._iv.djvu",
+      "image_credit": "Wikimedia Commons · Edward Augustus Freeman · Public domain"
+    },
+    "GHC-SEP-27-04": {
+      "published_at": "2026-09-27T07:17:13.322236+00:00",
+      "message_id": 134,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARelief_CoA_Pius_V_ceiling_Santa_Maria_in_Aracoeli%2C_Rome%2C_Italy.jpg",
+      "image_credit": "Wikimedia Commons · Jebulon · CC0"
+    },
+    "GHC-SEP-27-05": {
+      "published_at": "2026-09-27T07:17:19.705690+00:00",
+      "message_id": 135,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Kircholm_1605%2C_choragiew_of_Jan_Gniewosz_assault.PNG",
+      "image_credit": "Wikimedia Commons · Juliusz Kossak · Public domain"
+    },
+    "GHC-SEP-27-06": {
+      "published_at": "2026-09-27T07:17:34.800562+00:00",
+      "message_id": 136,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACandia_grand_lait.jpg",
+      "image_credit": "Wikimedia Commons · Thomon · CC BY-SA 4.0"
+    },
+    "GHC-SEP-27-12": {
+      "published_at": "2026-09-27T07:17:40.379078+00:00",
+      "message_id": 137,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWreck_of_the_U.S.M._steam_ship_%22Arctic%22_%28one-third-size%29.png",
+      "image_credit": "Wikimedia Commons · James E. Buttersworth (artist) 1817-1894 · Public domain"
     }
   },
   "runs": [
