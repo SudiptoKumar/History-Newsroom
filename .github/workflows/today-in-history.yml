@@ -8,7 +8,11 @@ on:
     inputs:
       batch_index:
         description: "Batch to publish"
-        required: false
+        required: true
+        type: choice
+        options:
+          - "1"
+          - "2"
         default: "1"
 
 permissions:
@@ -64,12 +68,23 @@ jobs:
         shell: bash
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "BATCH_INDEX=${{ inputs.batch_index }}" >> "$GITHUB_ENV"
-          elif [[ "$(date -u +%H)" == "02" ]]; then
-            echo "BATCH_INDEX=1" >> "$GITHUB_ENV"
+            BATCH_INDEX="${{ inputs.batch_index }}"
+          elif [[ "${{ github.event.schedule }}" == "0 2 * * *" ]]; then
+            BATCH_INDEX="1"
+          elif [[ "${{ github.event.schedule }}" == "0 11 * * *" ]]; then
+            BATCH_INDEX="2"
           else
-            echo "BATCH_INDEX=2" >> "$GITHUB_ENV"
+            echo "Unsupported schedule: ${{ github.event.schedule }}"
+            exit 1
           fi
+
+          if [[ "$BATCH_INDEX" != "1" && "$BATCH_INDEX" != "2" ]]; then
+            echo "Invalid BATCH_INDEX=$BATCH_INDEX. Only batch 1 or 2 is allowed."
+            exit 1
+          fi
+
+          echo "BATCH_INDEX=$BATCH_INDEX" >> "$GITHUB_ENV"
+          echo "Selected batch: $BATCH_INDEX"
 
       - name: Publish Today in History
         run: python main.py --batch "$BATCH_INDEX"
