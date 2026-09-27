@@ -1,0 +1,82 @@
+{
+  "published_event_ids": {
+    "GHC-SEP-27-03": {
+      "published_at": "2026-09-27T15:44:22.253711+00:00",
+      "message_id": 138,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APalacio_de_Sch%C3%B6nbrunn%2C_Viena%2C_Austria%2C_2020-02-02%2C_DD_10.jpg",
+      "image_credit": "Wikimedia Commons · Diego Delso · CC BY-SA 4.0"
+    },
+    "GHC-SEP-27-10": {
+      "published_at": "2026-09-27T15:44:33.744991+00:00",
+      "message_id": 139,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AParis_Notre-Dame_East_View_02.JPG",
+      "image_credit": "Wikimedia Commons · Uoaei1 · CC BY-SA 4.0"
+    },
+    "GHC-SEP-27-11": {
+      "published_at": "2026-09-27T15:44:38.967866+00:00",
+      "message_id": 140,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AStockton_%26_Darlington_Railway_0-4-0_No._1_%27Locomotion%27_%281825%29_Head_of_Steam%2C_Darlington_30.06.2009_P6300109_%2810192716234%29.jpg",
+      "image_credit": "Wikimedia Commons · Gillett's Crossing from Bristol, United Kingdom · CC BY 2.0"
+    },
+    "GHC-SEP-27-15": {
+      "published_at": "2026-09-27T15:44:47.995298+00:00",
+      "message_id": 141,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUnterzeichnung_des_Dreim%C3%A4chtepakts_1940.jpg",
+      "image_credit": "Wikimedia Commons · Unbekannt (National Digital Archives, Poland) · CC0"
+    },
+    "GHC-SEP-27-08": {
+      "published_at": "2026-09-27T15:45:01.801363+00:00",
+      "message_id": 142,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AParis_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg",
+      "image_credit": "Wikimedia Commons · Benh LIEU SONG · CC BY-SA 3.0"
+    },
+    "GHC-SEP-27-09": {
+      "published_at": "2026-09-27T15:45:09.213750+00:00",
+      "message_id": 143,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVol_6_History_of_Mexico_by_H_H_Bancroft.djvu",
+      "image_credit": "Wikimedia Commons · Hubert Howe Bancroft · Public domain"
+    },
+    "GHC-SEP-27-13": {
+      "published_at": "2026-09-27T15:45:15.240403+00:00",
+      "message_id": 144,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFord_A_Model_%281927-1931%29_%2848274643467%29.jpg",
+      "image_credit": "Wikimedia Commons · Pedro Ribeiro Simões from Lisboa, Portugal · CC BY 2.0"
+    },
+    "GHC-SEP-27-17": {
+      "published_at": "2026-09-27T15:45:25.820541+00:00",
+      "message_id": 145,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANASA%E2%80%99s_X-59_Lifts_Off_for_First_Flight_%28AFRC2025-0168-045%29.jpg",
+      "image_credit": "Wikimedia Commons · NASA Armstrong Flight Research Center / NASA/Lori Losey · Public domain"
+    },
+    "GHC-SEP-27-18": {
+      "published_at": "2026-09-27T15:45:33.870413+00:00",
+      "message_id": 146,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Chairperson%2C_National_League_for_Democracy%2C_Myanmar%2C_Daw_Aung_San_Suu_Kyi_calls_on_the_Speaker%2C_Lok_Sabha%2C_Smt._Meira_Kumar%2C_in_New_Delhi_on_November_15%2C_2012.jpg",
+      "image_credit": "Wikimedia Commons · Ministry of Parliamentary Affairs · GODL-India"
+    },
+    "GHC-SEP-27-19": {
+      "published_at": "2026-09-27T15:45:38.936818+00:00",
+      "message_id": 147,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AShenzhou-7_payload_at_NMC.jpg",
+      "image_credit": "Wikimedia Commons · Shujianyang · CC0"
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-09-27",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    }
+  ]
+}
