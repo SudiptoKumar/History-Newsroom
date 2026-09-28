@@ -69,11 +69,87 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AShenzhou-7_payload_at_NMC.jpg",
       "image_credit": "Wikimedia Commons · Shujianyang · CC0"
+    },
+    "GHC-SEP-28-12": {
+      "published_at": "2026-09-28T07:52:24.448537+00:00",
+      "message_id": 148,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-SEP-28-01": {
+      "published_at": "2026-09-28T07:52:33.162655+00:00",
+      "message_id": 149,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_history_of_the_Norman_conquest_of_England%2C_its_causes_and_its_results_Vol._v.djvu",
+      "image_credit": "Wikimedia Commons · Edward Augustus Freeman · Public domain"
+    },
+    "GHC-SEP-28-04": {
+      "published_at": "2026-09-28T07:52:40.102493+00:00",
+      "message_id": 150,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AYorktown_Victory_Monument%2C_Colonial_National_Historic_Site%2C_Yorktown%2C_Virginia_%2814239327850%29.jpg",
+      "image_credit": "Wikimedia Commons · Ken Lund from Reno, Nevada, USA · CC BY-SA 2.0"
+    },
+    "GHC-SEP-28-13": {
+      "published_at": "2026-09-28T07:52:45.603462+00:00",
+      "message_id": 151,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANazi-Soviet_Relations%2C_1939-1941.djvu",
+      "image_credit": "Wikimedia Commons · Raymond James Sontag and James Stuart Beddie · Public domain"
+    },
+    "GHC-SEP-28-16": {
+      "published_at": "2026-09-28T07:52:49.698194+00:00",
+      "message_id": 152,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANasser_and_Charles_Helou_1964.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-SEP-28-18": {
+      "published_at": "2026-09-28T07:53:02.562073+00:00",
+      "message_id": 153,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAt_Tallinn_2024_312.jpg",
+      "image_credit": "Wikimedia Commons · Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0"
+    },
+    "GHC-SEP-28-19": {
+      "published_at": "2026-09-28T07:53:07.586430+00:00",
+      "message_id": 154,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASpaceX_Magical_Mystery_Tour_%282948143164%29.jpg",
+      "image_credit": "Wikimedia Commons · Steve Jurvetson from Los Altos, USA · CC BY 2.0"
+    },
+    "GHC-SEP-28-02": {
+      "published_at": "2026-09-28T07:53:11.712228+00:00",
+      "message_id": 155,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATinchebray.jpg",
+      "image_credit": "Wikimedia Commons · Rohan Master · Public domain"
+    },
+    "GHC-SEP-28-03": {
+      "published_at": "2026-09-28T07:53:15.197566+00:00",
+      "message_id": 156,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Preveza_%281538%29.jpg",
+      "image_credit": "Wikimedia Commons · Osman Nuri Pasha and Hovhannes Umed Behzad (1809–1874) · Public domain"
+    },
+    "GHC-SEP-28-05": {
+      "published_at": "2026-09-28T07:53:23.429587+00:00",
+      "message_id": 157,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AProposed_Amendments_to_the_U.S._Constitution_as_Passed_by_the_Senate%2C_Printed_September_14%2C_1789%2C_back.tif",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author or not provided · Public domain"
     }
   },
   "runs": [
     {
       "date": "2026-09-27",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-28",
       "batch_index": 1,
       "selected": 10,
       "published_now": 10
