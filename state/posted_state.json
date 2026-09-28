@@ -139,6 +139,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AProposed_Amendments_to_the_U.S._Constitution_as_Passed_by_the_Senate%2C_Printed_September_14%2C_1789%2C_back.tif",
       "image_credit": "Wikimedia Commons · Unknown authorUnknown author or not provided · Public domain"
+    },
+    "GHC-SEP-29-03": {
+      "published_at": "2026-09-28T18:28:10.789067+00:00",
+      "message_id": 158,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMassacre_des_catholiques_de_Nismes_%28Michelade_%C3%A0_N%C3%AEmes_les_29_et_30_septembre_1567%29_-_Cazes_invenit_%3B_CN_Cochin_sculps._-_btv1b101020855.jpg",
+      "image_credit": "Wikimedia Commons · Cochin, Charles-Nicolas (1688-1754). Graveur · Public domain"
+    },
+    "GHC-SEP-29-06": {
+      "published_at": "2026-09-28T18:28:20.635756+00:00",
+      "message_id": 159,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMetropolitan_Police_Commercial_Vehicle_Unit_Mercedes_Benz_Sprinter_BX21_AXM.jpg",
+      "image_credit": "Wikimedia Commons · John K Thorne · Public domain"
+    },
+    "GHC-SEP-29-07": {
+      "published_at": "2026-09-28T18:28:24.815345+00:00",
+      "message_id": 160,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_P%C3%A1kozd_F.X._Zalder.jpg",
+      "image_credit": "Wikimedia Commons · Franz Xaver Zalder (1815–?) · Public domain"
+    },
+    "GHC-SEP-29-08": {
+      "published_at": "2026-09-28T18:28:30.075567+00:00",
+      "message_id": 161,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANicholas_Patrick_Wiseman.png",
+      "image_credit": "Wikimedia Commons · Mathew Benjamin Brady · Public domain"
+    },
+    "GHC-SEP-29-17": {
+      "published_at": "2026-09-28T18:28:34.953385+00:00",
+      "message_id": 162,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVector_calculus_in_Haiti.jpg",
+      "image_credit": "Wikimedia Commons · Todd Huffman · CC BY 2.0"
+    },
+    "GHC-SEP-29-20": {
+      "published_at": "2026-09-28T18:28:39.850454+00:00",
+      "message_id": 163,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_42132_-_Survivors_of_the_American_Samoa_Earthquake_and_Tsunami_visit_Disaster_Recovery_Center.jpg",
+      "image_credit": "Wikimedia Commons · Casey Deshong · Public domain"
+    },
+    "GHC-SEP-29-04": {
+      "published_at": "2026-09-28T18:28:46.691803+00:00",
+      "message_id": 164,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHailuoto_nuorisoseura_20190731.jpg",
+      "image_credit": "Wikimedia Commons · Santeri Viinamäki · CC BY-SA 4.0"
+    },
+    "GHC-SEP-29-09": {
+      "published_at": "2026-09-28T18:28:52.370474+00:00",
+      "message_id": 165,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABlackpool_Promenade_-_geograph.org.uk_-_4361269.jpg",
+      "image_credit": "Wikimedia Commons · Mack McLane · CC BY-SA 2.0"
+    },
+    "GHC-SEP-29-18": {
+      "published_at": "2026-09-28T18:28:59.311014+00:00",
+      "message_id": 166,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AReleased_to_Public_Imagining_Earth_from_Millions_of_Miles_Away_%28NASA%29_%28436668492%29.jpg",
+      "image_credit": "Wikimedia Commons · pingnews.com · Public domain"
+    },
+    "GHC-SEP-29-05": {
+      "published_at": "2026-09-28T18:29:03.946314+00:00",
+      "message_id": 167,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1724",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -151,6 +221,12 @@
     {
       "date": "2026-09-28",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-29",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
