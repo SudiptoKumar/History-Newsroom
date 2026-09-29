@@ -209,6 +209,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/1724",
       "image_credit": "Wikipedia"
+    },
+    "GHC-SEP-29-13": {
+      "published_at": "2026-09-29T07:37:54.619144+00:00",
+      "message_id": 168,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Babi_Yar",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-SEP-29-10": {
+      "published_at": "2026-09-29T07:38:03.818691+00:00",
+      "message_id": 169,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_history_of_Ottoman_poetry_%28Volume_4%29.djvu",
+      "image_credit": "Wikimedia Commons · Elias John Wilkinson Gibb · Public domain"
+    },
+    "GHC-SEP-29-11": {
+      "published_at": "2026-09-29T07:38:13.374151+00:00",
+      "message_id": 170,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A2006_July_30%2C_Thessaloniki_39.jpg",
+      "image_credit": "Wikimedia Commons · Syced · CC0"
+    },
+    "GHC-SEP-29-12": {
+      "published_at": "2026-09-29T07:38:21.038719+00:00",
+      "message_id": 171,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMandate_for_Palestine_-_League_of_Nations_-_1922.djvu",
+      "image_credit": "Wikimedia Commons · League of Nations · Public domain"
+    },
+    "GHC-SEP-29-14": {
+      "published_at": "2026-09-29T07:38:35.474851+00:00",
+      "message_id": 172,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Howie_Day",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-SEP-29-15": {
+      "published_at": "2026-09-29T07:38:41.938576+00:00",
+      "message_id": 173,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1957_Events_montage_16-grid_version.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
+    },
+    "GHC-SEP-29-16": {
+      "published_at": "2026-09-29T07:39:03.319401+00:00",
+      "message_id": 174,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASTS_26_Launch.jpg",
+      "image_credit": "Wikimedia Commons · NASA · Public domain"
+    },
+    "GHC-SEP-29-19": {
+      "published_at": "2026-09-29T07:39:10.668299+00:00",
+      "message_id": 175,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAerial_view_of_White_House_and_downtown%2C_Washington%2C_D.C_LCCN2010630891.jpg",
+      "image_credit": "Wikimedia Commons · Carol M. Highsmith · Public domain"
+    },
+    "GHC-SEP-29-01": {
+      "published_at": "2026-09-29T07:39:22.342206+00:00",
+      "message_id": 176,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACanterbury_Cathedral_Choir_1%2C_Kent%2C_UK_-_Diliff.jpg",
+      "image_credit": "Wikimedia Commons · Diliff · CC BY-SA 3.0"
+    },
+    "GHC-SEP-29-02": {
+      "published_at": "2026-09-29T07:39:27.382139+00:00",
+      "message_id": 177,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARhyd_Chwima_677427.jpg",
+      "image_credit": "Wikimedia Commons · John Davies · CC BY-SA 2.0"
     }
   },
   "runs": [
@@ -227,6 +297,12 @@
     {
       "date": "2026-09-29",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-29",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
