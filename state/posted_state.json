@@ -279,6 +279,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ARhyd_Chwima_677427.jpg",
       "image_credit": "Wikimedia Commons · John Davies · CC BY-SA 2.0"
+    },
+    "GHC-SEP-30-11": {
+      "published_at": "2026-09-30T07:39:31.477431+00:00",
+      "message_id": 178,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADe_Vrede_Bewaard_-_Peace_In_Our_Time_%281938%29_-_Flickr_-_FaceMePLS.jpg",
+      "image_credit": "Wikimedia Commons · FaceMePLS from The Hague, The Netherlands · CC BY 2.0"
+    },
+    "GHC-SEP-30-13": {
+      "published_at": "2026-09-30T07:39:39.987679+00:00",
+      "message_id": 179,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Babi_Yar",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-SEP-30-02": {
+      "published_at": "2026-09-30T07:39:53.976410+00:00",
+      "message_id": 180,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANekresi_%2850160624252%29.jpg",
+      "image_credit": "Wikimedia Commons · Max Benidze from Tbilisi · CC BY-SA 2.0"
+    },
+    "GHC-SEP-30-05": {
+      "published_at": "2026-09-30T07:40:02.755516+00:00",
+      "message_id": 181,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIstanbul_Turkish_and_Islamic_Museum_Tu%C4%9Fra_of_Selim_II%2C_on_Temlikname_%28transfer_document%29%2C_1566-74_in_2015_07_9611.jpg",
+      "image_credit": "Wikimedia Commons · Dosseman · CC BY-SA 4.0"
+    },
+    "GHC-SEP-30-08": {
+      "published_at": "2026-09-30T07:40:08.195716+00:00",
+      "message_id": 182,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Penny_Illustrated_Paper_-_October_13%2C_1888_-_Jack_the_Ripper.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-SEP-30-10": {
+      "published_at": "2026-09-30T07:40:15.297890+00:00",
+      "message_id": 183,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAbove_Hoover_Dam_near_Boulder_City%2C_Nevada_LCCN2011630337.tif",
+      "image_credit": "Wikimedia Commons · Carol M. Highsmith · Public domain"
+    },
+    "GHC-SEP-30-16": {
+      "published_at": "2026-09-30T07:40:23.390789+00:00",
+      "message_id": 184,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABerlin_Airlift_Ends_1949_%2815169775589%29.jpg",
+      "image_credit": "Wikimedia Commons · Archives New Zealand from New Zealand · CC BY-SA 2.0"
+    },
+    "GHC-SEP-30-17": {
+      "published_at": "2026-09-30T07:40:37.069382+00:00",
+      "message_id": 185,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACITY_SCAPE.jpg",
+      "image_credit": "Wikimedia Commons · JAMESJUNIORB · CC BY-SA 4.0"
+    },
+    "GHC-SEP-30-18": {
+      "published_at": "2026-09-30T07:40:44.545823+00:00",
+      "message_id": 186,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAMD_AM7992_ethernet_serial_interface_adapter.jpg",
+      "image_credit": "Wikimedia Commons · Antoinebercovici · CC BY-SA 3.0"
+    },
+    "GHC-SEP-30-20": {
+      "published_at": "2026-09-30T07:40:48.912801+00:00",
+      "message_id": 187,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMap%2C_location_of_Tokaimura_nuclear_accident.jpg",
+      "image_credit": "Wikimedia Commons · Greg A L · CC BY-SA 3.0"
     }
   },
   "runs": [
@@ -311,6 +381,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-09-30",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
