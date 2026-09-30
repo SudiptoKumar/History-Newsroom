@@ -349,6 +349,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AMap%2C_location_of_Tokaimura_nuclear_accident.jpg",
       "image_credit": "Wikimedia Commons · Greg A L · CC BY-SA 3.0"
+    },
+    "GHC-SEP-30-04": {
+      "published_at": "2026-09-30T16:40:07.092783+00:00",
+      "message_id": 188,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHenry_IV_Part_1_%281917%29_Yale.djvu",
+      "image_credit": "Wikimedia Commons · William Shakespeare · Public domain"
+    },
+    "GHC-SEP-30-06": {
+      "published_at": "2026-09-30T16:40:13.412655+00:00",
+      "message_id": 189,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASchafferBrothersDesignForMagicFlute1793ArrivalOfSarastro.png",
+      "image_credit": "Wikimedia Commons · Joseph and Peter Schaffer (1793) · Public domain"
+    },
+    "GHC-SEP-30-07": {
+      "published_at": "2026-09-30T16:40:18.930618+00:00",
+      "message_id": 190,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAppletonLocks1FoxRiverHistoricDistrict.jpg",
+      "image_credit": "Wikimedia Commons · Royalbroil · CC BY-SA 3.0"
+    },
+    "GHC-SEP-30-09": {
+      "published_at": "2026-09-30T16:40:29.153255+00:00",
+      "message_id": 191,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARAF_Lancaster_LL864_Crew_Memorial_Eglise_Sainte_Radegonde_Giverny.jpg",
+      "image_credit": "Wikimedia Commons · Rolf Kranz · CC BY-SA 4.0"
+    },
+    "GHC-SEP-30-12": {
+      "published_at": "2026-09-30T16:40:40.300447+00:00",
+      "message_id": 192,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00728,_Genf,_V%C3%B6lkerbund,_Sitzungssaal.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-SEP-30-15": {
+      "published_at": "2026-09-30T16:40:48.345965+00:00",
+      "message_id": 193,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASir_Abdur_Rahman_judge_of_Supreme_Court_of_Pakistan.jpg",
+      "image_credit": "Wikimedia Commons · Alyssa Bivins · CC0"
+    },
+    "GHC-SEP-30-19": {
+      "published_at": "2026-09-30T16:41:06.465097+00:00",
+      "message_id": 194,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALatur_Earthquake_September_30%2C_1993.jpg",
+      "image_credit": "Wikimedia Commons · Duggempudi Ravinder Reddy · CC BY-SA 4.0"
+    },
+    "GHC-SEP-30-01": {
+      "published_at": "2026-09-30T16:41:15.406876+00:00",
+      "message_id": 195,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1909historyofdec04gibbuoft.djvu",
+      "image_credit": "Wikimedia Commons · John Bagnell Bury · Public domain"
+    },
+    "GHC-SEP-30-03": {
+      "published_at": "2026-09-30T16:41:21.719935+00:00",
+      "message_id": 196,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Morlaix.png",
+      "image_credit": "Wikimedia Commons · Serial Number 54129 · CC0"
+    },
+    "GHC-SEP-30-14": {
+      "published_at": "2026-09-30T16:41:29.771097+00:00",
+      "message_id": 197,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A66065_Dollands_Moor_to_Daventry_4M38_for_Jaguar_Land_Rover_%2816620670256%29.jpg",
+      "image_credit": "Wikimedia Commons · Train Photos · CC BY-SA 2.0"
     }
   },
   "runs": [
@@ -385,6 +455,12 @@
     {
       "date": "2026-09-30",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-09-30",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
