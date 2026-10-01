@@ -489,6 +489,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/National_Assembly_(French_Revolution)",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-01-11": {
+      "published_at": "2026-10-01T17:16:47.861687+00:00",
+      "message_id": 208,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_Belgian_history",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-01-12": {
+      "published_at": "2026-10-01T17:16:55.701018+00:00",
+      "message_id": 209,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:%22Transfer_of_the_Louisiana_Territory_at_New_Orleans,_1803.%22.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-01-13": {
+      "published_at": "2026-10-01T17:17:01.992011+00:00",
+      "message_id": 210,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:CongressVienna.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-01-14": {
+      "published_at": "2026-10-01T17:17:08.581062+00:00",
+      "message_id": 211,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_baseball_in_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-01-15": {
+      "published_at": "2026-10-01T17:17:13.432518+00:00",
+      "message_id": 212,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWeird_Tales_v15_n06_1930-06.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-01-16": {
+      "published_at": "2026-10-01T17:17:24.280301+00:00",
+      "message_id": 213,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-01-17": {
+      "published_at": "2026-10-01T17:17:30.960177+00:00",
+      "message_id": 214,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Franz_Kafka",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-01-18": {
+      "published_at": "2026-10-01T17:17:36.589817+00:00",
+      "message_id": 215,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Capture_of_Damascus_(1918)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-01-19": {
+      "published_at": "2026-10-01T17:17:43.956298+00:00",
+      "message_id": 216,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Said_Abdullah_Khan.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-01-20": {
+      "published_at": "2026-10-01T17:17:48.293881+00:00",
+      "message_id": 217,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Modern_Review_Vol_34_%28July-Dec._1923%29.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
     }
   },
   "runs": [
@@ -537,6 +607,12 @@
     {
       "date": "2026-10-01",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-01",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
