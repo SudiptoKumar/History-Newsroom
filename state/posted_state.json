@@ -629,6 +629,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File:Gonzales_cannon_2005.jpg",
       "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-11": {
+      "published_at": "2026-10-02T16:29:53.624716+00:00",
+      "message_id": 228,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:The_photographic_history_of_the_Civil_War_-_thousands_of_scenes_photographed_1861-65,_with_text_by_many_special_authorities_(1911)_(14782771763).jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-12": {
+      "published_at": "2026-10-02T16:30:01.843873+00:00",
+      "message_id": 229,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AConstitution_of_the_kingdom_of_Italy.djvu",
+      "image_credit": "Wikimedia Commons · Samuel McCune Lindsay / Leo Stanton Rowe · Public domain"
+    },
+    "GHC-OCT-02-13": {
+      "published_at": "2026-10-02T16:30:10.664926+00:00",
+      "message_id": 230,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_Critical_Dictionary_of_English_Literature_-_Volume_3_%281891%29.djvu",
+      "image_credit": "Wikimedia Commons · Samuel Austin Allibone · Public domain"
+    },
+    "GHC-OCT-02-14": {
+      "published_at": "2026-10-02T16:30:17.150745+00:00",
+      "message_id": 231,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:President_Wilson_1919.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-15": {
+      "published_at": "2026-10-02T16:30:24.023331+00:00",
+      "message_id": 232,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Mikhail_Frunze",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-16": {
+      "published_at": "2026-10-02T16:30:32.429904+00:00",
+      "message_id": 233,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Josemaria_Escriva.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-17": {
+      "published_at": "2026-10-02T16:30:38.435846+00:00",
+      "message_id": 234,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:TrujilloVincentLescot1935.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-18": {
+      "published_at": "2026-10-02T16:30:43.176348+00:00",
+      "message_id": 235,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_maritime_disasters_in_World_War_II",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-02-19": {
+      "published_at": "2026-10-02T16:30:49.148255+00:00",
+      "message_id": 236,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWarsaw_Ghetto_Uprising_Umschlagplatz_1943_05.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author (Franz Konrad confessed to taking some of the photographs, the rest was probably taken by photographers from Propaganda Kompanie nr 689.[1][2]) · Public domain"
+    },
+    "GHC-OCT-02-20": {
+      "published_at": "2026-10-02T16:31:00.219436+00:00",
+      "message_id": 237,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Guinea-Bissau_War_of_Independence",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -689,6 +759,12 @@
     {
       "date": "2026-10-02",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-02",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
