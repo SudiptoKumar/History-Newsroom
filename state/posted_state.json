@@ -559,6 +559,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Modern_Review_Vol_34_%28July-Dec._1923%29.djvu",
       "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-02-01": {
+      "published_at": "2026-10-02T07:41:25.790909+00:00",
+      "message_id": 218,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-02-02": {
+      "published_at": "2026-10-02T07:41:33.679555+00:00",
+      "message_id": 219,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Andernach",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-03": {
+      "published_at": "2026-10-02T07:41:39.938882+00:00",
+      "message_id": 220,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/After_the_First_Crusade,_1099%E2%80%931146",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-02-04": {
+      "published_at": "2026-10-02T07:41:47.826667+00:00",
+      "message_id": 221,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A%27The_Pencil%27_-_Battle_of_Largs_Monument.jpg",
+      "image_credit": "Wikimedia Commons · Raibeart MacAoidh · CC BY-SA 4.0"
+    },
+    "GHC-OCT-02-05": {
+      "published_at": "2026-10-02T07:41:54.322218+00:00",
+      "message_id": 222,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/England_in_the_Late_Middle_Ages",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-02-06": {
+      "published_at": "2026-10-02T07:42:03.864942+00:00",
+      "message_id": 223,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Russo-Turkish_wars",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-02-07": {
+      "published_at": "2026-10-02T07:42:10.263828+00:00",
+      "message_id": 224,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Nottingham_Goose_Fair.JPG",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-02-08": {
+      "published_at": "2026-10-02T07:42:18.333014+00:00",
+      "message_id": 225,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_military_leaders_in_the_American_Revolutionary_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-02-09": {
+      "published_at": "2026-10-02T07:42:24.740342+00:00",
+      "message_id": 226,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Presidents_of_the_United_States%2C_1789-1914%2C_v._III.djvu",
+      "image_credit": "Wikimedia Commons · James Grant Wilson (editor) · Public domain"
+    },
+    "GHC-OCT-02-10": {
+      "published_at": "2026-10-02T07:42:30.969112+00:00",
+      "message_id": 227,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Gonzales_cannon_2005.jpg",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
@@ -613,6 +683,12 @@
     {
       "date": "2026-10-01",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-02",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
