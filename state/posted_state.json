@@ -699,6 +699,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Guinea-Bissau_War_of_Independence",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-01": {
+      "published_at": "2026-10-03T07:13:08.212376+00:00",
+      "message_id": 238,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABury_J_B_The_Cambridge_Medieval_History_Vol_2_1913.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-03-02": {
+      "published_at": "2026-10-03T07:13:16.175709+00:00",
+      "message_id": 239,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Crusades_of_the_15th_century",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-03": {
+      "published_at": "2026-10-03T07:13:26.191105+00:00",
+      "message_id": 240,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Siege_of_Leiden",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-03-04": {
+      "published_at": "2026-10-03T07:13:33.236115+00:00",
+      "message_id": 241,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABrugesGarterBook_ArmsOfSuccessorKnights.png",
+      "image_credit": "Wikimedia Commons · William Bruges · Public domain"
+    },
+    "GHC-OCT-03-05": {
+      "published_at": "2026-10-03T07:13:47.498012+00:00",
+      "message_id": 242,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Chapel_of_Saint_Casimir",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-06": {
+      "published_at": "2026-10-03T07:13:52.942884+00:00",
+      "message_id": 243,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Fulke_Greville,_1st_Baron_Brooke",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-07": {
+      "published_at": "2026-10-03T07:14:02.281478+00:00",
+      "message_id": 244,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1683",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-08": {
+      "published_at": "2026-10-03T07:14:12.610843+00:00",
+      "message_id": 245,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1712",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-09": {
+      "published_at": "2026-10-03T07:14:17.595803+00:00",
+      "message_id": 246,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Treaty_of_the_Pruth",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-10": {
+      "published_at": "2026-10-03T07:14:28.908906+00:00",
+      "message_id": 247,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1789",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -765,6 +835,12 @@
     {
       "date": "2026-10-02",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-03",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
