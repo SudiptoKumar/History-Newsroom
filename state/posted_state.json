@@ -769,6 +769,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/1789",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-11": {
+      "published_at": "2026-10-03T15:03:40.146827+00:00",
+      "message_id": 248,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1792",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-12": {
+      "published_at": "2026-10-03T15:03:45.274115+00:00",
+      "message_id": 249,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Second_Battle_of_Corinth",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-13": {
+      "published_at": "2026-10-03T15:04:01.253795+00:00",
+      "message_id": 250,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-14": {
+      "published_at": "2026-10-03T15:04:11.172488+00:00",
+      "message_id": 251,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:El_Coyotepe_2.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-03-15": {
+      "published_at": "2026-10-03T15:04:17.333461+00:00",
+      "message_id": 252,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Coronation_of_the_Bulgarian_monarch",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-16": {
+      "published_at": "2026-10-03T15:04:29.938676+00:00",
+      "message_id": 253,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Crowd_gathers_for_updates_to_1919_World_Series.JPG",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-03-17": {
+      "published_at": "2026-10-03T15:04:35.905290+00:00",
+      "message_id": 254,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1920_Kingdom_of_Serbs,_Croats_and_Slovenes_Constitutional_Assembly_election",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-18": {
+      "published_at": "2026-10-03T15:04:48.471808+00:00",
+      "message_id": 255,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Travels_of_Ibn_Battuta_Volume_1.djvu",
+      "image_credit": "Wikimedia Commons · Ibn Battuta · Public domain"
+    },
+    "GHC-OCT-03-19": {
+      "published_at": "2026-10-03T15:04:53.928780+00:00",
+      "message_id": 256,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-03-20": {
+      "published_at": "2026-10-03T15:05:07.549938+00:00",
+      "message_id": 257,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Launch_of_a_V-2_rocket_(49775376157).jpg",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
@@ -841,6 +911,12 @@
     {
       "date": "2026-10-03",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-03",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
