@@ -909,6 +909,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-11": {
+      "published_at": "2026-10-04T15:39:55.828632+00:00",
+      "message_id": 268,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:La_Violette_Chiffonnier_(NAPOLEON_125).jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-04-12": {
+      "published_at": "2026-10-04T15:40:06.927419+00:00",
+      "message_id": 269,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Federal_and_state_constitutions_vol1.djvu",
+      "image_credit": "Wikimedia Commons · Francis Newton Thorpe · Public domain"
+    },
+    "GHC-OCT-04-13": {
+      "published_at": "2026-10-04T15:40:15.083858+00:00",
+      "message_id": 270,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Netherlands",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-14": {
+      "published_at": "2026-10-04T15:40:31.012836+00:00",
+      "message_id": 271,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_Illustrated_Album_De_Luxe%3B_the_Story_of_the_Great_European_War_Told_by_Camera%2C_Pen_and_Pencil%2C_1918_%28volume_IX%29_-_The_Forth_Year%2C_1917-18.djvu",
+      "image_credit": "Wikimedia Commons · Sir John Alexander Hammerton · Public domain"
+    },
+    "GHC-OCT-04-15": {
+      "published_at": "2026-10-04T15:40:41.541046+00:00",
+      "message_id": 272,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEngineering_News_and_American_Railway_Journal_1893-11-16-_Vol_30_Iss_20_%28IA_enr_1893-11-16_30_20%29.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-04-16": {
+      "published_at": "2026-10-04T15:40:48.099120+00:00",
+      "message_id": 273,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Mannerheim_League_for_Child_Welfare",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-17": {
+      "published_at": "2026-10-04T15:40:58.943709+00:00",
+      "message_id": 274,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Great_Syrian_Revolt",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-18": {
+      "published_at": "2026-10-04T15:41:02.174350+00:00",
+      "message_id": 275,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1925",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-19": {
+      "published_at": "2026-10-04T15:41:14.384871+00:00",
+      "message_id": 276,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Crazy_Horse_Memorial",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-20": {
+      "published_at": "2026-10-04T15:41:25.413933+00:00",
+      "message_id": 277,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Unite_the_Right_rally",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -993,6 +1063,12 @@
     {
       "date": "2026-10-04",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-04",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
