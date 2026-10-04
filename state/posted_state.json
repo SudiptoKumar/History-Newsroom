@@ -839,6 +839,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File:Launch_of_a_V-2_rocket_(49775376157).jpg",
       "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-04-01": {
+      "published_at": "2026-10-04T07:32:33.198246+00:00",
+      "message_id": 258,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Coronation_of_the_Holy_Roman_Emperor",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-02": {
+      "published_at": "2026-10-04T07:32:42.763302+00:00",
+      "message_id": 259,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Venetian_War_(1714%E2%80%931718)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-03": {
+      "published_at": "2026-10-04T07:32:50.684319+00:00",
+      "message_id": 260,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Largest_naval_battle_in_history",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-04": {
+      "published_at": "2026-10-04T07:32:59.929985+00:00",
+      "message_id": 261,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Holy_League_(1684)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-05": {
+      "published_at": "2026-10-04T07:33:07.647265+00:00",
+      "message_id": 262,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_English_Hexapla%2C_exhibiting_the_six_important_English_translations_of_the_New_Testament_Scriptures_%281841%29.djvu",
+      "image_credit": "Wikimedia Commons · Johann Martin Augustin Scholz · Public domain"
+    },
+    "GHC-OCT-04-06": {
+      "published_at": "2026-10-04T07:33:14.579022+00:00",
+      "message_id": 263,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AInter-grav.jpg",
+      "image_credit": "Wikimedia Commons · Gregory XIII · Public domain"
+    },
+    "GHC-OCT-04-07": {
+      "published_at": "2026-10-04T07:33:21.726183+00:00",
+      "message_id": 264,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_India_Vol_6.djvu",
+      "image_credit": "Wikimedia Commons · William Wilson Hunter · Public domain"
+    },
+    "GHC-OCT-04-08": {
+      "published_at": "2026-10-04T07:33:30.231996+00:00",
+      "message_id": 265,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Swedish_intervention_in_the_Thirty_Years%27_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-09": {
+      "published_at": "2026-10-04T07:33:39.795569+00:00",
+      "message_id": 266,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Nine_Years%27_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-04-10": {
+      "published_at": "2026-10-04T07:33:51.148392+00:00",
+      "message_id": 267,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -917,6 +987,12 @@
     {
       "date": "2026-10-03",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-04",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
