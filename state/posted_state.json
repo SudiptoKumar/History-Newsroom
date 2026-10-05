@@ -1049,6 +1049,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-11": {
+      "published_at": "2026-10-05T19:30:33.849211+00:00",
+      "message_id": 288,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Princesse_de_Lamballe%3B_a_biography.djvu",
+      "image_credit": "Wikimedia Commons · B. C. (Blanche Christabel) Hardy · Public domain"
+    },
+    "GHC-OCT-06-12": {
+      "published_at": "2026-10-05T19:30:36.710986+00:00",
+      "message_id": 289,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-06-13": {
+      "published_at": "2026-10-05T19:30:49.859329+00:00",
+      "message_id": 290,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/The_13_Martyrs_of_Arad",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-14": {
+      "published_at": "2026-10-05T19:30:55.065164+00:00",
+      "message_id": 291,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAustralia_an_appeal.djvu",
+      "image_credit": "Wikimedia Commons · Robert Menli Lyon · Public domain"
+    },
+    "GHC-OCT-06-15": {
+      "published_at": "2026-10-05T19:31:02.643792+00:00",
+      "message_id": 292,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Bosnia_and_Herzegovina",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-16": {
+      "published_at": "2026-10-05T19:31:08.407248+00:00",
+      "message_id": 293,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Eleftherios_Venizelos",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-17": {
+      "published_at": "2026-10-05T19:31:15.334164+00:00",
+      "message_id": 294,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Bulgaria_during_World_War_I",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-18": {
+      "published_at": "2026-10-05T19:31:19.748640+00:00",
+      "message_id": 295,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Jews_in_Thessaloniki",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-19": {
+      "published_at": "2026-10-05T19:31:23.918452+00:00",
+      "message_id": 296,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Outline_of_the_Russian_Civil_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-20": {
+      "published_at": "2026-10-05T19:31:31.287091+00:00",
+      "message_id": 297,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/United_Kingdom_during_the_Turkish_War_of_Independence",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1145,6 +1215,12 @@
     {
       "date": "2026-10-05",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-06",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
