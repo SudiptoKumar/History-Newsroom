@@ -979,6 +979,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Unite_the_Right_rally",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-05-01": {
+      "published_at": "2026-10-05T07:50:51.056812+00:00",
+      "message_id": 278,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Coronation_of_the_Byzantine_emperor",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-05-02": {
+      "published_at": "2026-10-05T07:50:55.677587+00:00",
+      "message_id": 279,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADecline_and_Fall_of_the_Roman_Empire_vol_6_%281897%29.djvu",
+      "image_credit": "Wikimedia Commons · Gibbon, Edward, 1737-1794; Bury, J. B. (John Bagnell), 1861-1927 · Public domain"
+    },
+    "GHC-OCT-05-03": {
+      "published_at": "2026-10-05T07:50:59.863137+00:00",
+      "message_id": 280,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Council_of_Constantinople",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-05-04": {
+      "published_at": "2026-10-05T07:51:03.809623+00:00",
+      "message_id": 281,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_the_Reign_of_Ferdinand_and_Isabella_the_Catholic_Vol._I.djvu",
+      "image_credit": "Wikimedia Commons · William Hickling Prescott · Public domain"
+    },
+    "GHC-OCT-05-05": {
+      "published_at": "2026-10-05T07:51:07.707401+00:00",
+      "message_id": 282,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Jews_in_the_Ottoman_Empire",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-05-06": {
+      "published_at": "2026-10-05T07:51:10.559656+00:00",
+      "message_id": 283,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-05-07": {
+      "published_at": "2026-10-05T07:51:13.662673+00:00",
+      "message_id": 284,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Paolo_Sarpi",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-05-08": {
+      "published_at": "2026-10-05T07:51:16.248433+00:00",
+      "message_id": 285,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-05-09": {
+      "published_at": "2026-10-05T07:51:20.926809+00:00",
+      "message_id": 286,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Indiana_Territory_in_the_War_of_1812",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-05-10": {
+      "published_at": "2026-10-05T07:51:25.695537+00:00",
+      "message_id": 287,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1069,6 +1139,12 @@
     {
       "date": "2026-10-04",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-05",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
