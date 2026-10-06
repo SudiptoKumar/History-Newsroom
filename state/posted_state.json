@@ -1119,6 +1119,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/United_Kingdom_during_the_Turkish_War_of_Independence",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-01": {
+      "published_at": "2026-10-06T08:16:10.429807+00:00",
+      "message_id": 298,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/AD_404",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-02": {
+      "published_at": "2026-10-06T08:16:13.532672+00:00",
+      "message_id": 299,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Military_history_of_the_Tang_dynasty",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-06-03": {
+      "published_at": "2026-10-06T08:16:15.907437+00:00",
+      "message_id": 300,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-06-04": {
+      "published_at": "2026-10-06T08:16:17.889997+00:00",
+      "message_id": 301,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-06-05": {
+      "published_at": "2026-10-06T08:16:21.491345+00:00",
+      "message_id": 302,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWenzel_III_Litho.JPG",
+      "image_credit": "Wikimedia Commons · Josef Kriehuber · Public domain"
+    },
+    "GHC-OCT-06-06": {
+      "published_at": "2026-10-06T08:16:24.568768+00:00",
+      "message_id": 303,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-06-07": {
+      "published_at": "2026-10-06T08:16:26.566563+00:00",
+      "message_id": 304,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-06-08": {
+      "published_at": "2026-10-06T08:16:29.776343+00:00",
+      "message_id": 305,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AChange_and_challenge%2C_a_history_of_the_Church_of_the_Brethren_in_the_southern_district_of_Pennsylvania%2C_1940-1972.djvu",
+      "image_credit": "Wikimedia Commons · Gleim, Elmer Quentin, 1917- · Public domain"
+    },
+    "GHC-OCT-06-09": {
+      "published_at": "2026-10-06T08:16:38.330724+00:00",
+      "message_id": 306,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Capture_of_Havana%2C_1762-_the_Landing%2C_7th_June_RMG_BHC0409.tiff",
+      "image_credit": "Wikimedia Commons · Dominic Serres · Public domain"
+    },
+    "GHC-OCT-06-10": {
+      "published_at": "2026-10-06T08:16:43.456686+00:00",
+      "message_id": 307,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Forts_Clinton_and_Montgomery",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1221,6 +1291,12 @@
     {
       "date": "2026-10-06",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-06",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
