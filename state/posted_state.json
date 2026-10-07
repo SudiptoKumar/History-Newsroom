@@ -1189,6 +1189,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Battle_of_Forts_Clinton_and_Montgomery",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-01": {
+      "published_at": "2026-10-07T07:51:01.214137+00:00",
+      "message_id": 308,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_history_of_the_maritime_wars_of_the_Turks_-_chapters_I_to_IV.djvu",
+      "image_credit": "Wikimedia Commons · Kâtip Çelebi · Public domain"
+    },
+    "GHC-OCT-07-02": {
+      "published_at": "2026-10-07T07:51:11.699921+00:00",
+      "message_id": 309,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Uppsala_University",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-07-03": {
+      "published_at": "2026-10-07T07:51:19.324722+00:00",
+      "message_id": 310,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARidpath%27s_history_of_the_world_-_being_an_account_of_the_principal_events_in_the_career_of_the_human_race_from_the_beginnings_of_civilization_to_the_present_time_-_comprising_the_development_of_social_%2814594180409%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-OCT-07-04": {
+      "published_at": "2026-10-07T07:51:24.787262+00:00",
+      "message_id": 311,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_history_of_the_maritime_wars_of_the_Turks_-_chapters_I_to_IV.djvu",
+      "image_credit": "Wikimedia Commons · Kâtip Çelebi · Public domain"
+    },
+    "GHC-OCT-07-05": {
+      "published_at": "2026-10-07T07:51:30.066376+00:00",
+      "message_id": 312,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Aleksandr_of_Tver",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-06": {
+      "published_at": "2026-10-07T07:51:36.238561+00:00",
+      "message_id": 313,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Elizabeth_of_Luxembourg",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-07": {
+      "published_at": "2026-10-07T07:51:49.669412+00:00",
+      "message_id": 314,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGenealogical_Massachusetts_Cutter_v1.djvu",
+      "image_credit": "Wikimedia Commons · William Richard Cutter · Public domain"
+    },
+    "GHC-OCT-07-08": {
+      "published_at": "2026-10-07T07:51:57.566371+00:00",
+      "message_id": 315,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Southern_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-09": {
+      "published_at": "2026-10-07T07:52:08.185540+00:00",
+      "message_id": 316,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Battle_of_Bemis_Heights",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-07-10": {
+      "published_at": "2026-10-07T07:52:17.600680+00:00",
+      "message_id": 317,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Kings_Mountain._Feb._1955._LOC_73695966.jpg",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
@@ -1305,6 +1375,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-10-07",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
