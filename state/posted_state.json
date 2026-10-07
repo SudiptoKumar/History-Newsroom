@@ -1259,6 +1259,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Kings_Mountain._Feb._1955._LOC_73695966.jpg",
       "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-07-11": {
+      "published_at": "2026-10-07T17:40:34.876733+00:00",
+      "message_id": 318,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Confiance_(1797_ship)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-12": {
+      "published_at": "2026-10-07T17:40:42.319759+00:00",
+      "message_id": 319,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_rail_transportation_in_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-13": {
+      "published_at": "2026-10-07T17:40:49.011508+00:00",
+      "message_id": 320,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Morea_expedition",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-14": {
+      "published_at": "2026-10-07T17:40:58.934830+00:00",
+      "message_id": 321,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Philadelphia_Stock_Exchange",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-15": {
+      "published_at": "2026-10-07T17:41:06.613834+00:00",
+      "message_id": 322,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Ford_Motor_Company",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-16": {
+      "published_at": "2026-10-07T17:41:13.891496+00:00",
+      "message_id": 323,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1916_Cumberland_vs._Georgia_Tech_football_game",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-17": {
+      "published_at": "2026-10-07T17:41:22.253015+00:00",
+      "message_id": 324,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Airline",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-18": {
+      "published_at": "2026-10-07T17:41:30.127139+00:00",
+      "message_id": 325,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Eleutherios_Venizelos.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-07-19": {
+      "published_at": "2026-10-07T17:41:40.978367+00:00",
+      "message_id": 326,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ignatios_of_Constantinople",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-07-20": {
+      "published_at": "2026-10-07T17:41:48.250469+00:00",
+      "message_id": 327,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:McCollum_memo_Page1.png",
+      "image_credit": "Wikimedia Commons"
     }
   },
   "runs": [
@@ -1379,6 +1449,12 @@
     {
       "date": "2026-10-07",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-07",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
