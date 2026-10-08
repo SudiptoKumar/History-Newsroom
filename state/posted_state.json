@@ -1399,6 +1399,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Stephenson%27s_Rocket",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-08-11": {
+      "published_at": "2026-10-08T17:43:34.121058+00:00",
+      "message_id": 338,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/First_Opium_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-08-12": {
+      "published_at": "2026-10-08T17:43:42.241491+00:00",
+      "message_id": 339,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFormer_home_of_General_George_H._Thomas_%28Civil_War_General%29.jpg",
+      "image_credit": "Wikimedia Commons · dbking from Washington, DC · CC BY 2.0"
+    },
+    "GHC-OCT-08-13": {
+      "published_at": "2026-10-08T17:43:56.029305+00:00",
+      "message_id": 340,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:1871_Events_Collage_V_1.0.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-08-14": {
+      "published_at": "2026-10-08T17:44:04.120916+00:00",
+      "message_id": 341,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_invasion_of_the_Crimea_vol._1.djvu",
+      "image_credit": "Wikimedia Commons · 1809-1891 Alexander William Kinglake · Public domain"
+    },
+    "GHC-OCT-08-15": {
+      "published_at": "2026-10-08T17:44:11.231292+00:00",
+      "message_id": 342,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Alvin_York",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-08-16": {
+      "published_at": "2026-10-08T17:44:19.911722+00:00",
+      "message_id": 343,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:KDKA_-_second_licence_-_November_7,_1921.pdf",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-08-17": {
+      "published_at": "2026-10-08T17:44:28.853390+00:00",
+      "message_id": 344,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APoland_2025_108_Cieszyn_Cemetery_-_Matter_Tomb.jpg",
+      "image_credit": "Wikimedia Commons · Scotch Mist · CC BY-SA 4.0"
+    },
+    "GHC-OCT-08-18": {
+      "published_at": "2026-10-08T17:44:35.727964+00:00",
+      "message_id": 345,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Battle_of_Rostov.jpeg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-08-19": {
+      "published_at": "2026-10-08T17:44:42.041617+00:00",
+      "message_id": 346,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Massacre_of_Kalavryta",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-08-20": {
+      "published_at": "2026-10-08T17:44:49.226621+00:00",
+      "message_id": 347,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Aachen",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1531,6 +1601,12 @@
     {
       "date": "2026-10-08",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-08",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
