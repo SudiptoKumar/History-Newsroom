@@ -1329,6 +1329,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File:McCollum_memo_Page1.png",
       "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-08-01": {
+      "published_at": "2026-10-08T08:07:46.755848+00:00",
+      "message_id": 328,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Licinius_%26_Constantine_montage.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-08-02": {
+      "published_at": "2026-10-08T08:07:54.399357+00:00",
+      "message_id": 329,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACorrespondence_of_Marcus_Cornelius_Fronto_volume_1_Haines_1919.djvu",
+      "image_credit": "Wikimedia Commons · Marcus Cornelius Fronto · Public domain"
+    },
+    "GHC-OCT-08-03": {
+      "published_at": "2026-10-08T08:07:59.379014+00:00",
+      "message_id": 330,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Netherlands",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-08-04": {
+      "published_at": "2026-10-08T08:08:03.325583+00:00",
+      "message_id": 331,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKolajnaKruneKraljaZvonimira.jpg",
+      "image_credit": "Wikimedia Commons · Dmitar Zvonimir · Attribution"
+    },
+    "GHC-OCT-08-05": {
+      "published_at": "2026-10-08T08:08:08.741415+00:00",
+      "message_id": 332,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Queens_of_England.djvu",
+      "image_credit": "Wikimedia Commons · Mary Botham Howitt · Public domain"
+    },
+    "GHC-OCT-08-06": {
+      "published_at": "2026-10-08T08:08:18.658275+00:00",
+      "message_id": 333,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Mladen_II_%C5%A0ubi%C4%87_of_Bribir",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-08-07": {
+      "published_at": "2026-10-08T08:08:33.356771+00:00",
+      "message_id": 334,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADSC00163_-_Jeanne_Mance_%2848152418686%29.jpg",
+      "image_credit": "Wikimedia Commons · Dennis G. Jarvis · CC BY-SA 2.0"
+    },
+    "GHC-OCT-08-08": {
+      "published_at": "2026-10-08T08:08:45.704467+00:00",
+      "message_id": 335,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Treaties_of_Reichenbach_(1813)",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-08-09": {
+      "published_at": "2026-10-08T08:08:49.957648+00:00",
+      "message_id": 336,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_in_Cartoons.djvu",
+      "image_credit": "Wikimedia Commons · 1895- comp. and ed George Joseph Hecht · Public domain"
+    },
+    "GHC-OCT-08-10": {
+      "published_at": "2026-10-08T08:08:55.501260+00:00",
+      "message_id": 337,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Stephenson%27s_Rocket",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1455,6 +1525,12 @@
     {
       "date": "2026-10-07",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-08",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
