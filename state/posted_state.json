@@ -1539,6 +1539,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Peter_the_Great",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-11": {
+      "published_at": "2026-10-09T17:19:53.900120+00:00",
+      "message_id": 358,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:1740_Batavia_massacre.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-09-12": {
+      "published_at": "2026-10-09T17:19:59.607476+00:00",
+      "message_id": 359,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_Illustrated_Album_De_Luxe%3B_the_Story_of_the_Great_European_War_Told_by_Camera%2C_Pen_and_Pencil%2C_1917_%28volume_VIII%29_-_Ending_the_First_Three_Years.djvu",
+      "image_credit": "Wikimedia Commons · Sir John Alexander Hammerton · Public domain"
+    },
+    "GHC-OCT-09-13": {
+      "published_at": "2026-10-09T17:20:11.036286+00:00",
+      "message_id": 360,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Southern_theater_of_the_American_Revolutionary_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-14": {
+      "published_at": "2026-10-09T17:20:21.578582+00:00",
+      "message_id": 361,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Wuchang_Uprising",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-09-15": {
+      "published_at": "2026-10-09T17:20:28.228804+00:00",
+      "message_id": 362,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Volturno_(ship,_1906)",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-09-16": {
+      "published_at": "2026-10-09T17:20:33.647223+00:00",
+      "message_id": 363,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_Illustrated_Album_De_Luxe%3B_the_Story_of_the_Great_European_War_Told_by_Camera%2C_Pen_and_Pencil%2C_1915_%28volume_II%29_-_The_Winter_Campaign%2C_1914-15.djvu",
+      "image_credit": "Wikimedia Commons · Sir John Alexander Hammerton · Public domain"
+    },
+    "GHC-OCT-09-17": {
+      "published_at": "2026-10-09T17:20:38.394855+00:00",
+      "message_id": 364,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Prince_Frederick_Charles_of_Hesse",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-09-18": {
+      "published_at": "2026-10-09T17:20:42.925967+00:00",
+      "message_id": 365,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1919_World_Series",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-19": {
+      "published_at": "2026-10-09T17:20:50.117260+00:00",
+      "message_id": 366,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:The_coffin_containing_the_body_of_king_Alexander_in_Split.JPG",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-09-20": {
+      "published_at": "2026-10-09T17:20:57.417983+00:00",
+      "message_id": 367,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Hoover_Dam",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1683,6 +1753,12 @@
     {
       "date": "2026-10-09",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-09",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
