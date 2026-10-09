@@ -1469,6 +1469,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Battle_of_Aachen",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-01": {
+      "published_at": "2026-10-09T08:07:24.696975+00:00",
+      "message_id": 348,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Carloman_I.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-09-02": {
+      "published_at": "2026-10-09T08:07:29.581383+00:00",
+      "message_id": 349,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Wines_of_the_World_%281875%29.djvu",
+      "image_credit": "Wikimedia Commons · Henry Vizetelly · Public domain"
+    },
+    "GHC-OCT-09-03": {
+      "published_at": "2026-10-09T08:07:33.598744+00:00",
+      "message_id": 350,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AClocks_and_Watches.djvu",
+      "image_credit": "Wikimedia Commons · George L. Overton · Public domain"
+    },
+    "GHC-OCT-09-04": {
+      "published_at": "2026-10-09T08:07:40.194449+00:00",
+      "message_id": 351,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Siege_of_Galle_(1640)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-05": {
+      "published_at": "2026-10-09T08:07:46.090784+00:00",
+      "message_id": 352,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:V%C3%A9n%C3%A9rable_et_scientifique_Messire_Robert_Sorbon,_fondateur_du_coll%C3%A8ge_dit_de_Sorbonne.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-OCT-09-06": {
+      "published_at": "2026-10-09T08:07:49.584401+00:00",
+      "message_id": 353,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Salimbene_di_Adam",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-07": {
+      "published_at": "2026-10-09T08:07:53.217113+00:00",
+      "message_id": 354,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Kepler%27s_Supernova",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-08": {
+      "published_at": "2026-10-09T08:07:56.903883+00:00",
+      "message_id": 355,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAncestral_records_and_portraits_a_compilation_from_the_archives_of_Chapter_I_the_Colonial_dames_of_America_%281910%29.djvu",
+      "image_credit": "Wikimedia Commons · Baltimore Colonial Dames of America. Chapter I · Public domain"
+    },
+    "GHC-OCT-09-09": {
+      "published_at": "2026-10-09T08:08:03.812217+00:00",
+      "message_id": 356,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Old_Saybrook,_Connecticut",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-09-10": {
+      "published_at": "2026-10-09T08:08:08.947817+00:00",
+      "message_id": 357,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Peter_the_Great",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1607,6 +1677,12 @@
     {
       "date": "2026-10-08",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-09",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
