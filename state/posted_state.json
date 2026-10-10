@@ -1679,6 +1679,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/List_of_United_States_Naval_Academy_alumni",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-11": {
+      "published_at": "2026-10-10T16:06:35.656514+00:00",
+      "message_id": 378,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-12": {
+      "published_at": "2026-10-10T16:06:42.345311+00:00",
+      "message_id": 379,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ten_Years%27_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-13": {
+      "published_at": "2026-10-10T16:06:49.161163+00:00",
+      "message_id": 380,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1629",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-14": {
+      "published_at": "2026-10-10T16:06:55.183257+00:00",
+      "message_id": 381,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOutlines_of_the_women%27s_franchise_movement_in_New_Zealand.djvu",
+      "image_credit": "Wikimedia Commons · William Lovell-Smith · Public domain"
+    },
+    "GHC-OCT-10-15": {
+      "published_at": "2026-10-10T16:06:57.653740+00:00",
+      "message_id": 382,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-10-16": {
+      "published_at": "2026-10-10T16:07:03.221015+00:00",
+      "message_id": 383,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Panama_Canal",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-17": {
+      "published_at": "2026-10-10T16:07:05.807135+00:00",
+      "message_id": 384,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-10-18": {
+      "published_at": "2026-10-10T16:07:08.284095+00:00",
+      "message_id": 385,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-10-19": {
+      "published_at": "2026-10-10T16:07:13.092254+00:00",
+      "message_id": 386,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Chiang_Kai-shek",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-20": {
+      "published_at": "2026-10-10T16:07:16.365457+00:00",
+      "message_id": 387,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_airliners_in_the_United_States",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1835,6 +1905,12 @@
     {
       "date": "2026-10-10",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-10",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
