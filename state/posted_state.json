@@ -1609,6 +1609,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Hoover_Dam",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-01": {
+      "published_at": "2026-10-10T07:51:50.113284+00:00",
+      "message_id": 368,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-10-02": {
+      "published_at": "2026-10-10T07:51:53.755904+00:00",
+      "message_id": 369,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABrooklyn_Museum_-_Battle_of_Karbala_-_Abbas_Al-Musavi_-_overall.jpg",
+      "image_credit": "Wikimedia Commons · Abbas Al-Musavi · Public domain"
+    },
+    "GHC-OCT-10-03": {
+      "published_at": "2026-10-10T07:51:58.393244+00:00",
+      "message_id": 370,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Charles_Martel",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-04": {
+      "published_at": "2026-10-10T07:52:02.775088+00:00",
+      "message_id": 371,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1471",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-05": {
+      "published_at": "2026-10-10T07:52:10.003953+00:00",
+      "message_id": 372,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-06": {
+      "published_at": "2026-10-10T07:52:18.142030+00:00",
+      "message_id": 373,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1575",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-07": {
+      "published_at": "2026-10-10T07:52:21.171153+00:00",
+      "message_id": 374,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ndyuka_people",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-08": {
+      "published_at": "2026-10-10T07:52:25.033261+00:00",
+      "message_id": 375,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_the_deadliest_tropical_cyclones",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-09": {
+      "published_at": "2026-10-10T07:52:28.984300+00:00",
+      "message_id": 376,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Defense_of_the_cutter_Eagle",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-10-10": {
+      "published_at": "2026-10-10T07:52:35.536778+00:00",
+      "message_id": 377,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_United_States_Naval_Academy_alumni",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1759,6 +1829,12 @@
     {
       "date": "2026-10-09",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-10",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
