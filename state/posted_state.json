@@ -1819,6 +1819,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-11": {
+      "published_at": "2026-10-11T16:33:43.177594+00:00",
+      "message_id": 398,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Military_history_of_the_Netherlands",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-12": {
+      "published_at": "2026-10-11T16:33:45.323528+00:00",
+      "message_id": 399,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-11-13": {
+      "published_at": "2026-10-11T16:33:48.379561+00:00",
+      "message_id": 400,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Bashir_Shihab_II",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-14": {
+      "published_at": "2026-10-11T16:33:55.425421+00:00",
+      "message_id": 401,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_antisemitism_in_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-15": {
+      "published_at": "2026-10-11T16:33:58.327466+00:00",
+      "message_id": 402,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/October_1910",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-16": {
+      "published_at": "2026-10-11T16:34:00.159479+00:00",
+      "message_id": 403,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-11-17": {
+      "published_at": "2026-10-11T16:34:03.322197+00:00",
+      "message_id": 404,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-11-18": {
+      "published_at": "2026-10-11T16:34:06.861484+00:00",
+      "message_id": 405,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/German_occupation_of_the_Channel_Islands",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-19": {
+      "published_at": "2026-10-11T16:34:09.916462+00:00",
+      "message_id": 406,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_Illustrated_Album_De_Luxe%3B_the_Story_of_the_Great_European_War_Told_by_Camera%2C_Pen_and_Pencil%2C_1919_%28volume_X%29_-_The_Final_Phase.djvu",
+      "image_credit": "Wikimedia Commons · Sir John Alexander Hammerton · Public domain"
+    },
+    "GHC-OCT-11-20": {
+      "published_at": "2026-10-11T16:34:12.203000+00:00",
+      "message_id": 407,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APapuan_Campaign%3B_The_Buna-Sanananda_Operation_-_Armed_Forces_in_Action_%281944%29.djvu",
+      "image_credit": "Wikimedia Commons · United States Army Center of Military History · Public domain"
     }
   },
   "runs": [
@@ -1987,6 +2057,12 @@
     {
       "date": "2026-10-11",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-11",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
