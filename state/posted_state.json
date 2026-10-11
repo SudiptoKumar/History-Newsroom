@@ -1749,6 +1749,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_airliners_in_the_United_States",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-01": {
+      "published_at": "2026-10-11T07:58:44.539886+00:00",
+      "message_id": 388,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/2023_Turkey%E2%80%93Syria_earthquakes",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-02": {
+      "published_at": "2026-10-11T07:58:47.971145+00:00",
+      "message_id": 389,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_Jin%E2%80%93Song_wars",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-03": {
+      "published_at": "2026-10-11T07:58:59.372683+00:00",
+      "message_id": 390,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/France_in_the_Middle_Ages",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-04": {
+      "published_at": "2026-10-11T07:59:03.223050+00:00",
+      "message_id": 391,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Charles_Orlando,_Dauphin_of_France",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-05": {
+      "published_at": "2026-10-11T07:59:06.959503+00:00",
+      "message_id": 392,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Tsarevich_Dmitry_Ivanovich_of_Russia_(1552%E2%80%931553)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-06": {
+      "published_at": "2026-10-11T07:59:09.924004+00:00",
+      "message_id": 393,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-11-07": {
+      "published_at": "2026-10-11T07:59:12.631054+00:00",
+      "message_id": 394,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-11-08": {
+      "published_at": "2026-10-11T07:59:14.660626+00:00",
+      "message_id": 395,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-11-09": {
+      "published_at": "2026-10-11T07:59:19.330796+00:00",
+      "message_id": 396,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Cromwellian_conquest_of_Ireland",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-11-10": {
+      "published_at": "2026-10-11T07:59:25.169283+00:00",
+      "message_id": 397,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -1911,6 +1981,12 @@
     {
       "date": "2026-10-10",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-11",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
