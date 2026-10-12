@@ -1959,6 +1959,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AVermont_Asylum_for_the_Insane%2C_Brattleboro%2C_Vt%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.png",
       "image_credit": "Wikimedia Commons · Unknown artistUnknown artist · Public domain"
+    },
+    "GHC-OCT-13-11": {
+      "published_at": "2026-10-12T20:06:54.281024+00:00",
+      "message_id": 418,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-13-12": {
+      "published_at": "2026-10-12T20:06:58.755300+00:00",
+      "message_id": 419,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_1812",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-13": {
+      "published_at": "2026-10-12T20:07:01.063468+00:00",
+      "message_id": 420,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Story_of_Mexico.djvu",
+      "image_credit": "Wikimedia Commons · Susan Hale · Public domain"
+    },
+    "GHC-OCT-13-14": {
+      "published_at": "2026-10-12T20:07:06.666852+00:00",
+      "message_id": 421,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1903_World_Series",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-15": {
+      "published_at": "2026-10-12T20:07:09.184571+00:00",
+      "message_id": 422,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-13-16": {
+      "published_at": "2026-10-12T20:07:12.119920+00:00",
+      "message_id": 423,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Prince_Arthur_of_Connaught",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-17": {
+      "published_at": "2026-10-12T20:07:14.905878+00:00",
+      "message_id": 424,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_Illustrated_Album_De_Luxe%3B_the_Story_of_the_Great_European_War_Told_by_Camera%2C_Pen_and_Pencil%2C_1916_%28volume_V%29_-_The_Second_Winter_Campaign-1915-16.djvu",
+      "image_credit": "Wikimedia Commons · Sir John Alexander Hammerton · Public domain"
+    },
+    "GHC-OCT-13-18": {
+      "published_at": "2026-10-12T20:07:20.603568+00:00",
+      "message_id": 425,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Miracle_of_the_Sun",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-19": {
+      "published_at": "2026-10-12T20:07:23.034042+00:00",
+      "message_id": 426,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-13-20": {
+      "published_at": "2026-10-12T20:07:26.713607+00:00",
+      "message_id": 427,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -2139,6 +2209,12 @@
     {
       "date": "2026-10-12",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-13",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
