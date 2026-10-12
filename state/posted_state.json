@@ -1889,6 +1889,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APapuan_Campaign%3B_The_Buna-Sanananda_Operation_-_Armed_Forces_in_Action_%281944%29.djvu",
       "image_credit": "Wikimedia Commons · United States Army Center of Military History · Public domain"
+    },
+    "GHC-OCT-12-01": {
+      "published_at": "2026-10-12T08:13:40.485561+00:00",
+      "message_id": 408,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Anglo-Saxon_England",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-02": {
+      "published_at": "2026-10-12T08:13:46.034319+00:00",
+      "message_id": 409,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Nichiren_Buddhism",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-03": {
+      "published_at": "2026-10-12T08:13:50.853413+00:00",
+      "message_id": 410,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Vytautas_the_Great",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-04": {
+      "published_at": "2026-10-12T08:13:55.382867+00:00",
+      "message_id": 411,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-12-05": {
+      "published_at": "2026-10-12T08:14:01.230852+00:00",
+      "message_id": 412,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1492",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-06": {
+      "published_at": "2026-10-12T08:14:06.217338+00:00",
+      "message_id": 413,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Emperor_Go-Ichij%C5%8D",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-07": {
+      "published_at": "2026-10-12T08:14:10.516220+00:00",
+      "message_id": 414,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1654",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-08": {
+      "published_at": "2026-10-12T08:14:19.119634+00:00",
+      "message_id": 415,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Letter_from_Cotton_Mather_to_William_Stoughton,_September_2,_1692",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-09": {
+      "published_at": "2026-10-12T08:14:24.874174+00:00",
+      "message_id": 416,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Havana_(1748)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-12-10": {
+      "published_at": "2026-10-12T08:14:36.088058+00:00",
+      "message_id": 417,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVermont_Asylum_for_the_Insane%2C_Brattleboro%2C_Vt%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.png",
+      "image_credit": "Wikimedia Commons · Unknown artistUnknown artist · Public domain"
     }
   },
   "runs": [
@@ -2063,6 +2133,12 @@
     {
       "date": "2026-10-11",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-12",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
