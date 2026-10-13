@@ -2029,6 +2029,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-13-01": {
+      "published_at": "2026-10-13T08:39:16.198863+00:00",
+      "message_id": 428,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-13-02": {
+      "published_at": "2026-10-13T08:39:20.422042+00:00",
+      "message_id": 429,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Vandals",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-03": {
+      "published_at": "2026-10-13T08:39:26.992885+00:00",
+      "message_id": 430,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACathedrals%2C_abbeys_and_churches_of_England_and_Wales%2C_descriptive%2C_historical%2C_pictorial_%281896%29_%2814587328447%29.jpg",
+      "image_credit": "Wikimedia Commons · Bonney, Thomas George, 1833-1923 · No restrictions"
+    },
+    "GHC-OCT-13-04": {
+      "published_at": "2026-10-13T08:39:33.245002+00:00",
+      "message_id": 431,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Crusades_after_the_fall_of_Acre,_1291%E2%80%931399",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-05": {
+      "published_at": "2026-10-13T08:39:36.516111+00:00",
+      "message_id": 432,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-13-06": {
+      "published_at": "2026-10-13T08:39:40.363453+00:00",
+      "message_id": 433,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHenry_IV_Coronation.jpg",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-13-07": {
+      "published_at": "2026-10-13T08:39:47.426767+00:00",
+      "message_id": 434,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Dano-Swedish_War_(1658%E2%80%931660)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-08": {
+      "published_at": "2026-10-13T08:39:55.372873+00:00",
+      "message_id": 435,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-13-09": {
+      "published_at": "2026-10-13T08:40:02.637891+00:00",
+      "message_id": 436,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/United_States_Navy_SEALs",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-13-10": {
+      "published_at": "2026-10-13T08:40:07.563345+00:00",
+      "message_id": 437,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Founding_Fathers_of_the_United_States",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -2215,6 +2285,12 @@
     {
       "date": "2026-10-13",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-13",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
