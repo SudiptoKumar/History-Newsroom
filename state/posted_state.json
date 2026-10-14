@@ -2169,6 +2169,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Joseph_Brant",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-11": {
+      "published_at": "2026-10-14T15:42:38.468685+00:00",
+      "message_id": 448,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Irish_Rebellion_of_1798",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-12": {
+      "published_at": "2026-10-14T15:42:44.400525+00:00",
+      "message_id": 449,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_the_Third_Coalition",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-13": {
+      "published_at": "2026-10-14T15:42:51.252869+00:00",
+      "message_id": 450,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-14": {
+      "published_at": "2026-10-14T15:42:55.212926+00:00",
+      "message_id": 451,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Chicago_Cubs",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-15": {
+      "published_at": "2026-10-14T15:43:01.077322+00:00",
+      "message_id": 452,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Claude_Grahame-White",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-16": {
+      "published_at": "2026-10-14T15:43:04.068886+00:00",
+      "message_id": 453,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-14-17": {
+      "published_at": "2026-10-14T15:43:10.817051+00:00",
+      "message_id": 454,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/October_1913",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-18": {
+      "published_at": "2026-10-14T15:43:17.275917+00:00",
+      "message_id": 455,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Great_war_%281915%29_%2814764708712%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-OCT-14-19": {
+      "published_at": "2026-10-14T15:43:21.685098+00:00",
+      "message_id": 456,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Treaty_of_Tartu_(Finland%E2%80%93Russia)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-20": {
+      "published_at": "2026-10-14T15:43:24.551895+00:00",
+      "message_id": 457,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -2373,6 +2443,12 @@
     {
       "date": "2026-10-14",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-14",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
