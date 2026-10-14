@@ -2099,6 +2099,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Founding_Fathers_of_the_United_States",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-01": {
+      "published_at": "2026-10-14T06:51:52.605584+00:00",
+      "message_id": 438,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_history_of_the_Norman_conquest_of_England%2C_its_causes_and_its_results_Vol._iii.djvu",
+      "image_credit": "Wikimedia Commons · Edward Augustus Freeman · Public domain"
+    },
+    "GHC-OCT-14-02": {
+      "published_at": "2026-10-14T06:51:57.462231+00:00",
+      "message_id": 439,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_history_of_Scotland_from_the_Roman_occupation.djvu",
+      "image_credit": "Wikimedia Commons · Andrew Lang · Public domain"
+    },
+    "GHC-OCT-14-03": {
+      "published_at": "2026-10-14T06:52:08.425449+00:00",
+      "message_id": 440,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Mary,_Queen_of_Scots",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-04": {
+      "published_at": "2026-10-14T06:52:12.199047+00:00",
+      "message_id": 441,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Przemys%C5%82_I_of_Greater_Poland",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-05": {
+      "published_at": "2026-10-14T06:52:19.005250+00:00",
+      "message_id": 442,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADelpech_-_Marie_of_Anjou.jpg",
+      "image_credit": "Wikimedia Commons · François-Séraphin Delpech · Public domain"
+    },
+    "GHC-OCT-14-06": {
+      "published_at": "2026-10-14T06:52:27.678459+00:00",
+      "message_id": 443,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAlesso_baldovinetti%2C_Virgin_and_Child.jpg",
+      "image_credit": "Wikimedia Commons · Alesso Baldovinetti · Public domain"
+    },
+    "GHC-OCT-14-07": {
+      "published_at": "2026-10-14T06:52:32.875586+00:00",
+      "message_id": 444,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-08": {
+      "published_at": "2026-10-14T06:52:38.728887+00:00",
+      "message_id": 445,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Seven_Years%27_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-09": {
+      "published_at": "2026-10-14T06:52:42.976790+00:00",
+      "message_id": 446,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Polish%E2%80%93Lithuanian_Commonwealth_(1764%E2%80%931795)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-14-10": {
+      "published_at": "2026-10-14T06:52:56.839011+00:00",
+      "message_id": 447,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Joseph_Brant",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -2299,6 +2369,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-10-14",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
