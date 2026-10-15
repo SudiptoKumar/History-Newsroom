@@ -2239,6 +2239,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-15-01": {
+      "published_at": "2026-10-15T06:39:08.556449+00:00",
+      "message_id": 458,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_rulers_in_the_British_Isles",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-02": {
+      "published_at": "2026-10-15T06:39:12.951184+00:00",
+      "message_id": 459,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Chronology_of_the_Crusades,_1187%E2%80%931291",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-03": {
+      "published_at": "2026-10-15T06:39:18.445452+00:00",
+      "message_id": 460,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Polish%E2%80%93Lithuanian_Commonwealth_(1648%E2%80%931764)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-04": {
+      "published_at": "2026-10-15T06:39:21.182858+00:00",
+      "message_id": 461,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-15-05": {
+      "published_at": "2026-10-15T06:39:29.018576+00:00",
+      "message_id": 462,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Tem%C3%BCr_Khan",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-06": {
+      "published_at": "2026-10-15T06:39:34.969532+00:00",
+      "message_id": 463,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Matilda_of_Hesse",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-07": {
+      "published_at": "2026-10-15T06:39:38.370831+00:00",
+      "message_id": 464,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Transition_from_Ming_to_Qing",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-08": {
+      "published_at": "2026-10-15T06:39:47.182803+00:00",
+      "message_id": 465,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Southern_theater_of_the_American_Revolutionary_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-09": {
+      "published_at": "2026-10-15T06:39:55.742612+00:00",
+      "message_id": 466,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-10": {
+      "published_at": "2026-10-15T06:40:05.808807+00:00",
+      "message_id": 467,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -2449,6 +2519,12 @@
     {
       "date": "2026-10-14",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-15",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
