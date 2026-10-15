@@ -2309,6 +2309,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Marie_Antoinette",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-11": {
+      "published_at": "2026-10-15T15:30:03.082651+00:00",
+      "message_id": 468,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Saint_Helena",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-12": {
+      "published_at": "2026-10-15T15:30:08.826289+00:00",
+      "message_id": 469,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASequel_of_Appomattox.djvu",
+      "image_credit": "Wikimedia Commons · Walter Lynwood Fleming · Public domain"
+    },
+    "GHC-OCT-15-13": {
+      "published_at": "2026-10-15T15:30:16.068321+00:00",
+      "message_id": 470,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-14": {
+      "published_at": "2026-10-15T15:30:19.952544+00:00",
+      "message_id": 471,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAerial_Age%2C_July-September%2C_1918.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-15-15": {
+      "published_at": "2026-10-15T15:30:28.631109+00:00",
+      "message_id": 472,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Germany",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-16": {
+      "published_at": "2026-10-15T15:30:33.782362+00:00",
+      "message_id": 473,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Transatlantic_flight",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-17": {
+      "published_at": "2026-10-15T15:30:39.690549+00:00",
+      "message_id": 474,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Singapore_Airlines",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-18": {
+      "published_at": "2026-10-15T15:30:46.801267+00:00",
+      "message_id": 475,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-15-19": {
+      "published_at": "2026-10-15T15:30:50.634878+00:00",
+      "message_id": 476,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASummari_lluis_companys.jpg",
+      "image_credit": "Wikimedia Commons · Amadalvarez · CC BY-SA 3.0"
+    },
+    "GHC-OCT-15-20": {
+      "published_at": "2026-10-15T15:30:54.870626+00:00",
+      "message_id": 477,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AU.S._Marine_Operations_In_Korea_1950-1953_%28Volume_1%29.djvu",
+      "image_credit": "Wikimedia Commons · Lynn Montross · Public domain"
     }
   },
   "runs": [
@@ -2525,6 +2595,12 @@
     {
       "date": "2026-10-15",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-15",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
