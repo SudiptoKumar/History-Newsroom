@@ -2379,6 +2379,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AU.S._Marine_Operations_In_Korea_1950-1953_%28Volume_1%29.djvu",
       "image_credit": "Wikimedia Commons · Lynn Montross · Public domain"
+    },
+    "GHC-OCT-16-01": {
+      "published_at": "2026-10-16T06:32:10.052584+00:00",
+      "message_id": 478,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-16-02": {
+      "published_at": "2026-10-16T06:32:15.694017+00:00",
+      "message_id": 479,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Wu_Zetian",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-16-03": {
+      "published_at": "2026-10-16T06:32:18.677334+00:00",
+      "message_id": 480,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-16-04": {
+      "published_at": "2026-10-16T06:32:21.372153+00:00",
+      "message_id": 481,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-16-05": {
+      "published_at": "2026-10-16T06:32:27.978757+00:00",
+      "message_id": 482,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_history_of_the_Inquisition_of_the_Middle_Ages%2C_volume_3.djvu",
+      "image_credit": "Wikimedia Commons · Henry Charles Lea · Public domain"
+    },
+    "GHC-OCT-16-06": {
+      "published_at": "2026-10-16T06:32:32.002488+00:00",
+      "message_id": 483,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABrandes_-_Poland%2C_a_Study_of_the_Land%2C_People%2C_and_Literature.djvu",
+      "image_credit": "Wikimedia Commons · Georg Brandes · Public domain"
+    },
+    "GHC-OCT-16-07": {
+      "published_at": "2026-10-16T06:32:34.595297+00:00",
+      "message_id": 484,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-16-08": {
+      "published_at": "2026-10-16T06:32:38.861733+00:00",
+      "message_id": 485,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-16-09": {
+      "published_at": "2026-10-16T06:32:41.425566+00:00",
+      "message_id": 486,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-16-10": {
+      "published_at": "2026-10-16T06:32:53.710206+00:00",
+      "message_id": 487,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMaria_Antionette_%28sic%29_late_Queen_of_France_in_a_dungeon_of_the_Conciergerie_before_her_execution_%3B_The_Death_of_Maria_Antionette_who_was_executed_at_Paris_at_the_Place_de_la_R%C3%A9volution_Oct._16th%2C_1793_-_%28estampe%29_-..._-_btv1b69499582.jpg",
+      "image_credit": "Wikimedia Commons · Public domain"
     }
   },
   "runs": [
@@ -2601,6 +2671,12 @@
     {
       "date": "2026-10-15",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-16",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
