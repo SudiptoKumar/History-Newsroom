@@ -2449,6 +2449,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AMaria_Antionette_%28sic%29_late_Queen_of_France_in_a_dungeon_of_the_Conciergerie_before_her_execution_%3B_The_Death_of_Maria_Antionette_who_was_executed_at_Paris_at_the_Place_de_la_R%C3%A9volution_Oct._16th%2C_1793_-_%28estampe%29_-..._-_btv1b69499582.jpg",
       "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-16-11": {
+      "published_at": "2026-10-16T15:13:07.312102+00:00",
+      "message_id": 488,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Siege_of_Maubeuge_(1793)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-16-12": {
+      "published_at": "2026-10-16T15:13:13.099854+00:00",
+      "message_id": 489,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANapoleon_-_Warrior_and_Ruler%2C_and_the_Military_Supremacy_of_Revolutionary_France.djvu",
+      "image_credit": "Wikimedia Commons · William O'Connor Morris · Public domain"
+    },
+    "GHC-OCT-16-13": {
+      "published_at": "2026-10-16T15:13:20.085053+00:00",
+      "message_id": 490,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_the_Sixth_Coalition",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-16-14": {
+      "published_at": "2026-10-16T15:13:23.677988+00:00",
+      "message_id": 491,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASelections_from_the_records_of_The_Government_of_Bengal_-_No._XXVIII..djvu",
+      "image_credit": "Wikimedia Commons · Government of Bengal · Public domain"
+    },
+    "GHC-OCT-16-15": {
+      "published_at": "2026-10-16T15:13:26.616561+00:00",
+      "message_id": 492,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-16-16": {
+      "published_at": "2026-10-16T15:13:30.796601+00:00",
+      "message_id": 493,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Oread_of_Mount_Carroll_Seminary%2C_June_1893.djvu",
+      "image_credit": "Wikimedia Commons · Oread Society of the Mount Carroll Seminary · Public domain"
+    },
+    "GHC-OCT-16-17": {
+      "published_at": "2026-10-16T15:13:33.617432+00:00",
+      "message_id": 494,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Crimes_of_the_Stalin_Era_%28Khrushchev%2C_tr._Nicolaevsky%29.djvu",
+      "image_credit": "Wikimedia Commons · Nikita Sergeyevich Khrushchev · Public domain"
+    },
+    "GHC-OCT-16-18": {
+      "published_at": "2026-10-16T15:13:37.372356+00:00",
+      "message_id": 495,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Film_Daily%2C_May-Aug_1936.djvu",
+      "image_credit": "Wikimedia Commons · New York, Wid's Films and Film Folks, Inc. · Public domain"
+    },
+    "GHC-OCT-16-19": {
+      "published_at": "2026-10-16T15:13:41.231294+00:00",
+      "message_id": 496,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Chinese_Civil_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-16-20": {
+      "published_at": "2026-10-16T15:13:47.367255+00:00",
+      "message_id": 497,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/No._238_Squadron_RAF",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -2677,6 +2747,12 @@
     {
       "date": "2026-10-16",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-16",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
