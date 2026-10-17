@@ -2589,6 +2589,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-17-11": {
+      "published_at": "2026-10-17T14:04:12.991010+00:00",
+      "message_id": 508,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-17-12": {
+      "published_at": "2026-10-17T14:04:15.949664+00:00",
+      "message_id": 509,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-17-13": {
+      "published_at": "2026-10-17T14:04:22.445231+00:00",
+      "message_id": 510,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASurrender_of_General_Burgoyne.jpg",
+      "image_credit": "Wikimedia Commons · John Trumbull · Public domain"
+    },
+    "GHC-OCT-17-14": {
+      "published_at": "2026-10-17T14:04:28.241500+00:00",
+      "message_id": 511,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJack_Heaton%2C_Wireless_Operator_%28Collins%2C_1919%29.djvu",
+      "image_credit": "Wikimedia Commons · Archie Frederick Collins · Public domain"
+    },
+    "GHC-OCT-17-15": {
+      "published_at": "2026-10-17T14:04:33.137220+00:00",
+      "message_id": 512,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_in_Cartoons.djvu",
+      "image_credit": "Wikimedia Commons · 1895- comp. and ed George Joseph Hecht · Public domain"
+    },
+    "GHC-OCT-17-16": {
+      "published_at": "2026-10-17T14:04:36.180179+00:00",
+      "message_id": 513,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-17-17": {
+      "published_at": "2026-10-17T14:04:41.569026+00:00",
+      "message_id": 514,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Tax_evasion_in_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-17-18": {
+      "published_at": "2026-10-17T14:04:49.199157+00:00",
+      "message_id": 515,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Science_and_technology_in_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-17-19": {
+      "published_at": "2026-10-17T14:04:52.453185+00:00",
+      "message_id": 516,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-17-20": {
+      "published_at": "2026-10-17T14:04:57.427193+00:00",
+      "message_id": 517,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_World_War_II_(1941)",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -2829,6 +2899,12 @@
     {
       "date": "2026-10-17",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-17",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
