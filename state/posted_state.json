@@ -2519,6 +2519,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/No._238_Squadron_RAF",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-17-01": {
+      "published_at": "2026-10-17T06:21:41.507588+00:00",
+      "message_id": 498,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Empress_Wei_(Tang_dynasty)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-17-02": {
+      "published_at": "2026-10-17T06:21:43.341475+00:00",
+      "message_id": 499,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-17-03": {
+      "published_at": "2026-10-17T06:21:45.751237+00:00",
+      "message_id": 500,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADictionary_of_National_Biography_volume_60.djvu",
+      "image_credit": "Wikimedia Commons · Various · Public domain"
+    },
+    "GHC-OCT-17-04": {
+      "published_at": "2026-10-17T06:21:48.614506+00:00",
+      "message_id": 501,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKarada%C4%9F_%28Montenegro%29_%28IA_dr_karada-montenegro-10417000%29.jpg",
+      "image_credit": "Wikimedia Commons · Erkan-ı Harbiye Dairesi (Imperial Military State College)\nCoğrafya Cemiyeti Askeriyesi (Military Survey Office) · Public domain"
+    },
+    "GHC-OCT-17-05": {
+      "published_at": "2026-10-17T06:21:52.756783+00:00",
+      "message_id": 502,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/University_of_T%C3%BCbingen",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-17-06": {
+      "published_at": "2026-10-17T06:21:54.703735+00:00",
+      "message_id": 503,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-17-07": {
+      "published_at": "2026-10-17T06:21:59.419384+00:00",
+      "message_id": 504,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKepler%27s_Supernova_Remnant.jpg",
+      "image_credit": "Wikimedia Commons · AMAL BIJU · CC BY-SA 4.0"
+    },
+    "GHC-OCT-17-08": {
+      "published_at": "2026-10-17T06:22:05.842148+00:00",
+      "message_id": 505,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Louis_XIII",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-17-09": {
+      "published_at": "2026-10-17T06:22:09.257615+00:00",
+      "message_id": 506,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_regicides_of_Charles_I_of_England",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-17-10": {
+      "published_at": "2026-10-17T06:22:11.208368+00:00",
+      "message_id": 507,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -2753,6 +2823,12 @@
     {
       "date": "2026-10-16",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-17",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
