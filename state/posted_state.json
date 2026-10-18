@@ -2659,6 +2659,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Timeline_of_World_War_II_(1941)",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-01": {
+      "published_at": "2026-10-18T06:45:57.445379+00:00",
+      "message_id": 518,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-18-02": {
+      "published_at": "2026-10-18T06:46:01.090038+00:00",
+      "message_id": 519,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/320",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-03": {
+      "published_at": "2026-10-18T06:46:03.006904+00:00",
+      "message_id": 520,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-18-04": {
+      "published_at": "2026-10-18T06:46:06.721819+00:00",
+      "message_id": 521,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACruz_de_san_Eligio_-_Tesoro_de_Saint-Denis_-_siglo_VII.jpg",
+      "image_credit": "Wikimedia Commons · Maestro de san Gil · CC BY-SA 3.0"
+    },
+    "GHC-OCT-18-05": {
+      "published_at": "2026-10-18T06:46:08.889987+00:00",
+      "message_id": 522,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-18-06": {
+      "published_at": "2026-10-18T06:46:13.621161+00:00",
+      "message_id": 523,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Story_of_London.djvu",
+      "image_credit": "Wikimedia Commons · Henry B. Wheatley · Public domain"
+    },
+    "GHC-OCT-18-07": {
+      "published_at": "2026-10-18T06:46:16.168072+00:00",
+      "message_id": 524,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1630",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-08": {
+      "published_at": "2026-10-18T06:46:19.378425+00:00",
+      "message_id": 525,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-18-09": {
+      "published_at": "2026-10-18T06:46:23.914868+00:00",
+      "message_id": 526,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-10": {
+      "published_at": "2026-10-18T06:46:26.935879+00:00",
+      "message_id": 527,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_book_of_American_negro_poetry.djvu",
+      "image_credit": "Wikimedia Commons · James Weldon Johnson · Public domain"
     }
   },
   "runs": [
@@ -2905,6 +2975,12 @@
     {
       "date": "2026-10-17",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-18",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
