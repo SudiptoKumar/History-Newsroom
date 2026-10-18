@@ -2729,6 +2729,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_book_of_American_negro_poetry.djvu",
       "image_credit": "Wikimedia Commons · James Weldon Johnson · Public domain"
+    },
+    "GHC-OCT-18-11": {
+      "published_at": "2026-10-18T14:18:44.231453+00:00",
+      "message_id": 528,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Portland,_Maine",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-12": {
+      "published_at": "2026-10-18T14:18:47.875456+00:00",
+      "message_id": 529,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/African_Americans_in_the_Revolutionary_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-13": {
+      "published_at": "2026-10-18T14:18:50.249317+00:00",
+      "message_id": 530,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMoby-Dick_%281851%29_US_edition.djvu",
+      "image_credit": "Wikimedia Commons · Herman Melville · Public domain"
+    },
+    "GHC-OCT-18-14": {
+      "published_at": "2026-10-18T14:18:57.859243+00:00",
+      "message_id": 531,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Bulgarian_Front_of_First_Balkan_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-15": {
+      "published_at": "2026-10-18T14:19:02.163522+00:00",
+      "message_id": 532,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Schoenstatt_Shrine",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-16": {
+      "published_at": "2026-10-18T14:19:04.568290+00:00",
+      "message_id": 533,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARussian_Empire_Dissolution_Map_%281918%29_EN.png",
+      "image_credit": "Wikimedia Commons · Stanislawskachko\n\nMap created based on File:Subdivisions of the Russian Empire in 1914.svg and author User:Hellerick.\nData sources - Pipes, Richard. The formation of the Soviet Union: communism and nationalism, 1917–1923. Cambridge, Mass.: Harvard University Press, 1997 and others\nData source^: https://www.youtube.com/watch?v=tLDz5QIjQb0&amp;t=52s · CC BY-SA 4.0"
+    },
+    "GHC-OCT-18-17": {
+      "published_at": "2026-10-18T14:19:07.881778+00:00",
+      "message_id": 534,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_broadcasting",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-18": {
+      "published_at": "2026-10-18T14:19:10.663791+00:00",
+      "message_id": 535,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-18-19": {
+      "published_at": "2026-10-18T14:19:14.226138+00:00",
+      "message_id": 536,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Soviet_Union_in_World_War_II",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-18-20": {
+      "published_at": "2026-10-18T14:19:17.052638+00:00",
+      "message_id": 537,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Erwin_Rommel_in_the_Second_World_War",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -2981,6 +3051,12 @@
     {
       "date": "2026-10-18",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-18",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
