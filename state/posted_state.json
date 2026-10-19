@@ -2869,6 +2869,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_County_Families_of_the_United_Kingdom_%281860%29.djvu",
       "image_credit": "Wikimedia Commons · Edward Walford · Public domain"
+    },
+    "GHC-OCT-19-11": {
+      "published_at": "2026-10-19T17:20:29.045454+00:00",
+      "message_id": 548,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADrottningholmpalace.jpg",
+      "image_credit": "Wikimedia Commons · Sxenko at English Wikipedia · CC BY 2.5"
+    },
+    "GHC-OCT-19-12": {
+      "published_at": "2026-10-19T17:20:34.273151+00:00",
+      "message_id": 549,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_the_Third_Coalition",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-13": {
+      "published_at": "2026-10-19T17:20:38.193266+00:00",
+      "message_id": 550,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANapoleon_%28O%27Connor_1896%29.djvu",
+      "image_credit": "Wikimedia Commons · T. P. O'Connor · Public domain"
+    },
+    "GHC-OCT-19-14": {
+      "published_at": "2026-10-19T17:20:43.041935+00:00",
+      "message_id": 551,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ottoman_wars_in_Europe",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-15": {
+      "published_at": "2026-10-19T17:20:46.813134+00:00",
+      "message_id": 552,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/First_Battle_of_Ypres",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-16": {
+      "published_at": "2026-10-19T17:20:51.024021+00:00",
+      "message_id": 553,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_coups_and_coup_attempts",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-17": {
+      "published_at": "2026-10-19T17:20:53.345926+00:00",
+      "message_id": 554,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-19-18": {
+      "published_at": "2026-10-19T17:20:56.839347+00:00",
+      "message_id": 555,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Haile_Selassie%27s_speech_to_the_League_of_Nations_(1936)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-19": {
+      "published_at": "2026-10-19T17:20:59.387608+00:00",
+      "message_id": 556,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-19-20": {
+      "published_at": "2026-10-19T17:21:01.949920+00:00",
+      "message_id": 557,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -3133,6 +3203,12 @@
     {
       "date": "2026-10-19",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-19",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
