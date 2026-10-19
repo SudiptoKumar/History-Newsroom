@@ -2799,6 +2799,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Erwin_Rommel_in_the_Second_World_War",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-01": {
+      "published_at": "2026-10-19T07:04:25.725474+00:00",
+      "message_id": 538,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-19-02": {
+      "published_at": "2026-10-19T07:04:34.323840+00:00",
+      "message_id": 539,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/University_of_Cologne",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-03": {
+      "published_at": "2026-10-19T07:04:40.588599+00:00",
+      "message_id": 540,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-04": {
+      "published_at": "2026-10-19T07:04:45.480744+00:00",
+      "message_id": 541,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHenryk_Sienkiewicz_-_Potop_-_The_Deluge_%281898_translation_by_Jeremiah_Curtin%29_-_Vol_1.djvu",
+      "image_credit": "Wikimedia Commons · Henryk Sienkiewicz · Public domain"
+    },
+    "GHC-OCT-19-05": {
+      "published_at": "2026-10-19T07:04:48.255243+00:00",
+      "message_id": 542,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-19-06": {
+      "published_at": "2026-10-19T07:04:54.041143+00:00",
+      "message_id": 543,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_letters_of_Martin_Luther.djvu",
+      "image_credit": "Wikimedia Commons · Luther, Martin, 1483-1546 · Public domain"
+    },
+    "GHC-OCT-19-07": {
+      "published_at": "2026-10-19T07:05:03.698432+00:00",
+      "message_id": 544,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Cromwellian_conquest_of_Ireland",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-19-08": {
+      "published_at": "2026-10-19T07:05:06.704126+00:00",
+      "message_id": 545,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-19-09": {
+      "published_at": "2026-10-19T07:05:11.334915+00:00",
+      "message_id": 546,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADramatic_Moments_in_American_Diplomacy_%281918%29.djvu",
+      "image_credit": "Wikimedia Commons · Page, Ralph W. · Public domain"
+    },
+    "GHC-OCT-19-10": {
+      "published_at": "2026-10-19T07:05:21.130753+00:00",
+      "message_id": 547,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_County_Families_of_the_United_Kingdom_%281860%29.djvu",
+      "image_credit": "Wikimedia Commons · Edward Walford · Public domain"
     }
   },
   "runs": [
@@ -3057,6 +3127,12 @@
     {
       "date": "2026-10-18",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-19",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
