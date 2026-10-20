@@ -3009,6 +3009,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Presidents_of_the_United_States%2C_1789-1914%2C_v._III.djvu",
       "image_credit": "Wikimedia Commons · James Grant Wilson (editor) · Public domain"
+    },
+    "GHC-OCT-20-11": {
+      "published_at": "2026-10-20T15:33:38.018082+00:00",
+      "message_id": 568,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABrown%27s_Political_History_of_Oregon.djvu",
+      "image_credit": "Wikimedia Commons · J. Henry Brown · Public domain"
+    },
+    "GHC-OCT-20-12": {
+      "published_at": "2026-10-20T15:33:49.474628+00:00",
+      "message_id": 569,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Crimean_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-13": {
+      "published_at": "2026-10-20T15:33:53.686300+00:00",
+      "message_id": 570,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_the_Pacific",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-14": {
+      "published_at": "2026-10-20T15:33:58.801589+00:00",
+      "message_id": 571,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Treaty_of_Peace_and_Friendship_(1904)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-15": {
+      "published_at": "2026-10-20T15:34:06.227755+00:00",
+      "message_id": 572,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Olympic-class_ocean_liner",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-16": {
+      "published_at": "2026-10-20T15:34:10.880025+00:00",
+      "message_id": 573,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Mediterranean_and_Middle_East_theatre_of_World_War_II",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-17": {
+      "published_at": "2026-10-20T15:34:15.312200+00:00",
+      "message_id": 574,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/The_Holocaust_in_German-occupied_Serbia",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-18": {
+      "published_at": "2026-10-20T15:34:22.280508+00:00",
+      "message_id": 575,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/World_War_II_in_Yugoslav_Macedonia",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-19": {
+      "published_at": "2026-10-20T15:34:25.134925+00:00",
+      "message_id": 576,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-20-20": {
+      "published_at": "2026-10-20T15:34:29.792086+00:00",
+      "message_id": 577,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Bataan",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -3285,6 +3355,12 @@
     {
       "date": "2026-10-20",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-20",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
