@@ -2939,6 +2939,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-20-01": {
+      "published_at": "2026-10-20T06:49:28.236456+00:00",
+      "message_id": 558,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/William_the_Silent",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-02": {
+      "published_at": "2026-10-20T06:49:32.497728+00:00",
+      "message_id": 559,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-20-03": {
+      "published_at": "2026-10-20T06:49:35.136878+00:00",
+      "message_id": 560,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-20-04": {
+      "published_at": "2026-10-20T06:49:37.442433+00:00",
+      "message_id": 561,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-20-05": {
+      "published_at": "2026-10-20T06:49:44.262916+00:00",
+      "message_id": 562,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMONSEIGNEVR._DE._GVISE_-_dessin_-_Claude_de_Lorraine_-_5e_fils_de_Rene_II._n%C3%A9_le_20._8.bre_1469._mort_le_12._avril_1550._-_anonyme_-_btv1b53262136m.jpg",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-OCT-20-06": {
+      "published_at": "2026-10-20T06:49:47.001760+00:00",
+      "message_id": 563,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-20-07": {
+      "published_at": "2026-10-20T06:49:51.260923+00:00",
+      "message_id": 564,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWorks_of_Thomas_Carlyle_-_Volume_15.djvu",
+      "image_credit": "Wikimedia Commons · Thomas Carlyle · Public domain"
+    },
+    "GHC-OCT-20-08": {
+      "published_at": "2026-10-20T06:49:53.691417+00:00",
+      "message_id": 565,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-20-09": {
+      "published_at": "2026-10-20T06:50:04.046831+00:00",
+      "message_id": 566,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1781",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-20-10": {
+      "published_at": "2026-10-20T06:50:09.320857+00:00",
+      "message_id": 567,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Presidents_of_the_United_States%2C_1789-1914%2C_v._III.djvu",
+      "image_credit": "Wikimedia Commons · James Grant Wilson (editor) · Public domain"
     }
   },
   "runs": [
@@ -3209,6 +3279,12 @@
     {
       "date": "2026-10-19",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-20",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
