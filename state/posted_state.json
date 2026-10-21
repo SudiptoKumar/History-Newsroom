@@ -3079,6 +3079,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Battle_of_Bataan",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-01": {
+      "published_at": "2026-10-21T06:43:41.748709+00:00",
+      "message_id": 578,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-21-02": {
+      "published_at": "2026-10-21T06:43:51.279715+00:00",
+      "message_id": 579,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_popes",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-03": {
+      "published_at": "2026-10-21T06:43:55.564268+00:00",
+      "message_id": 580,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Alfonso_VI_of_Le%C3%B3n_and_Castile",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-04": {
+      "published_at": "2026-10-21T06:43:58.228396+00:00",
+      "message_id": 581,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-21-05": {
+      "published_at": "2026-10-21T06:44:01.727824+00:00",
+      "message_id": 582,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Women_in_the_Crusades",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-06": {
+      "published_at": "2026-10-21T06:44:04.437144+00:00",
+      "message_id": 583,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-21-07": {
+      "published_at": "2026-10-21T06:44:09.566800+00:00",
+      "message_id": 584,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-08": {
+      "published_at": "2026-10-21T06:44:13.230738+00:00",
+      "message_id": 585,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-21-09": {
+      "published_at": "2026-10-21T06:44:18.217894+00:00",
+      "message_id": 586,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Original_six_frigates_of_the_United_States_Navy",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-10": {
+      "published_at": "2026-10-21T06:44:26.140527+00:00",
+      "message_id": 587,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/British_Army_during_the_French_Revolutionary_and_Napoleonic_Wars",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -3361,6 +3431,12 @@
     {
       "date": "2026-10-20",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-21",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
