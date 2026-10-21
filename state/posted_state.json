@@ -3149,6 +3149,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/British_Army_during_the_French_Revolutionary_and_Napoleonic_Wars",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-11": {
+      "published_at": "2026-10-21T15:50:01.746758+00:00",
+      "message_id": 588,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APortland_cement_seal_%28FindID_107844%29.jpg",
+      "image_credit": "Wikimedia Commons · Royal Institution of Cornwall, Anna Tyacke, 2005-09-26 08:46:34 · CC BY-SA 2.0"
+    },
+    "GHC-OCT-21-12": {
+      "published_at": "2026-10-21T15:50:07.618117+00:00",
+      "message_id": 589,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_life_and_times_of_King_Edward_VII_by_Whates%2C_Harry_Richard_3.djvu",
+      "image_credit": "Wikimedia Commons · Harry Richard Whates · Public domain"
+    },
+    "GHC-OCT-21-13": {
+      "published_at": "2026-10-21T15:50:16.248574+00:00",
+      "message_id": 590,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Origins_of_the_American_Civil_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-14": {
+      "published_at": "2026-10-21T15:50:18.879758+00:00",
+      "message_id": 591,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-21-15": {
+      "published_at": "2026-10-21T15:50:23.772012+00:00",
+      "message_id": 592,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/October_1910",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-16": {
+      "published_at": "2026-10-21T15:50:27.895066+00:00",
+      "message_id": 593,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Middle_Eastern_theatre_of_World_War_I",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-17": {
+      "published_at": "2026-10-21T15:50:35.481928+00:00",
+      "message_id": 594,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Presidency_of_Warren_G._Harding",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-18": {
+      "published_at": "2026-10-21T15:50:39.629834+00:00",
+      "message_id": 595,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_coups_and_coup_attempts",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-19": {
+      "published_at": "2026-10-21T15:50:43.701251+00:00",
+      "message_id": 596,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/For_Whom_the_Bell_Tolls",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-21-20": {
+      "published_at": "2026-10-21T15:50:47.873080+00:00",
+      "message_id": 597,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/World_War_II_in_Yugoslavia",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -3437,6 +3507,12 @@
     {
       "date": "2026-10-21",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-21",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
