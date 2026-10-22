@@ -3219,6 +3219,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/World_War_II_in_Yugoslavia",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-01": {
+      "published_at": "2026-10-22T06:47:16.889712+00:00",
+      "message_id": 598,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Council_of_Ephesus",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-02": {
+      "published_at": "2026-10-22T06:47:18.995576+00:00",
+      "message_id": 599,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-03": {
+      "published_at": "2026-10-22T06:47:21.114980+00:00",
+      "message_id": 600,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-04": {
+      "published_at": "2026-10-22T06:47:23.953731+00:00",
+      "message_id": 601,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-05": {
+      "published_at": "2026-10-22T06:47:31.450113+00:00",
+      "message_id": 602,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/955",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-06": {
+      "published_at": "2026-10-22T06:47:34.921638+00:00",
+      "message_id": 603,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-07": {
+      "published_at": "2026-10-22T06:47:39.297194+00:00",
+      "message_id": 604,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHenryk_Sienkiewicz_-_Potop_-_The_Deluge_%281898_translation_by_Jeremiah_Curtin%29_-_Vol_1.djvu",
+      "image_credit": "Wikimedia Commons · Henryk Sienkiewicz · Public domain"
+    },
+    "GHC-OCT-22-08": {
+      "published_at": "2026-10-22T06:47:42.461775+00:00",
+      "message_id": 605,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Schm%C3%BCcke_dich,_o_liebe_Seele,_BWV_180",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-09": {
+      "published_at": "2026-10-22T06:47:52.055264+00:00",
+      "message_id": 606,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ladoga_Canal",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-10": {
+      "published_at": "2026-10-22T06:47:55.708940+00:00",
+      "message_id": 607,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -3513,6 +3583,12 @@
     {
       "date": "2026-10-21",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-22",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
