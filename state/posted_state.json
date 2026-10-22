@@ -3289,6 +3289,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-11": {
+      "published_at": "2026-10-22T15:47:40.041843+00:00",
+      "message_id": 608,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Princeton_High_School_(New_Jersey)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-12": {
+      "published_at": "2026-10-22T15:47:44.012817+00:00",
+      "message_id": 609,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-13": {
+      "published_at": "2026-10-22T15:47:48.685244+00:00",
+      "message_id": 610,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Legion_of_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-14": {
+      "published_at": "2026-10-22T15:47:50.938186+00:00",
+      "message_id": 611,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-15": {
+      "published_at": "2026-10-22T15:47:53.549962+00:00",
+      "message_id": 612,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-16": {
+      "published_at": "2026-10-22T15:47:55.915568+00:00",
+      "message_id": 613,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-17": {
+      "published_at": "2026-10-22T15:48:00.036668+00:00",
+      "message_id": 614,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Pretty_Boy_Floyd",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-22-18": {
+      "published_at": "2026-10-22T15:48:02.260739+00:00",
+      "message_id": 615,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-19": {
+      "published_at": "2026-10-22T15:48:04.613713+00:00",
+      "message_id": 616,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-22-20": {
+      "published_at": "2026-10-22T15:48:07.069491+00:00",
+      "message_id": 617,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -3589,6 +3659,12 @@
     {
       "date": "2026-10-22",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-22",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
