@@ -3359,6 +3359,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-23-01": {
+      "published_at": "2026-10-23T06:40:50.834426+00:00",
+      "message_id": 618,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Constantine_III_(Western_Roman_emperor)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-02": {
+      "published_at": "2026-10-23T06:40:53.178908+00:00",
+      "message_id": 619,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-03": {
+      "published_at": "2026-10-23T06:40:55.422781+00:00",
+      "message_id": 620,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-04": {
+      "published_at": "2026-10-23T06:40:59.438904+00:00",
+      "message_id": 621,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Grathe_Heath",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-05": {
+      "published_at": "2026-10-23T06:41:04.035646+00:00",
+      "message_id": 622,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APenelope%27s_Experiences_in_Scotland.djvu",
+      "image_credit": "Wikimedia Commons · Wiggin, Kate Douglas Smith, 1856-1923 · Public domain"
+    },
+    "GHC-OCT-23-06": {
+      "published_at": "2026-10-23T06:41:06.274589+00:00",
+      "message_id": 623,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-07": {
+      "published_at": "2026-10-23T06:41:09.552538+00:00",
+      "message_id": 624,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-08": {
+      "published_at": "2026-10-23T06:41:15.845697+00:00",
+      "message_id": 625,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADefoe_-_Memoirs_of_a_cavalier%2C_or_a_military_journal_of_the_wars_in_Germany_and_the_wars_in_England%2C_1908.djvu",
+      "image_credit": "Wikimedia Commons · Daniel?- Defoe · Public domain"
+    },
+    "GHC-OCT-23-09": {
+      "published_at": "2026-10-23T06:41:19.678099+00:00",
+      "message_id": 626,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1666",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-10": {
+      "published_at": "2026-10-23T06:41:27.054402+00:00",
+      "message_id": 627,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/First_Parliament_of_Great_Britain",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -3665,6 +3735,12 @@
     {
       "date": "2026-10-22",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-23",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
