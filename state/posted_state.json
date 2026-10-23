@@ -3429,6 +3429,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/First_Parliament_of_Great_Britain",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-11": {
+      "published_at": "2026-10-23T15:38:55.033742+00:00",
+      "message_id": 628,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Pashalik_of_Yanina",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-12": {
+      "published_at": "2026-10-23T15:38:58.699517+00:00",
+      "message_id": 629,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-13": {
+      "published_at": "2026-10-23T15:39:03.946178+00:00",
+      "message_id": 630,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMen_of_Progress%3B_One_Thousand_Biographical_Sketches_and_Portraits_of_Leaders_in_Business_and_Professional_Life_in_the_Commonwealth_of_Massachusetts_%28IA_menofprogressone00her%29.djvu",
+      "image_credit": "Wikimedia Commons · Richard Herndon · Public domain"
+    },
+    "GHC-OCT-23-14": {
+      "published_at": "2026-10-23T15:39:06.703891+00:00",
+      "message_id": 631,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-15": {
+      "published_at": "2026-10-23T15:39:10.608713+00:00",
+      "message_id": 632,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Aerial_reconnaissance_in_World_War_I",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-16": {
+      "published_at": "2026-10-23T15:39:19.733843+00:00",
+      "message_id": 633,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/First_Balkan_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-17": {
+      "published_at": "2026-10-23T15:39:22.387145+00:00",
+      "message_id": 634,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-18": {
+      "published_at": "2026-10-23T15:39:25.199770+00:00",
+      "message_id": 635,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-23-19": {
+      "published_at": "2026-10-23T15:39:29.610848+00:00",
+      "message_id": 636,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/October_1927",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-23-20": {
+      "published_at": "2026-10-23T15:39:32.308077+00:00",
+      "message_id": 637,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -3741,6 +3811,12 @@
     {
       "date": "2026-10-23",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-23",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
