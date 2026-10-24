@@ -3499,6 +3499,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-24-01": {
+      "published_at": "2026-10-24T06:38:11.753591+00:00",
+      "message_id": 638,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEarly_History_St_Louis_and_Missouri.djvu",
+      "image_credit": "Wikimedia Commons · Edwin H. Shepard · Public domain"
+    },
+    "GHC-OCT-24-02": {
+      "published_at": "2026-10-24T06:38:13.566298+00:00",
+      "message_id": 639,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-24-03": {
+      "published_at": "2026-10-24T06:38:17.362052+00:00",
+      "message_id": 640,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1360s_in_England",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-04": {
+      "published_at": "2026-10-24T06:38:21.545850+00:00",
+      "message_id": 641,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-05": {
+      "published_at": "2026-10-24T06:38:23.326904+00:00",
+      "message_id": 642,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-24-06": {
+      "published_at": "2026-10-24T06:38:25.884009+00:00",
+      "message_id": 643,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Murdoch_Stewart,_Duke_of_Albany",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-07": {
+      "published_at": "2026-10-24T06:38:27.783096+00:00",
+      "message_id": 644,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-24-08": {
+      "published_at": "2026-10-24T06:38:30.186915+00:00",
+      "message_id": 645,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_the_descendants_of_Christian_Wenger.djvu",
+      "image_credit": "Wikimedia Commons · Jonas G. Wenger · Public domain"
+    },
+    "GHC-OCT-24-09": {
+      "published_at": "2026-10-24T06:38:32.802876+00:00",
+      "message_id": 646,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-24-10": {
+      "published_at": "2026-10-24T06:38:35.900314+00:00",
+      "message_id": 647,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -3817,6 +3887,12 @@
     {
       "date": "2026-10-23",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-24",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
