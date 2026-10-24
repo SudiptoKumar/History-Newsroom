@@ -3569,6 +3569,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-11": {
+      "published_at": "2026-10-24T14:15:23.107206+00:00",
+      "message_id": 648,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Qajar_Iran",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-12": {
+      "published_at": "2026-10-24T14:15:28.290043+00:00",
+      "message_id": 649,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Moons_of_Uranus",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-13": {
+      "published_at": "2026-10-24T14:15:32.386019+00:00",
+      "message_id": 650,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Oldest_football_clubs",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-14": {
+      "published_at": "2026-10-24T14:15:38.379393+00:00",
+      "message_id": 651,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Oakwood_Cemetery_(Niagara_Falls,_New_York)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-15": {
+      "published_at": "2026-10-24T14:15:41.725082+00:00",
+      "message_id": 652,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-24-16": {
+      "published_at": "2026-10-24T14:15:48.463404+00:00",
+      "message_id": 653,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Wright_brothers",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-17": {
+      "published_at": "2026-10-24T14:15:52.845584+00:00",
+      "message_id": 654,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Bulgarian_Front_of_First_Balkan_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-18": {
+      "published_at": "2026-10-24T14:16:00.959269+00:00",
+      "message_id": 655,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Serbia_in_the_Balkan_Wars",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-19": {
+      "published_at": "2026-10-24T14:16:10.579713+00:00",
+      "message_id": 656,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Kingdom_of_Italy_(1861%E2%80%931946)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-24-20": {
+      "published_at": "2026-10-24T14:16:18.246717+00:00",
+      "message_id": 657,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Italian_battleship_Vittorio_Veneto",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -3893,6 +3963,12 @@
     {
       "date": "2026-10-24",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-24",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
