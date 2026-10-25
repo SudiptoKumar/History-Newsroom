@@ -3709,6 +3709,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-25-11": {
+      "published_at": "2026-10-25T14:49:30.946864+00:00",
+      "message_id": 668,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACommodore_Stephen_Decatur_%28118102136%29.jpg",
+      "image_credit": "Wikimedia Commons · dbking · CC BY 2.0"
+    },
+    "GHC-OCT-25-12": {
+      "published_at": "2026-10-25T14:49:34.596396+00:00",
+      "message_id": 669,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-25-13": {
+      "published_at": "2026-10-25T14:49:37.424829+00:00",
+      "message_id": 670,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-25-14": {
+      "published_at": "2026-10-25T14:49:39.984370+00:00",
+      "message_id": 671,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-25-15": {
+      "published_at": "2026-10-25T14:49:45.789869+00:00",
+      "message_id": 672,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_the_Wars_of_the_French_Revolution%2C_vol._1_%281817%29.djvu",
+      "image_credit": "Wikimedia Commons · Edward Baines · Public domain"
+    },
+    "GHC-OCT-25-16": {
+      "published_at": "2026-10-25T14:49:50.916094+00:00",
+      "message_id": 673,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_Irish_War_of_Independence",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-17": {
+      "published_at": "2026-10-25T14:49:53.632735+00:00",
+      "message_id": 674,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-25-18": {
+      "published_at": "2026-10-25T14:49:58.514883+00:00",
+      "message_id": 675,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_maritime_disasters_in_the_20th_century",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-19": {
+      "published_at": "2026-10-25T14:50:10.629178+00:00",
+      "message_id": 676,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Leader_of_the_Labour_Party_(UK)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-20": {
+      "published_at": "2026-10-25T14:50:15.359181+00:00",
+      "message_id": 677,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_general_history_of_the_pyrates%2C_from_their_first_rise_and_settlement_in_the_Island_of_Providence%2C_to_the_present_time_%281724%29.djvu",
+      "image_credit": "Wikimedia Commons · Captain Charles Johnson · Public domain"
     }
   },
   "runs": [
@@ -4045,6 +4115,12 @@
     {
       "date": "2026-10-25",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-25",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
