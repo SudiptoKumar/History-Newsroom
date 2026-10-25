@@ -3639,6 +3639,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Italian_battleship_Vittorio_Veneto",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-01": {
+      "published_at": "2026-10-25T07:04:13.323434+00:00",
+      "message_id": 658,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Roman_Empire",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-02": {
+      "published_at": "2026-10-25T07:04:17.245049+00:00",
+      "message_id": 659,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Dorylaeum_(1147)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-03": {
+      "published_at": "2026-10-25T07:04:19.546843+00:00",
+      "message_id": 660,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-25-04": {
+      "published_at": "2026-10-25T07:04:23.500376+00:00",
+      "message_id": 661,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Agincourt",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-05": {
+      "published_at": "2026-10-25T07:04:28.605853+00:00",
+      "message_id": 662,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ya%27qub_ibn_al-Layth_al-Saffar",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-06": {
+      "published_at": "2026-10-25T07:04:30.471448+00:00",
+      "message_id": 663,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-25-07": {
+      "published_at": "2026-10-25T07:04:33.788899+00:00",
+      "message_id": 664,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1616",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-25-08": {
+      "published_at": "2026-10-25T07:04:37.968085+00:00",
+      "message_id": 665,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABritish_battles_on_land_and_sea_by_James_Grant_%281897%29.djvu",
+      "image_credit": "Wikimedia Commons · James Grant · Public domain"
+    },
+    "GHC-OCT-25-09": {
+      "published_at": "2026-10-25T07:04:43.140747+00:00",
+      "message_id": 666,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKing_Edward_VII%2C_his_life_%26_reign%3B_the_record_of_a_noble_career_3.djvu",
+      "image_credit": "Wikimedia Commons · Edgar Sanderson · Public domain"
+    },
+    "GHC-OCT-25-10": {
+      "published_at": "2026-10-25T07:04:45.415566+00:00",
+      "message_id": 667,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -3969,6 +4039,12 @@
     {
       "date": "2026-10-24",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-25",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
