@@ -3779,6 +3779,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AA_general_history_of_the_pyrates%2C_from_their_first_rise_and_settlement_in_the_Island_of_Providence%2C_to_the_present_time_%281724%29.djvu",
       "image_credit": "Wikimedia Commons · Captain Charles Johnson · Public domain"
+    },
+    "GHC-OCT-26-01": {
+      "published_at": "2026-10-26T07:11:15.726238+00:00",
+      "message_id": 678,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-26-02": {
+      "published_at": "2026-10-26T07:11:18.114005+00:00",
+      "message_id": 679,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-26-03": {
+      "published_at": "2026-10-26T07:11:22.001519+00:00",
+      "message_id": 680,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Tvrtko_II_of_Bosnia",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-04": {
+      "published_at": "2026-10-26T07:11:26.521504+00:00",
+      "message_id": 681,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHans_Schwarz_-_Medallion_with_Portrait_of_Emperor_Charles_V_-_Walters_541011.jpg",
+      "image_credit": "Wikimedia Commons · Hans Schwarz · Public domain"
+    },
+    "GHC-OCT-26-05": {
+      "published_at": "2026-10-26T07:11:30.678596+00:00",
+      "message_id": 682,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Yi_Sun-sin",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-06": {
+      "published_at": "2026-10-26T07:11:33.000442+00:00",
+      "message_id": 683,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-26-07": {
+      "published_at": "2026-10-26T07:11:37.871323+00:00",
+      "message_id": 684,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Scotland_in_the_Wars_of_the_Three_Kingdoms",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-08": {
+      "published_at": "2026-10-26T07:11:40.344938+00:00",
+      "message_id": 685,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-26-09": {
+      "published_at": "2026-10-26T07:11:48.846008+00:00",
+      "message_id": 686,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-10": {
+      "published_at": "2026-10-26T07:11:53.468903+00:00",
+      "message_id": 687,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Canadian_units_of_the_War_of_1812",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -4121,6 +4191,12 @@
     {
       "date": "2026-10-25",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-26",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
