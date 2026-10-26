@@ -3849,6 +3849,62 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Canadian_units_of_the_War_of_1812",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-12": {
+      "published_at": "2026-10-26T17:10:05.253990+00:00",
+      "message_id": 688,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_Ipswich%2C_Essex%2C_and_Hamilton.djvu",
+      "image_credit": "Wikimedia Commons · Joseph Barlow Felt · Public domain"
+    },
+    "GHC-OCT-26-14": {
+      "published_at": "2026-10-26T17:12:18.549372+00:00",
+      "message_id": 691,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABritish_and_Foreign_State_Papers%2C_vol._98_%281904-1905%29.djvu",
+      "image_credit": "Wikimedia Commons · The Librarian's Department, Foreign Office · Public domain"
+    },
+    "GHC-OCT-26-15": {
+      "published_at": "2026-10-26T17:12:22.729762+00:00",
+      "message_id": 692,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Japan%E2%80%93Korea_relations",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-16": {
+      "published_at": "2026-10-26T17:12:26.362217+00:00",
+      "message_id": 693,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/First_Balkan_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-17": {
+      "published_at": "2026-10-26T17:12:44.744198+00:00",
+      "message_id": 694,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALatin_America_and_the_war_%28IA_latinamericawar00perc%29.djvu",
+      "image_credit": "Wikimedia Commons · Percy Alvin Martin · Public domain"
+    },
+    "GHC-OCT-26-18": {
+      "published_at": "2026-10-26T17:12:51.496756+00:00",
+      "message_id": 697,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/German_revolution_of_1918%E2%80%931919",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-19": {
+      "published_at": "2026-10-26T17:12:56.758119+00:00",
+      "message_id": 698,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Hoover_Dam",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-26-20": {
+      "published_at": "2026-10-26T17:12:59.357695+00:00",
+      "message_id": 699,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -4199,6 +4255,12 @@
       "batch_index": 1,
       "selected": 10,
       "published_now": 10
+    },
+    {
+      "date": "2026-10-26",
+      "batch_index": 2,
+      "selected": 10,
+      "published_now": 8
     }
   ]
 }
