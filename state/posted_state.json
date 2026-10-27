@@ -3975,6 +3975,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Ich_will_den_Kreuzstab_gerne_tragen,_BWV_56",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-11": {
+      "published_at": "2026-10-27T16:12:31.018860+00:00",
+      "message_id": 710,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Republicanism_in_the_United_Kingdom",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-12": {
+      "published_at": "2026-10-27T16:12:35.547143+00:00",
+      "message_id": 711,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEuropean_treaties_bearing_on_the_history_of_the_United_States_and_its_dependencies_-_Vol._2.djvu",
+      "image_credit": "Wikimedia Commons · Frances Gardiner Davenport · Public domain"
+    },
+    "GHC-OCT-27-13": {
+      "published_at": "2026-10-27T16:12:43.249301+00:00",
+      "message_id": 712,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Prussian_Army_of_the_Napoleonic_Wars",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-14": {
+      "published_at": "2026-10-27T16:12:46.927747+00:00",
+      "message_id": 713,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-27-15": {
+      "published_at": "2026-10-27T16:12:52.622522+00:00",
+      "message_id": 714,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_strikes",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-16": {
+      "published_at": "2026-10-27T16:12:56.879418+00:00",
+      "message_id": 715,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/October_1914",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-17": {
+      "published_at": "2026-10-27T16:13:03.705853+00:00",
+      "message_id": 716,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/October_1916",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-18": {
+      "published_at": "2026-10-27T16:13:14.100533+00:00",
+      "message_id": 717,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_Russian_history",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-19": {
+      "published_at": "2026-10-27T16:13:19.405898+00:00",
+      "message_id": 718,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Independence_referendum",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-20": {
+      "published_at": "2026-10-27T16:13:26.191769+00:00",
+      "message_id": 719,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/National_delimitation_in_the_Soviet_Union",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -4335,6 +4405,12 @@
     {
       "date": "2026-10-27",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-27",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
