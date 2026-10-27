@@ -3905,6 +3905,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-27-01": {
+      "published_at": "2026-10-27T06:58:34.387197+00:00",
+      "message_id": 700,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Constantine_the_Great",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-02": {
+      "published_at": "2026-10-27T06:58:38.483334+00:00",
+      "message_id": 701,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-27-03": {
+      "published_at": "2026-10-27T06:58:43.785165+00:00",
+      "message_id": 702,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-27-04": {
+      "published_at": "2026-10-27T06:58:46.455125+00:00",
+      "message_id": 703,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-27-05": {
+      "published_at": "2026-10-27T06:58:50.324717+00:00",
+      "message_id": 704,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Emperor_Zhaozong_of_Tang",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-06": {
+      "published_at": "2026-10-27T06:58:53.981103+00:00",
+      "message_id": 705,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Chai_Rong",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-07": {
+      "published_at": "2026-10-27T06:58:58.722331+00:00",
+      "message_id": 706,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APlan_of_the_Second_Battle_of_Newbury.jpg",
+      "image_credit": "Wikimedia Commons · Walter Money and C.K.K. (1879); Whiteman and Bass Photo-Lithography, High Holborn, London · Public domain"
+    },
+    "GHC-OCT-27-08": {
+      "published_at": "2026-10-27T06:59:04.831049+00:00",
+      "message_id": 707,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Siege_of_Grave_(1674)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-27-09": {
+      "published_at": "2026-10-27T06:59:09.414669+00:00",
+      "message_id": 708,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_the_counties_of_Dauphin_and_Lebanon_-_in_the_commonwealth_of_Pennsylvania%3B_biographical_and_genealogical_%281883%29_%2814576708598%29.jpg",
+      "image_credit": "Wikimedia Commons · Egle, William Henry, 1830-1901 · No restrictions"
+    },
+    "GHC-OCT-27-10": {
+      "published_at": "2026-10-27T06:59:16.742473+00:00",
+      "message_id": 709,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ich_will_den_Kreuzstab_gerne_tragen,_BWV_56",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -4261,6 +4331,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 8
+    },
+    {
+      "date": "2026-10-27",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
