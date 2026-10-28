@@ -4045,6 +4045,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/National_delimitation_in_the_Soviet_Union",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-28-01": {
+      "published_at": "2026-10-28T07:40:31.733642+00:00",
+      "message_id": 720,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-28-02": {
+      "published_at": "2026-10-28T07:40:39.029541+00:00",
+      "message_id": 721,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_Roman_emperors",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-28-03": {
+      "published_at": "2026-10-28T07:40:44.337072+00:00",
+      "message_id": 722,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADecline_and_Fall_of_the_Roman_Empire_vol_2_%281896%29.djvu",
+      "image_credit": "Wikimedia Commons · Edward Gibbon / John Bagnell Bury · Public domain"
+    },
+    "GHC-OCT-28-04": {
+      "published_at": "2026-10-28T07:40:49.506965+00:00",
+      "message_id": 723,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADecline_and_Fall_of_the_Roman_Empire_vol_1_%281897%29.djvu",
+      "image_credit": "Wikimedia Commons · Gibbon, Edward, 1737-1794; Bury, J. B. (John Bagnell), 1861-1927 · Public domain"
+    },
+    "GHC-OCT-28-05": {
+      "published_at": "2026-10-28T07:40:54.248370+00:00",
+      "message_id": 724,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Crusades_after_the_fall_of_Acre,_1291%E2%80%931399",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-28-06": {
+      "published_at": "2026-10-28T07:40:58.146255+00:00",
+      "message_id": 725,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Government_of_the_Ming_dynasty",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-28-07": {
+      "published_at": "2026-10-28T07:41:03.096894+00:00",
+      "message_id": 726,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AProtestant_Exiles_from_France_Agnew_%281st_ed._vol_3%29.djvu",
+      "image_credit": "Wikimedia Commons · David Carnegie Andrew Agnew · Public domain"
+    },
+    "GHC-OCT-28-08": {
+      "published_at": "2026-10-28T07:41:10.273022+00:00",
+      "message_id": 727,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_history_of_Harvard_University%2C_volume_1.djvu",
+      "image_credit": "Wikimedia Commons · Josiah Quincy III · Public domain"
+    },
+    "GHC-OCT-28-09": {
+      "published_at": "2026-10-28T07:41:16.261966+00:00",
+      "message_id": 728,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Treaty_of_Ripon",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-28-10": {
+      "published_at": "2026-10-28T07:41:24.596501+00:00",
+      "message_id": 729,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Royal_Marines",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -4411,6 +4481,12 @@
     {
       "date": "2026-10-27",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-28",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
