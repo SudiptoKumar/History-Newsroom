@@ -4255,6 +4255,76 @@
       "send_mode": "rich_text",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-29-11": {
+      "published_at": "2026-10-29T17:18:45.382762+00:00",
+      "message_id": 750,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_History_of_Mathematics_%28Cajori_1919%29.djvu",
+      "image_credit": "Wikimedia Commons · Florian Cajori · Public domain"
+    },
+    "GHC-OCT-29-12": {
+      "published_at": "2026-10-29T17:18:48.184946+00:00",
+      "message_id": 751,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-29-13": {
+      "published_at": "2026-10-29T17:18:52.053318+00:00",
+      "message_id": 752,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-29-14": {
+      "published_at": "2026-10-29T17:18:57.071996+00:00",
+      "message_id": 753,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_War_Illustrated_Album_De_Luxe%3B_the_Story_of_the_Great_European_War_Told_by_Camera%2C_Pen_and_Pencil%2C_1919_%28volume_X%29_-_The_Final_Phase.djvu",
+      "image_credit": "Wikimedia Commons · Sir John Alexander Hammerton · Public domain"
+    },
+    "GHC-OCT-29-15": {
+      "published_at": "2026-10-29T17:18:59.637881+00:00",
+      "message_id": 754,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-29-16": {
+      "published_at": "2026-10-29T17:19:04.207146+00:00",
+      "message_id": 755,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARussian_Empire_Dissolution_Map_%281918%29_EN.png",
+      "image_credit": "Wikimedia Commons · Stanislawskachko\n\nMap created based on File:Subdivisions of the Russian Empire in 1914.svg and author User:Hellerick.\nData sources - Pipes, Richard. The formation of the Soviet Union: communism and nationalism, 1917–1923. Cambridge, Mass.: Harvard University Press, 1997 and others\nData source^: https://www.youtube.com/watch?v=tLDz5QIjQb0&amp;t=52s · CC BY-SA 4.0"
+    },
+    "GHC-OCT-29-17": {
+      "published_at": "2026-10-29T17:19:08.946949+00:00",
+      "message_id": 756,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Europe",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-18": {
+      "published_at": "2026-10-29T17:19:11.908184+00:00",
+      "message_id": 757,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-29-19": {
+      "published_at": "2026-10-29T17:19:17.463701+00:00",
+      "message_id": 758,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Netherlands_in_World_War_II",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-20": {
+      "published_at": "2026-10-29T17:19:21.459681+00:00",
+      "message_id": 759,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_World_Factbook_%281990%29.djvu",
+      "image_credit": "Wikimedia Commons · United States Central Intelligence Agency · Public domain"
     }
   },
   "runs": [
@@ -4639,6 +4709,12 @@
     {
       "date": "2026-10-29",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-29",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
