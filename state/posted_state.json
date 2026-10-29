@@ -4185,6 +4185,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Dawson_Creek",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-01": {
+      "published_at": "2026-10-29T07:45:00.161527+00:00",
+      "message_id": 740,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-29-02": {
+      "published_at": "2026-10-29T07:45:04.232435+00:00",
+      "message_id": 741,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_Roman_Empire",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-03": {
+      "published_at": "2026-10-29T07:45:11.320483+00:00",
+      "message_id": 742,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACelebrated_Trials_-_Volume_3.djvu",
+      "image_credit": "Wikimedia Commons · George Borrow · Public domain"
+    },
+    "GHC-OCT-29-04": {
+      "published_at": "2026-10-29T07:45:17.445308+00:00",
+      "message_id": 743,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1467",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-05": {
+      "published_at": "2026-10-29T07:45:21.579309+00:00",
+      "message_id": 744,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Alessandro_Achillini",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-06": {
+      "published_at": "2026-10-29T07:45:26.506512+00:00",
+      "message_id": 745,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Benedetto_Accolti_the_Younger",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-07": {
+      "published_at": "2026-10-29T07:45:31.393811+00:00",
+      "message_id": 746,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Crown_of_the_Kingdom_of_Poland",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-08": {
+      "published_at": "2026-10-29T07:45:35.609260+00:00",
+      "message_id": 747,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Edward_Barkham_(Lord_Mayor)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-09": {
+      "published_at": "2026-10-29T07:45:44.914648+00:00",
+      "message_id": 748,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Northern_War_of_1655%E2%80%931660",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-29-10": {
+      "published_at": "2026-10-29T07:45:48.331960+00:00",
+      "message_id": 749,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -4563,6 +4633,12 @@
     {
       "date": "2026-10-28",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-29",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
