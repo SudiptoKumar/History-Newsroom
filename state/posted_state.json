@@ -4325,6 +4325,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_World_Factbook_%281990%29.djvu",
       "image_credit": "Wikimedia Commons · United States Central Intelligence Agency · Public domain"
+    },
+    "GHC-OCT-30-01": {
+      "published_at": "2026-10-30T07:51:37.729028+00:00",
+      "message_id": 760,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-02": {
+      "published_at": "2026-10-30T07:51:42.137700+00:00",
+      "message_id": 761,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_the_Iron_Bridge",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-03": {
+      "published_at": "2026-10-30T07:51:45.926306+00:00",
+      "message_id": 762,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-04": {
+      "published_at": "2026-10-30T07:51:48.774999+00:00",
+      "message_id": 763,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-05": {
+      "published_at": "2026-10-30T07:51:54.585093+00:00",
+      "message_id": 764,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Eighth_Crusade",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-06": {
+      "published_at": "2026-10-30T07:51:57.018265+00:00",
+      "message_id": 765,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-07": {
+      "published_at": "2026-10-30T07:51:59.724119+00:00",
+      "message_id": 766,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-08": {
+      "published_at": "2026-10-30T07:52:02.812365+00:00",
+      "message_id": 767,
+      "send_mode": "rich_text",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-09": {
+      "published_at": "2026-10-30T07:52:06.357787+00:00",
+      "message_id": 768,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AConstitution_of_the_Bolivarian_republic_of_Venezuela.djvu",
+      "image_credit": "Wikimedia Commons · Ministerio de Comunicación e Información · Public domain"
+    },
+    "GHC-OCT-30-10": {
+      "published_at": "2026-10-30T07:52:14.783227+00:00",
+      "message_id": 769,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1831_in_the_United_States",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -4715,6 +4785,12 @@
     {
       "date": "2026-10-29",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-30",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
