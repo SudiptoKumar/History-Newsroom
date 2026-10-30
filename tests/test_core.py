@@ -42,14 +42,50 @@ def test_rich_message_structure():
     enriched = enrich_event(event)
     rich = build_rich_message(event, enriched)
     blocks = rich["blocks"]
-    assert [b["type"] for b in blocks] == ["paragraph", "heading", "paragraph", "paragraph", "paragraph", "paragraph"]
-    assert "Today in History" in str(rich)
-    assert {"type": "bold", "text": "Today in History"} in rich["blocks"][3]["text"][0]["text"]
+    assert [b["type"] for b in blocks] == ["paragraph", "heading", "paragraph", "expandable_blockquote", "paragraph", "footer"]
+    assert blocks[3]["text"][0] == {"type": "bold", "text": "FULL STORY"}
     assert len(enriched.hashtags) == 3
     assert all("#TodayInHistory".lower() != tag.lower() for tag in enriched.hashtags)
     assert "People:" not in str(rich)
     assert "Entity:" not in str(rich)
     assert "Category:" not in str(rich)
+
+
+def test_postcard_story_has_no_title_repeat_or_filler():
+    from content_ai import _fallback
+    from formatter import story_parts
+
+    event = events_for_date(load_all(), 9, 21)[0]
+    enriched = _fallback(event)
+    essence, full_story = story_parts(event, enriched)
+    assert essence
+    assert essence.lower().rstrip(".") != enriched.title.lower().rstrip(".")
+    assert "It is recorded under" not in full_story
+    assert "The event occurred in" not in full_story
+
+
+def test_hashtags_are_readable_camelcase():
+    from formatter import _camel_tag, _safe_tags
+
+    assert _camel_tag("Military and political history") == "#MilitaryPoliticalHistory"
+    assert _camel_tag("Science & Technology") == "#ScienceTechnology"
+    event = events_for_date(load_all(), 9, 21)[0]
+    tags = _safe_tags(["#Military and political history"], event)
+    assert tags[0] == "#MilitaryPoliticalHistory"
+
+
+def test_source_name_is_not_a_date():
+    from dataset import load_all as _load
+    from formatter import source_display_name
+
+    import re as _re
+
+    dated = [e for e in _load() if " — " in e.source_1_name and _re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}", e.source_1_name)]
+    assert dated, "dataset should contain date-qualified source names"
+    for event in dated[:5]:
+        shown = source_display_name(event)
+        assert shown != event.source_1_name.strip()
+        assert not _re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$", shown)
 
 
 def test_rich_photo_block_uses_uploaded_media():
@@ -65,7 +101,7 @@ def test_fallback_caption_is_clean():
     assert "People:" not in caption
     assert "Entity:" not in caption
     assert "Category:" not in caption
-    assert "<b>Today in History</b>" in caption
+    assert "<b>Source:</b>" in caption
     assert caption.count("#") >= 3
     assert len(caption) <= 1024
 
@@ -83,10 +119,9 @@ def test_story_length_ceiling_and_footer_order():
     assert len(enriched.story.split()) <= 70
     rich = build_rich_message(event, enriched)
     block_types = [b["type"] for b in rich["blocks"]]
-    today_index = next(i for i, b in enumerate(rich["blocks"]) if "Today in History" in str(b))
-    source_index = next(i for i, b in enumerate(rich["blocks"]) if "Source:" in str(b))
+    assert block_types[-1] == "footer"
     hashtag_index = next(i for i, b in enumerate(rich["blocks"]) if "#" in str(b))
-    assert today_index < hashtag_index < source_index
+    assert hashtag_index < len(block_types) - 1
 
 
 def test_invalid_batch_is_rejected():
