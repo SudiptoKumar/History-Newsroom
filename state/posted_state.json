@@ -4869,6 +4869,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 10
+    },
+    {
+      "date": "2026-10-30",
+      "batch_index": 2,
+      "selected": 10,
+      "published_now": 0
     }
   ]
 }
