@@ -7,6 +7,7 @@ from dataclasses import dataclass
 
 import requests
 
+import cerebras_keys
 from config import SETTINGS
 from dataset import Event
 
@@ -239,11 +240,29 @@ Rules:
         "temperature": 0.35,
     }
 
-    headers = {
-        "Authorization": f"Bearer {SETTINGS.cerebras_api_key}",
-        "Content-Type": "application/json",
-        "User-Agent": UA,
-    }
+    def _post(current_payload):
+        # Headers rebuilt per try so a key failover is picked up at once; the
+        # failover retry does not consume the caller's attempt budget.
+        while True:
+            headers = {
+                "Authorization": f"Bearer {SETTINGS.cerebras_api_key}",
+                "Content-Type": "application/json",
+                "User-Agent": UA,
+            }
+            response = requests.post(
+                CEREBRAS_URL,
+                headers=headers,
+                json=current_payload,
+                timeout=TIMEOUT,
+            )
+            try:
+                response.raise_for_status()
+                return response
+            except requests.HTTPError:
+                status = response.status_code
+                if cerebras_keys.is_quota_status(status) and cerebras_keys.failover(status):
+                    continue
+                raise
 
     try:
         for attempt in range(2):
@@ -255,13 +274,7 @@ Rules:
                     "content": system + "\nThe previous draft was too short. Rewrite it again and make the story at least 45 words while staying factual and concise.",
                 }
             current_payload["messages"] = messages
-            response = requests.post(
-                CEREBRAS_URL,
-                headers=headers,
-                json=current_payload,
-                timeout=TIMEOUT,
-            )
-            response.raise_for_status()
+            response = _post(current_payload)
             raw = response.json()["choices"][0]["message"]["content"]
             data = json.loads(raw)
             title = _trim_title(str(data.get("title") or "").strip(), event.event_title.strip() or "Historical Event")
