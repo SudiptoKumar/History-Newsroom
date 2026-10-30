@@ -68,10 +68,10 @@ def relevant_hashtags(event: Event) -> list[str]:
     values = [event.event_category, event.event_type, event.modern_country]
     tags: list[str] = []
     for value in values:
-        cleaned = re.sub(r"[^A-Za-z0-9]+", "", value.replace("&", "and"))
-        if not cleaned:
+        words = [w for w in re.findall(r"[A-Za-z0-9]+", value.replace("&", " and ")) if w.lower() not in {"and", "of", "the"}]
+        if not words:
             continue
-        tag = "#" + cleaned[:42]
+        tag = "#" + "".join(w[:1].upper() + w[1:] for w in words)[:42]
         if tag.lower() not in {t.lower() for t in tags}:
             tags.append(tag)
         if len(tags) == 3:

@@ -6,11 +6,11 @@ from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from config import SETTINGS
+from config import GENERATED_DIR, SETTINGS
 from content_ai import enrich_event
 from dataset import Event, events_for_date, load_all, validate_dataset
-from formatter import build_rich_message, build_rich_message_with_photo, format_fallback_caption
-from image_pipeline import prepare_event_image
+from formatter import build_card_rich_message, build_rich_message, build_rich_message_with_photo, format_fallback_caption
+from image_pipeline import generate_event_card, prepare_event_image
 from image_resolver import resolve_event_image
 from state_store import add_run, is_published, load_state, mark_published, save_state
 from telegram_client import send_message, send_photo, send_rich_message, send_rich_photo
@@ -83,12 +83,23 @@ def run(run_date: date, batch_index: int, dry_run: bool = False) -> None:
             logger.warning("Photo pipeline failed for %s: %s", event.event_id, exc)
             resolved = None
             image = None
+        card = None
         if image:
             logger.info("Image ready for %s -> %s", event.event_id, image)
         else:
-            logger.warning("Publishing %s without photo: no usable historical image was resolved.", event.event_id)
+            # No usable photo: the event gets a generated house-template card
+            # instead of a bare text post. Card failure is non-fatal — the
+            # event then publishes as rich text, as before.
+            try:
+                card = generate_event_card(event, enriched, GENERATED_DIR / f"{event.event_id}.card.jpg")
+                logger.info("Card ready for %s -> %s", event.event_id, card)
+            except Exception as exc:
+                logger.warning("Card generation failed for %s: %s", event.event_id, exc)
+                card = None
+            if not card:
+                logger.warning("Publishing %s without photo or card.", event.event_id)
         if dry_run:
-            logger.info("DRY RUN | %s | %s | image=%s | title=%s", event.event_id, event.event_title, image, enriched.title)
+            logger.info("DRY RUN | %s | %s | image=%s | card=%s | title=%s", event.event_id, event.event_title, image, card, enriched.title)
             logger.info("STORY | %s", enriched.story)
             continue
 
@@ -99,6 +110,9 @@ def run(run_date: date, batch_index: int, dry_run: bool = False) -> None:
                 rich = build_rich_message_with_photo(event, "photo", enriched)
                 message_id = send_rich_photo(str(image), rich)
                 send_mode = "rich_photo"
+            elif card:
+                message_id = send_rich_photo(str(card), build_card_rich_message())
+                send_mode = "card_rich"
             else:
                 rich = build_rich_message(event, enriched)
                 message_id = send_rich_message(rich)
@@ -111,6 +125,9 @@ def run(run_date: date, batch_index: int, dry_run: bool = False) -> None:
                 if image:
                     message_id = send_photo(str(image), fallback)
                     send_mode = "photo_fallback"
+                elif card:
+                    message_id = send_photo(str(card), fallback)
+                    send_mode = "card_fallback"
                 else:
                     message_id = send_message(fallback)
                     send_mode = "text_fallback"
@@ -160,12 +177,21 @@ def self_test() -> None:
     enriched = enrich_event(batch1[0])
     rich = build_rich_message(batch1[0], enriched)
     text_blocks = rich["blocks"]
-    assert text_blocks[0]["type"] == "paragraph"
-    assert text_blocks[1]["type"] == "heading"
+    assert [b["type"] for b in text_blocks] == ["paragraph", "heading", "paragraph", "expandable_blockquote", "paragraph", "footer"]
+    assert "FULL STORY" in str(text_blocks[3])
+    assert "It is recorded under" not in str(rich)
+    assert "The event occurred in" not in str(rich)
     assert len(enriched.hashtags) == 3
     assert not any(x.startswith("People:") for x in [enriched.story])
-    assert "Today in History" in str(rich)
     assert (Path(__file__).resolve().parent / "assets" / "today-in-history-logo.png").exists()
+    from tempfile import TemporaryDirectory
+
+    from PIL import Image
+
+    with TemporaryDirectory() as temp:
+        card_path = generate_event_card(batch1[0], enriched, Path(temp) / "card.jpg")
+        with Image.open(card_path) as check:
+            assert check.size[0] == 1200 and check.size[1] in (1200, 1500, 1800)
     logger.info("Self-test passed: %d events loaded.", len(events))
 
 
