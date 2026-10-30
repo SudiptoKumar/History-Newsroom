@@ -65,6 +65,15 @@ class FakeTransport:
         return FakeResponse(statuses.pop(0) if len(statuses) > 1 else statuses[0])
 
 
+def _prime() -> None:
+    # Other test modules may import config first with no keys in the
+    # environment, so force the test keys onto the frozen SETTINGS directly.
+    object.__setattr__(SETTINGS, "cerebras_api_key", KEY1)
+    object.__setattr__(SETTINGS, "cerebras_api_key_2", KEY2)
+    object.__setattr__(SETTINGS, "use_cerebras", True)
+    cerebras_keys._reset_state()
+
+
 def _run(script):
     transport = FakeTransport(script)
     original = requests.post
@@ -76,7 +85,7 @@ def _run(script):
 
 
 def test_failover_to_second_key() -> None:
-    cerebras_keys._reset_state()
+    _prime()
     result, transport = _run({KEY1: [402], KEY2: [200]})
     assert result.title == "AI Event Title", result
     assert transport.cerebras_auth == [KEY1, KEY2], transport.cerebras_auth
@@ -84,7 +93,7 @@ def test_failover_to_second_key() -> None:
 
 
 def test_non_quota_error_falls_back_without_rotating() -> None:
-    cerebras_keys._reset_state()
+    _prime()
     result, transport = _run({KEY1: [400], KEY2: [200]})
     assert result.title != "AI Event Title", result
     assert transport.cerebras_auth == [KEY1], transport.cerebras_auth
@@ -92,7 +101,7 @@ def test_non_quota_error_falls_back_without_rotating() -> None:
 
 
 def test_both_keys_dead_falls_back() -> None:
-    cerebras_keys._reset_state()
+    _prime()
     result, transport = _run({KEY1: [402], KEY2: [402]})
     assert result.title != "AI Event Title", result
     assert transport.cerebras_auth == [KEY1, KEY2], transport.cerebras_auth
