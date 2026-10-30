@@ -4395,6 +4395,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/1831_in_the_United_States",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-11": {
+      "published_at": "2026-10-30T08:38:31.684936+00:00",
+      "message_id": 770,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1836",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-12": {
+      "published_at": "2026-10-30T08:38:35.956053+00:00",
+      "message_id": 771,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-13": {
+      "published_at": "2026-10-30T08:38:40.551313+00:00",
+      "message_id": 772,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-14": {
+      "published_at": "2026-10-30T08:38:44.086499+00:00",
+      "message_id": 773,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-30-15": {
+      "published_at": "2026-10-30T08:38:48.161837+00:00",
+      "message_id": 774,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Partition_of_the_Ottoman_Empire",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-16": {
+      "published_at": "2026-10-30T08:38:53.606181+00:00",
+      "message_id": 775,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Croatia",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-17": {
+      "published_at": "2026-10-30T08:38:59.778686+00:00",
+      "message_id": 776,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Communist_Party_of_Australia_(1971)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-18": {
+      "published_at": "2026-10-30T08:39:04.687516+00:00",
+      "message_id": 777,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-30-19": {
+      "published_at": "2026-10-30T08:39:10.250005+00:00",
+      "message_id": 778,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APentagon-Papers-Part_V._B._2._b.djvu",
+      "image_credit": "Wikimedia Commons · Pentagon-Department of Defense · Public domain"
+    },
+    "GHC-OCT-30-20": {
+      "published_at": "2026-10-30T08:39:13.822458+00:00",
+      "message_id": 779,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
     }
   },
   "runs": [
@@ -4791,6 +4861,12 @@
     {
       "date": "2026-10-30",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-30",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
