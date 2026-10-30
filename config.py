@@ -42,6 +42,9 @@ class Settings:
     use_exa_context: bool = os.getenv("USE_EXA_CONTEXT", "true").lower() == "true"
     cerebras_model: str = os.getenv("CEREBRAS_MODEL", "gpt-oss-120b")
     cerebras_api_key: str = os.getenv("CEREBRAS_API_KEY", "")
+    cerebras_api_key_2: str = os.getenv("CEREBRAS_API_KEY_2", "")
+    newsroom_bot_token: str = os.getenv("NEWSROOM_BOT_TOKEN", "")
+    alert_chat_id: str = os.getenv("ALERT_CHAT_ID", "")
     bot_name: str = os.getenv("BOT_NAME", "Today in History")
     exa_api_key: str = os.getenv("EXA_API_KEY", "")
 
