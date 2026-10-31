@@ -4535,6 +4535,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/36th_United_States_Congress",
       "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-11": {
+      "published_at": "2026-10-31T15:57:17.898204+00:00",
+      "message_id": 790,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_United_States_(2016%E2%80%93present)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-12": {
+      "published_at": "2026-10-31T15:57:25.393357+00:00",
+      "message_id": 791,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APortrait_of_John_Evelyn%2C_Esq_%284673723%29.jpg",
+      "image_credit": "Wikimedia Commons · James Tookey · Public domain"
+    },
+    "GHC-OCT-31-13": {
+      "published_at": "2026-10-31T15:57:28.980349+00:00",
+      "message_id": 792,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJohannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg",
+      "image_credit": "Wikimedia Commons · Johannes Vermeer · Public domain"
+    },
+    "GHC-OCT-31-14": {
+      "published_at": "2026-10-31T15:57:33.698970+00:00",
+      "message_id": 793,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_hazing_deaths_in_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-15": {
+      "published_at": "2026-10-31T15:57:39.154510+00:00",
+      "message_id": 794,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-31-16": {
+      "published_at": "2026-10-31T15:57:44.898514+00:00",
+      "message_id": 795,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Lincoln_Highway",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-17": {
+      "published_at": "2026-10-31T15:57:49.857379+00:00",
+      "message_id": 796,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Indianapolis_streetcar_strike_of_1913",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-18": {
+      "published_at": "2026-10-31T15:57:55.487978+00:00",
+      "message_id": 797,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Horses_in_World_War_I",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-19": {
+      "published_at": "2026-10-31T15:57:58.785420+00:00",
+      "message_id": 798,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-31-20": {
+      "published_at": "2026-10-31T15:58:03.091794+00:00",
+      "message_id": 799,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APalace_of_the_Grand_Master_of_the_Knights_of_Rhodes_%289451497175%29.jpg",
+      "image_credit": "Wikimedia Commons · Jorge Láscar from Australia · CC BY 2.0"
     }
   },
   "runs": [
@@ -4949,6 +5019,12 @@
     {
       "date": "2026-10-31",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-10-31",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
