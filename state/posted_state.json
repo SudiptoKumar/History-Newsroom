@@ -4465,6 +4465,76 @@
       "send_mode": "card_rich",
       "image_page": "",
       "image_credit": ""
+    },
+    "GHC-OCT-31-01": {
+      "published_at": "2026-10-31T07:40:25.000564+00:00",
+      "message_id": 780,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-02": {
+      "published_at": "2026-10-31T07:40:29.046426+00:00",
+      "message_id": 781,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-31-03": {
+      "published_at": "2026-10-31T07:40:32.267082+00:00",
+      "message_id": 782,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-OCT-31-04": {
+      "published_at": "2026-10-31T07:40:36.542925+00:00",
+      "message_id": 783,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/932",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-05": {
+      "published_at": "2026-10-31T07:40:39.587188+00:00",
+      "message_id": 784,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWorks_of_Martin_Luther%2C_with_introductions_and_notes%2C_Volume_1.djvu",
+      "image_credit": "Wikimedia Commons · Martin Luther · Public domain"
+    },
+    "GHC-OCT-31-06": {
+      "published_at": "2026-10-31T07:40:43.973975+00:00",
+      "message_id": 785,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Leiden_University_Library",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-07": {
+      "published_at": "2026-10-31T07:40:50.670571+00:00",
+      "message_id": 786,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Emperor",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-08": {
+      "published_at": "2026-10-31T07:40:55.330170+00:00",
+      "message_id": 787,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Steamboat_Monmouth_disaster",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-09": {
+      "published_at": "2026-10-31T07:41:01.213187+00:00",
+      "message_id": 788,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-OCT-31-10": {
+      "published_at": "2026-10-31T07:41:15.901035+00:00",
+      "message_id": 789,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/36th_United_States_Congress",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -4875,6 +4945,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-10-31",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
