@@ -4675,6 +4675,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AEthiopica_%26_Amharica_-_a_list_of_works_in_the_New_York_public_library_%281928%29.djvu",
       "image_credit": "Wikimedia Commons · George Fraser Black (1865-1948) · Public domain"
+    },
+    "GHC-NOV-1-18": {
+      "published_at": "2026-11-01T17:00:08.762315+00:00",
+      "message_id": 810,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:Ivy_Mike_004.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-NOV-1-19": {
+      "published_at": "2026-11-01T17:00:18.576482+00:00",
+      "message_id": 811,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Torture_during_the_Algerian_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-1-20": {
+      "published_at": "2026-11-01T17:00:27.247629+00:00",
+      "message_id": 812,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_the_European_Union_(1993%E2%80%932004)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-1-01": {
+      "published_at": "2026-11-01T17:00:40.911145+00:00",
+      "message_id": 813,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARelief_CoA_Pius_V_ceiling_Santa_Maria_in_Aracoeli%2C_Rome%2C_Italy.jpg",
+      "image_credit": "Wikimedia Commons · Jebulon · CC0"
+    },
+    "GHC-NOV-1-04": {
+      "published_at": "2026-11-01T17:00:46.522053+00:00",
+      "message_id": 814,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAllerheiligen_Moser_1570.jpg",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-1-08": {
+      "published_at": "2026-11-01T17:00:56.877958+00:00",
+      "message_id": 815,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABoston_Public_Garden_%2836008p%29.jpg",
+      "image_credit": "Wikimedia Commons · Rhododendrites · CC BY-SA 4.0"
+    },
+    "GHC-NOV-1-09": {
+      "published_at": "2026-11-01T17:01:05.938648+00:00",
+      "message_id": 816,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Union_army%3B_a_history_of_military_affairs_in_the_loyal_states%2C_1861-65_-_records_of_the_regiments_in_the_Union_army_-_cyclopedia_of_battles_-_memoirs_of_commanders_and_soldiers_%281908%29_%2814762332342%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-1-10": {
+      "published_at": "2026-11-01T17:01:14.322199+00:00",
+      "message_id": 817,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABreaking_barriers%3B_first_all-female_launch_weather_team_on_Eastern_Range_%286241812%29.jpeg",
+      "image_credit": "Wikimedia Commons · U.S. Space Force photo by Senior Airman Dalton Williams · Public domain"
+    },
+    "GHC-NOV-1-14": {
+      "published_at": "2026-11-01T17:01:20.645272+00:00",
+      "message_id": 818,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUkraine%27s_Claim_to_Freedom_%281915%29.djvu",
+      "image_credit": "Wikimedia Commons · Ukrainian National Association · Public domain"
+    },
+    "GHC-NOV-1-17": {
+      "published_at": "2026-11-01T17:01:24.157359+00:00",
+      "message_id": 819,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVella_Lavella_airfield_Dec_1943.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Navy · Public domain"
     }
   },
   "runs": [
@@ -5101,6 +5171,12 @@
     {
       "date": "2026-11-01",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-01",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
