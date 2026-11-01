@@ -4605,6 +4605,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APalace_of_the_Grand_Master_of_the_Knights_of_Rhodes_%289451497175%29.jpg",
       "image_credit": "Wikimedia Commons · Jorge Láscar from Australia · CC BY 2.0"
+    },
+    "GHC-NOV-1-02": {
+      "published_at": "2026-11-01T08:19:38.782324+00:00",
+      "message_id": 800,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APiranesi_candlestick_courtyard_palazzo_lante_st_eustachius_%2822344581292%29.jpg",
+      "image_credit": "Wikimedia Commons · Art Gallery ErgsArt - by ErgSap from France · Public domain"
+    },
+    "GHC-NOV-1-03": {
+      "published_at": "2026-11-01T08:19:43.074083+00:00",
+      "message_id": 801,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACarte_de_la_Terre_de_Feu_et_des_Detroits_de_Magellan_et_de_Le_Maire_avec_les_Nouvelles_Isles_d%27Anycan_et_de_Beauchene_1756.jpg",
+      "image_credit": "Wikimedia Commons · Varius geographers · CC0"
+    },
+    "GHC-NOV-1-05": {
+      "published_at": "2026-11-01T08:19:46.974444+00:00",
+      "message_id": 802,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOffshore_New_Zealand_magnitude_6.0_earthquake_%287-37_PM%2C_5_April_2021%29.jpg",
+      "image_credit": "Wikimedia Commons · James St. John · CC BY 2.0"
+    },
+    "GHC-NOV-1-06": {
+      "published_at": "2026-11-01T08:19:58.678263+00:00",
+      "message_id": 803,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABritish_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg",
+      "image_credit": "Wikimedia Commons · Diliff · CC BY-SA 3.0"
+    },
+    "GHC-NOV-1-07": {
+      "published_at": "2026-11-01T08:20:11.259989+00:00",
+      "message_id": 804,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAm_Hof%2C_Vienna%2C_Austria%2C_with_open_air_market_and_equestrian_statue_in_foreground_LCCN92522634.jpg",
+      "image_credit": "Wikimedia Commons · Miscellaneous Items in High Demand, PPOC, Library of Congress · Public domain"
+    },
+    "GHC-NOV-1-11": {
+      "published_at": "2026-11-01T08:20:16.744228+00:00",
+      "message_id": 805,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AQueen_Victoria_surrounded_by_her_family_-_Coburg%2C_1894_%281_of_2%29.jpg",
+      "image_credit": "Wikimedia Commons · Eduard Uhlenhuth · Public domain"
+    },
+    "GHC-NOV-1-12": {
+      "published_at": "2026-11-01T08:20:21.766432+00:00",
+      "message_id": 806,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A2d_Bomb_Wing.png",
+      "image_credit": "Wikimedia Commons · United States Air Force · Public domain"
+    },
+    "GHC-NOV-1-13": {
+      "published_at": "2026-11-01T08:20:25.247960+00:00",
+      "message_id": 807,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARear-Admiral_Christopher_Cradock%27s_flagship%2C_HMS_%27Good_Hope%27%2C_on_fire_before_blowing_up_at_the_Battle_of_Coronel%2C_1_November_1914_RMG_PW1790.tiff",
+      "image_credit": "Wikimedia Commons · William Lionel Wyllie · Public domain"
+    },
+    "GHC-NOV-1-15": {
+      "published_at": "2026-11-01T08:20:30.377760+00:00",
+      "message_id": 808,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFormer_Ottoman_Sultan_Mehmed_VI_arrives_in_Malta_on_a_British_warship._9_Dec_1922.jpg",
+      "image_credit": "Wikimedia Commons · Grand Studio, Malta; The Grand Studio, owned first by J.Mallia and later by F. Tabone was based since late Victorian times in Kingsway, Valletta. Its activities included portraiture and current events.\n\nEverett Collection, cf. alamy · Public domain"
+    },
+    "GHC-NOV-1-16": {
+      "published_at": "2026-11-01T08:20:35.655808+00:00",
+      "message_id": 809,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEthiopica_%26_Amharica_-_a_list_of_works_in_the_New_York_public_library_%281928%29.djvu",
+      "image_credit": "Wikimedia Commons · George Fraser Black (1865-1948) · Public domain"
     }
   },
   "runs": [
@@ -5025,6 +5095,12 @@
     {
       "date": "2026-10-31",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-01",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
