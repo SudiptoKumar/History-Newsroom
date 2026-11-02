@@ -4815,6 +4815,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AFrank_Conrad_radio_station_8XK_1920.jpg",
       "image_credit": "Wikimedia Commons · T. R. Kennedy Jr. · Public domain"
+    },
+    "GHC-NOV-3-18": {
+      "published_at": "2026-11-02T20:38:05.194931+00:00",
+      "message_id": 830,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVenus_%287544560662%29.jpg",
+      "image_credit": "Wikimedia Commons · NASA on The Commons · No restrictions"
+    },
+    "GHC-NOV-3-20": {
+      "published_at": "2026-11-02T20:38:11.382204+00:00",
+      "message_id": 831,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-3-01": {
+      "published_at": "2026-11-02T20:38:17.594075+00:00",
+      "message_id": 832,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_life_of_Christopher_Columbus%2C_from_his_own_letters_and_journals_and_other_documents_of_his_time_%281891%29_%2814595075400%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-3-03": {
+      "published_at": "2026-11-02T20:38:22.935947+00:00",
+      "message_id": 833,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADisbanding_the_Continental_Army%2C_at_New_Windsor%2C_New_York%2C_November_3%2C_1783_-_drawn_by_H.A._Ogden._LCCN91709495.jpg",
+      "image_credit": "Wikimedia Commons · Miscellaneous Items in High Demand, PPOC, Library of Congress · Public domain"
+    },
+    "GHC-NOV-3-04": {
+      "published_at": "2026-11-02T20:38:27.687163+00:00",
+      "message_id": 834,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOlympe_gouges.jpg",
+      "image_credit": "Wikimedia Commons · Mettais · Public domain"
+    },
+    "GHC-NOV-3-05": {
+      "published_at": "2026-11-02T20:38:32.191666+00:00",
+      "message_id": 835,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APrelude_to_the_Battle_of_Vyazma_1812.png",
+      "image_credit": "Wikimedia Commons · Edward Foord · Public domain"
+    },
+    "GHC-NOV-3-07": {
+      "published_at": "2026-11-02T20:38:37.255979+00:00",
+      "message_id": 836,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APlan_of_Battle_of_Mentana_1867.jpg",
+      "image_credit": "Wikimedia Commons · Typo. Etching Co.Sc. · Public domain"
+    },
+    "GHC-NOV-3-09": {
+      "published_at": "2026-11-02T20:38:42.157342+00:00",
+      "message_id": 837,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_situation_in_the_Far_East_by_Tse_Tsan-tai.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-3-14": {
+      "published_at": "2026-11-02T20:38:46.619465+00:00",
+      "message_id": 838,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFlight_Air_India_245_route.png",
+      "image_credit": "Wikimedia Commons · Paolobon140 · CC BY-SA 3.0"
+    },
+    "GHC-NOV-3-19": {
+      "published_at": "2026-11-02T20:38:52.163117+00:00",
+      "message_id": 839,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_the_Revolution_in_New_Spain_WDL7787.jpg",
+      "image_credit": "Wikimedia Commons · Mier Noriega y Guerra, José Servando Teresa de, 1763-1827 · Public domain"
     }
   },
   "runs": [
@@ -5253,6 +5323,12 @@
     {
       "date": "2026-11-02",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-03",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
