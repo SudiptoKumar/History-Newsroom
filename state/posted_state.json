@@ -4745,6 +4745,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AVella_Lavella_airfield_Dec_1943.jpg",
       "image_credit": "Wikimedia Commons · U.S. Navy · Public domain"
+    },
+    "GHC-NOV-2-03": {
+      "published_at": "2026-11-02T08:33:54.488511+00:00",
+      "message_id": 820,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Sclavonic_Provinces_of_the_Ottoman_Empire.djvu",
+      "image_credit": "Wikimedia Commons · William Ewart Gladstone · Public domain"
+    },
+    "GHC-NOV-2-04": {
+      "published_at": "2026-11-02T08:33:58.562780+00:00",
+      "message_id": 821,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABritish_War_Cabinet_Minutes_approving_the_release_of_the_Balfour_Declaration.png",
+      "image_credit": "Wikimedia Commons · UK Government · Public domain"
+    },
+    "GHC-NOV-2-06": {
+      "published_at": "2026-11-02T08:34:07.177165+00:00",
+      "message_id": 822,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/BBC_Persian_Television",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-2-07": {
+      "published_at": "2026-11-02T08:34:12.432042+00:00",
+      "message_id": 823,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIDN_1949_MiNr00L97_mt_B002.jpg",
+      "image_credit": "Wikimedia Commons · \"Revolutionary Government of Indonesia\" (as \"de facto\"-government of Indonesia) · Public domain"
+    },
+    "GHC-NOV-2-11": {
+      "published_at": "2026-11-02T08:34:17.660574+00:00",
+      "message_id": 824,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHo_Chi_Minh_City_Museum.jpg",
+      "image_credit": "Wikimedia Commons · Jorge Láscar · CC BY-SA 2.0"
+    },
+    "GHC-NOV-2-15": {
+      "published_at": "2026-11-02T08:34:34.230904+00:00",
+      "message_id": 825,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AShelf_cloud_over_Cambridge%2C_Massachusetts.jpg",
+      "image_credit": "Wikimedia Commons · Rizka · CC BY-SA 4.0"
+    },
+    "GHC-NOV-2-17": {
+      "published_at": "2026-11-02T08:34:38.069235+00:00",
+      "message_id": 826,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_Soyuz_rocket_launches_to_the_ISS_with_Expedition_73_crew_members_on_April_8%2C_2025%2C_at_the_Baikonur_Cosmodrome.jpg",
+      "image_credit": "Wikimedia Commons · NASA/Joel Kowsky · Public domain"
+    },
+    "GHC-NOV-2-01": {
+      "published_at": "2026-11-02T08:34:46.864913+00:00",
+      "message_id": 827,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAtlanta_City_Directory_%281922%29_%2814596963780%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-2-02": {
+      "published_at": "2026-11-02T08:34:55.492047+00:00",
+      "message_id": 828,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1866-67_Territory_of_Dakota_Session_Laws.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-2-05": {
+      "published_at": "2026-11-02T08:34:58.629855+00:00",
+      "message_id": 829,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFrank_Conrad_radio_station_8XK_1920.jpg",
+      "image_credit": "Wikimedia Commons · T. R. Kennedy Jr. · Public domain"
     }
   },
   "runs": [
@@ -5177,6 +5247,12 @@
     {
       "date": "2026-11-01",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-02",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
