@@ -4885,6 +4885,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_the_Revolution_in_New_Spain_WDL7787.jpg",
       "image_credit": "Wikimedia Commons · Mier Noriega y Guerra, José Servando Teresa de, 1763-1827 · Public domain"
+    },
+    "GHC-NOV-3-02": {
+      "published_at": "2026-11-03T08:46:57.438281+00:00",
+      "message_id": 840,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Supremacy_Clause",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-3-06": {
+      "published_at": "2026-11-03T08:47:10.250067+00:00",
+      "message_id": 841,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_New_England_states%2C_their_constitutional%2C_judicial%2C_educational%2C_commercial%2C_professional_and_industrial_history_v1.djvu",
+      "image_credit": "Wikimedia Commons · ed William T. (William Thomas) Davis · Public domain"
+    },
+    "GHC-NOV-3-08": {
+      "published_at": "2026-11-03T08:47:16.888062+00:00",
+      "message_id": 842,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A%28Portrait_of_John_Willis_Menard%29_%28LOC%29_%2825838252887%29.jpg",
+      "image_credit": "Wikimedia Commons · The Library of Congress from Washington, DC, United States · No restrictions"
+    },
+    "GHC-NOV-3-10": {
+      "published_at": "2026-11-03T08:47:27.770515+00:00",
+      "message_id": 843,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUtsikt_i_B._indianernas_land._Prov._Veraguas%2C_Panam%C3%A1._Veraguas._Panama_-_SMVK_-_004279.tif",
+      "image_credit": "Wikimedia Commons · Erland Nordenskiöld · Public domain"
+    },
+    "GHC-NOV-3-11": {
+      "published_at": "2026-11-03T08:47:34.175794+00:00",
+      "message_id": 844,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMasterpieces_of_German_literature_volume_9.djvu",
+      "image_credit": "Wikimedia Commons · Kuno Francke · Public domain"
+    },
+    "GHC-NOV-3-12": {
+      "published_at": "2026-11-03T08:47:50.239209+00:00",
+      "message_id": 845,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMary_Teresa_Norton_%281875-1859%29_obituary_in_The_Jersey_Journal_of_Jersey_City%2C_New_Jersey_on_August_3%2C_1959.png",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-3-13": {
+      "published_at": "2026-11-03T08:47:59.267265+00:00",
+      "message_id": 846,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJapan_by_the_Japanese_%281904%29.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-3-15": {
+      "published_at": "2026-11-03T08:48:04.438030+00:00",
+      "message_id": 847,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AReplica_of_Sputnik-2.jpg",
+      "image_credit": "Wikimedia Commons · Stolbovsky · CC BY 4.0"
+    },
+    "GHC-NOV-3-16": {
+      "published_at": "2026-11-03T08:48:14.343383+00:00",
+      "message_id": 848,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1961_United_Nations_Secretary-General_selection",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-3-17": {
+      "published_at": "2026-11-03T08:48:20.948804+00:00",
+      "message_id": 849,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJordan_Carlisle_Jackson_Jr._%281848-1918%29_biography_in_Biographical_Sketches_of_Prominent_Negro_Men_and_Women_of_Kentucky_by_William_Decker_Johnson_%281897%29.png",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
     }
   },
   "runs": [
@@ -5329,6 +5399,12 @@
     {
       "date": "2026-11-03",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-03",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
