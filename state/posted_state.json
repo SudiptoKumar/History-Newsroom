@@ -5095,6 +5095,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ANational_Security_Agency_-_DPLA_-_41d927e3d076a3327678f3ec0bbaf9a9_%28page_1%29.tiff",
       "image_credit": "Wikimedia Commons · President (1963-1969 : Johnson). President's Commission on the Assassination of President John F. Kennedy. (11/30/1963 - 09/24/1964) · Public domain"
+    },
+    "GHC-NOV-5-19": {
+      "published_at": "2026-11-04T18:29:27.065655+00:00",
+      "message_id": 870,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAir_mobility_in_Iraq%2C_How_airlift_brought_a_native_back_to_his_homeland_DVIDS505781.jpg",
+      "image_credit": "Wikimedia Commons · Master Sgt. Scott Sturkol · Public domain"
+    },
+    "GHC-NOV-5-20": {
+      "published_at": "2026-11-04T18:29:33.045120+00:00",
+      "message_id": 871,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-5-03": {
+      "published_at": "2026-11-04T18:29:40.251506+00:00",
+      "message_id": 872,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEl_volcan_de_San_salvador._-_panoramio.jpg",
+      "image_credit": "Wikimedia Commons · Daniel chavez castro · CC BY 3.0"
+    },
+    "GHC-NOV-5-04": {
+      "published_at": "2026-11-04T18:29:45.927852+00:00",
+      "message_id": 873,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGeneral_George_McClellan_%28IA_mma_general_george_mcclellan_301998%29.jpg",
+      "image_credit": "Wikimedia Commons · Charles DeForest Fredricks · Public domain"
+    },
+    "GHC-NOV-5-05": {
+      "published_at": "2026-11-04T18:29:58.845194+00:00",
+      "message_id": 874,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AU.S._vs._Susan_B._Anthony%2C_Record_of_Conviction.jpg",
+      "image_credit": "Wikimedia Commons · Charles Mason · Public domain"
+    },
+    "GHC-NOV-5-06": {
+      "published_at": "2026-11-04T18:30:01.154889+00:00",
+      "message_id": 875,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AParihaka%2C_Taranaki_%2822583603875%29.jpg",
+      "image_credit": "Wikimedia Commons · Archives New Zealand from New Zealand · CC BY-SA 2.0"
+    },
+    "GHC-NOV-5-07": {
+      "published_at": "2026-11-04T18:30:07.131058+00:00",
+      "message_id": 876,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASpringfield%2C_birthplace_of_the_Automobile_Industry_%2862030%29.jpg",
+      "image_credit": "Wikimedia Commons · Published by The Springfield News Company Tichnor Bros. Inc., Boston, Mass. · Public domain"
+    },
+    "GHC-NOV-5-11": {
+      "published_at": "2026-11-04T18:30:14.143746+00:00",
+      "message_id": 877,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMoscow_RSL_main_building_asv2019-06_img1.jpg",
+      "image_credit": "Wikimedia Commons · A.Savin · FAL"
+    },
+    "GHC-NOV-5-15": {
+      "published_at": "2026-11-04T18:30:19.020635+00:00",
+      "message_id": 878,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANorwegian-oilmuseum-04_hg.jpg",
+      "image_credit": "Wikimedia Commons · Hannes Grobe · CC BY-SA 4.0"
+    },
+    "GHC-NOV-5-17": {
+      "published_at": "2026-11-04T18:30:22.927698+00:00",
+      "message_id": 879,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIAF_Ouragan_surrender_1965.jpg",
+      "image_credit": "Wikimedia Commons · Pakistan Air Force · Public domain"
     }
   },
   "runs": [
@@ -5557,6 +5627,12 @@
     {
       "date": "2026-11-04",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-05",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
