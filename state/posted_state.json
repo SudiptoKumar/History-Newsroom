@@ -5025,6 +5025,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_scene_of_Hara_Takashi_assassination.jpg",
       "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-4-01": {
+      "published_at": "2026-11-04T08:15:31.416947+00:00",
+      "message_id": 860,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAnthony_van_Dyck_-_The_Capture_of_Christ_-_WGA07432.jpg",
+      "image_credit": "Wikimedia Commons · Anthony van Dyck · Public domain"
+    },
+    "GHC-NOV-4-02": {
+      "published_at": "2026-11-04T08:15:39.174297+00:00",
+      "message_id": 861,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/T%C3%BApac_Amaru_II",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-4-03": {
+      "published_at": "2026-11-04T08:15:44.309774+00:00",
+      "message_id": 862,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AClark%27s_march_against_Vincennes%2C_across_the_Wabash_River_through_wilderness_and_flood_-_NARA_-_518211.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author or not provided · Public domain"
+    },
+    "GHC-NOV-4-05": {
+      "published_at": "2026-11-04T08:15:56.177097+00:00",
+      "message_id": 863,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File:The_discovery_of_the_anaesthetic_properties_of_chloroform._Wellcome_M0003394.jpg",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-NOV-4-06": {
+      "published_at": "2026-11-04T08:16:02.349423+00:00",
+      "message_id": 864,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AConstitution_of_the_kingdom_of_Italy.djvu",
+      "image_credit": "Wikimedia Commons · Samuel McCune Lindsay / Leo Stanton Rowe · Public domain"
+    },
+    "GHC-NOV-4-08": {
+      "published_at": "2026-11-04T08:16:07.799194+00:00",
+      "message_id": 865,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APalazzo_Bo_%28Padua%29.jpg",
+      "image_credit": "Wikimedia Commons · Didier Descouens · CC BY-SA 4.0"
+    },
+    "GHC-NOV-4-10": {
+      "published_at": "2026-11-04T08:16:11.753740+00:00",
+      "message_id": 866,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFulham%2C_Catholic_Church_of_Our_Lady_of_Perpetual_Help_-_geograph.org.uk_-_863988.jpg",
+      "image_credit": "Wikimedia Commons · Nigel Cox · CC BY-SA 2.0"
+    },
+    "GHC-NOV-4-11": {
+      "published_at": "2026-11-04T08:16:18.458465+00:00",
+      "message_id": 867,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Nellie_Tayloe_Ross",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-4-12": {
+      "published_at": "2026-11-04T08:16:25.159235+00:00",
+      "message_id": 868,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACivil_Rights_March_on_Washington%2C_D.C._%28Dr._Martin_Luther_King%2C_Jr._and_Mathew_Ahmann_in_a_crowd.%29_-_NARA_-_542015_-_Restoration.jpg",
+      "image_credit": "Wikimedia Commons · Rowland Scherman / Adam Cuerden · Public domain"
+    },
+    "GHC-NOV-4-13": {
+      "published_at": "2026-11-04T08:16:34.863383+00:00",
+      "message_id": 869,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANational_Security_Agency_-_DPLA_-_41d927e3d076a3327678f3ec0bbaf9a9_%28page_1%29.tiff",
+      "image_credit": "Wikimedia Commons · President (1963-1969 : Johnson). President's Commission on the Assassination of President John F. Kennedy. (11/30/1963 - 09/24/1964) · Public domain"
     }
   },
   "runs": [
@@ -5481,6 +5551,12 @@
     {
       "date": "2026-11-04",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-04",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
