@@ -101,7 +101,11 @@ def failover(status: int | None) -> bool:
 
 def _reset_state() -> None:
     """Test support: restore the original key and clear run state."""
-    global _index, _all_dead_alerted
+    global _index, _all_dead_alerted, _snapshot
+    # Drop the snapshot too: another test module may have frozen it while
+    # SETTINGS still held placeholder keys, and restoring from that stale
+    # snapshot would clobber the keys the caller just primed.
+    _snapshot = None
     keys = _keys()
     if keys:
         object.__setattr__(SETTINGS, "cerebras_api_key", keys[0])
