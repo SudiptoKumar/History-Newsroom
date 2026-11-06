@@ -5235,6 +5235,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Bill_Clinton%27s_speech_at_the_2012_Democratic_National_Convention",
       "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-6-02": {
+      "published_at": "2026-11-06T08:41:58.515639+00:00",
+      "message_id": 890,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Story_of_London.djvu",
+      "image_credit": "Wikimedia Commons · Henry B. Wheatley · Public domain"
+    },
+    "GHC-NOV-6-04": {
+      "published_at": "2026-11-06T08:42:02.986080+00:00",
+      "message_id": 891,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHow_Abraham_Lincoln_became_president_%281909%29_%2814595969870%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-6-07": {
+      "published_at": "2026-11-06T08:42:08.958114+00:00",
+      "message_id": 892,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A80-391-9007_Kyiv_St.Michael%27s_Golden-Domed_Monastery_RB_18.jpg",
+      "image_credit": "Wikimedia Commons · Rbrechko · CC BY-SA 4.0"
+    },
+    "GHC-NOV-6-14": {
+      "published_at": "2026-11-06T08:42:22.586732+00:00",
+      "message_id": 893,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A%E4%B8%B4%E6%B2%A7%E8%80%83%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%A6%86-%E5%85%B1%E5%92%8C%E5%9B%BD-%E5%A5%96%E7%BB%99%E4%B8%B4%E6%B2%A7%E8%A1%8C%E7%BD%B2%E5%9C%B0%E9%9C%87%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%8A%97%E9%9C%87%E6%95%91%E7%81%BE%E5%85%88%E8%BF%9B%E5%8D%95%E4%BD%8D%E5%8C%BE.jpg",
+      "image_credit": "Wikimedia Commons · 瑞丽江的河水 · CC BY-SA 4.0"
+    },
+    "GHC-NOV-6-01": {
+      "published_at": "2026-11-06T08:42:28.027059+00:00",
+      "message_id": 894,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADamage_report_of_the_great_earthquake_in_Constantinople_on_September_10%2C_1509.jpg",
+      "image_credit": "Wikimedia Commons · AnonymousUnknown author · Public domain"
+    },
+    "GHC-NOV-6-03": {
+      "published_at": "2026-11-06T08:42:41.336706+00:00",
+      "message_id": 895,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Jemappes_6._November_1792._A.K._Johnston_F.R.G.S._William_Blackwood_and_Sons%2C_Edinburgh_and_London._%28to_accompany%29_Atlas_%28IA_dr_battle-of-jemappes-6-november-1792-ak-johnston-frgs-william-blackwo-13200017%29.jpg",
+      "image_credit": "Wikimedia Commons · Alison, Archibald, Sir, bart., 1792-1862\nJohnston, Alexander Keith 1804-1871 · Public domain"
+    },
+    "GHC-NOV-6-05": {
+      "published_at": "2026-11-06T08:42:49.409926+00:00",
+      "message_id": 896,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AReview_of_reviews_and_world%27s_work_%281890%29_%2814781931764%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-6-06": {
+      "published_at": "2026-11-06T08:42:58.023325+00:00",
+      "message_id": 897,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APalacio_de_los_Condes_de_Casa_Valencia_%28Madrid%29_01.jpg",
+      "image_credit": "Wikimedia Commons · Triplecaña · CC BY-SA 4.0"
+    },
+    "GHC-NOV-6-08": {
+      "published_at": "2026-11-06T08:43:05.417564+00:00",
+      "message_id": 898,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHo_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-01.jpg",
+      "image_credit": "Wikimedia Commons · Steffen Schmitz (more photos) · CC BY-SA 4.0"
+    },
+    "GHC-NOV-6-09": {
+      "published_at": "2026-11-06T08:43:10.128072+00:00",
+      "message_id": 899,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1971-CANNIKIN-2.jpg",
+      "image_credit": "Wikimedia Commons · United States Atomic Energy Commission · Public domain"
     }
   },
   "runs": [
@@ -5708,6 +5778,12 @@
     },
     {
       "date": "2026-11-05",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-06",
       "batch_index": 1,
       "selected": 10,
       "published_now": 10
