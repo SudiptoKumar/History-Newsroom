@@ -5305,6 +5305,34 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3A1971-CANNIKIN-2.jpg",
       "image_credit": "Wikimedia Commons · United States Atomic Energy Commission · Public domain"
+    },
+    "GHC-NOV-6-10": {
+      "published_at": "2026-11-06T17:48:33.549171+00:00",
+      "message_id": 900,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/November_1976",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-6-11": {
+      "published_at": "2026-11-06T17:48:37.752047+00:00",
+      "message_id": 901,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKelleybarnesdamflood2.gif",
+      "image_credit": "Wikimedia Commons · Federal Investigative Board, Kelly Barnes Dam · Public domain"
+    },
+    "GHC-NOV-6-12": {
+      "published_at": "2026-11-06T17:48:44.177068+00:00",
+      "message_id": 902,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1985_Events_montage_16-grid_version.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
+    },
+    "GHC-NOV-6-13": {
+      "published_at": "2026-11-06T17:48:50.320200+00:00",
+      "message_id": 903,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASumburgh_Airport_MG_9667.jpg",
+      "image_credit": "Wikimedia Commons · Ronnie Robertson · CC BY-SA 2.0"
     }
   },
   "runs": [
@@ -5787,6 +5815,12 @@
       "batch_index": 1,
       "selected": 10,
       "published_now": 10
+    },
+    {
+      "date": "2026-11-06",
+      "batch_index": 2,
+      "selected": 4,
+      "published_now": 4
     }
   ]
 }
