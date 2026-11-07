@@ -5333,6 +5333,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ASumburgh_Airport_MG_9667.jpg",
       "image_credit": "Wikimedia Commons · Ronnie Robertson · CC BY-SA 2.0"
+    },
+    "GHC-NOV-7-04": {
+      "published_at": "2026-11-07T07:56:31.063257+00:00",
+      "message_id": 904,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Negro_in_American_history_%28microform%29_-_men_and_women_eminent_in_the_evolution_of_the_American_of_African_descent_%281914%29_%2814597548977%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-7-07": {
+      "published_at": "2026-11-07T07:56:39.129672+00:00",
+      "message_id": 905,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACraigellachie_%28BC%2C_Canada%29%2C_The_Last_Spike%2C_Denkmal_--_2022_--_2191.jpg",
+      "image_credit": "Wikimedia Commons · Dietmar Rabich · CC BY-SA 4.0"
+    },
+    "GHC-NOV-7-08": {
+      "published_at": "2026-11-07T07:56:44.337138+00:00",
+      "message_id": 906,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWoman%27s_Column_1903-1904.djvu",
+      "image_credit": "Wikimedia Commons · Alice Stone Blackwell · Public domain"
+    },
+    "GHC-NOV-7-10": {
+      "published_at": "2026-11-07T07:56:49.000079+00:00",
+      "message_id": 907,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJeannette_Rankin%2C_Bain_News_Service%2C_facing_front.jpg",
+      "image_credit": "Wikimedia Commons · Adam Cuerden · Public domain"
+    },
+    "GHC-NOV-7-11": {
+      "published_at": "2026-11-07T07:56:51.302140+00:00",
+      "message_id": 908,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_British_Nurse_in_Bolshevik_Russia._The_narrative_of_Margaret_H_Barber_April_1916_-_December_1919.djvu",
+      "image_credit": "Wikimedia Commons · Margaret H Barber · Public domain"
+    },
+    "GHC-NOV-7-16": {
+      "published_at": "2026-11-07T07:56:55.595697+00:00",
+      "message_id": 909,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATACOMA_NARROWS_BRIDGE%2C_LOOKING_WEST_ACROSS_TOLL_PLAZA%2C_29_AUGUST_1940._%28ELDRIDGE%2C_CLARK_M._TACOMA_NARROWS_BRIDGE%2C_TACOMA%2C_WASHINGTON%2C_FINAL_REPORT_ON_DESIGN_AND_CONSTRUCTION%2C_HAER_WASH%2C27-TACO%2C11-31.tif",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-7-17": {
+      "published_at": "2026-11-07T07:57:01.167195+00:00",
+      "message_id": 910,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_United_Nations_resolutions_concerning_Israel",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-7-18": {
+      "published_at": "2026-11-07T07:57:04.665713+00:00",
+      "message_id": 911,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABob-carlstokes.jpg",
+      "image_credit": "Wikimedia Commons · Nohop · CC BY-SA 4.0"
+    },
+    "GHC-NOV-7-19": {
+      "published_at": "2026-11-07T07:57:13.731048+00:00",
+      "message_id": 912,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMrs._Crystal_Eastman_Benedict_by_Edmonston%2C_Washington%2C_D.C..jpg",
+      "image_credit": "Wikimedia Commons · David Bell Edmonston / Adam Cuerden · Public domain"
+    },
+    "GHC-NOV-7-01": {
+      "published_at": "2026-11-07T07:57:20.714542+00:00",
+      "message_id": 913,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASolidus_with_the_cross_on_three_steps%2C_629-30_CE%2C_Byzantine_Empire%2C_Constantinople%2C_Turkey._Gold_with_the_obverse_showing_Emperor_Heraclius_%28reigned_610%E2%80%9441%29_with_his_sons._V%26A_Museum%2C_London.jpg",
+      "image_credit": "Wikimedia Commons · SpeakingArch · CC BY-SA 4.0"
     }
   },
   "runs": [
@@ -5821,6 +5891,12 @@
       "batch_index": 2,
       "selected": 4,
       "published_now": 4
+    },
+    {
+      "date": "2026-11-07",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
