@@ -5403,6 +5403,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ASolidus_with_the_cross_on_three_steps%2C_629-30_CE%2C_Byzantine_Empire%2C_Constantinople%2C_Turkey._Gold_with_the_obverse_showing_Emperor_Heraclius_%28reigned_610%E2%80%9441%29_with_his_sons._V%26A_Museum%2C_London.jpg",
       "image_credit": "Wikimedia Commons · SpeakingArch · CC BY-SA 4.0"
+    },
+    "GHC-NOV-7-02": {
+      "published_at": "2026-11-07T16:44:45.814179+00:00",
+      "message_id": 914,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/Category:Vietnam_in_the_15th_century",
+      "image_credit": "Wikimedia Commons"
+    },
+    "GHC-NOV-7-05": {
+      "published_at": "2026-11-07T16:44:51.449504+00:00",
+      "message_id": 915,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Tippecanoe_LCCN2003656861.jpg",
+      "image_credit": "Wikimedia Commons · Kurtz &amp; Allison, Popular Graphic Arts · Public domain"
+    },
+    "GHC-NOV-7-06": {
+      "published_at": "2026-11-07T16:44:55.635751+00:00",
+      "message_id": 916,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALovejoyat1837AltonIllinoisRiot.JPG",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-7-09": {
+      "published_at": "2026-11-07T16:44:58.722423+00:00",
+      "message_id": 917,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABritishTroopsArriveTsingtao1914.jpg",
+      "image_credit": "Wikimedia Commons · British Government · Public domain"
+    },
+    "GHC-NOV-7-12": {
+      "published_at": "2026-11-07T16:45:03.935464+00:00",
+      "message_id": 918,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASquadron_of_12th_Light_Horsemen_%284544618943%29.jpg",
+      "image_credit": "Wikimedia Commons · Blue Mountains Library, Local Studies from Blue Mountains, Australia · CC BY-SA 2.0"
+    },
+    "GHC-NOV-7-13": {
+      "published_at": "2026-11-07T16:45:10.875803+00:00",
+      "message_id": 919,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AImperial_Hall%2C_Residenz_Munich%2C_Germany.jpg",
+      "image_credit": "Wikimedia Commons · Wilfredor · CC0"
+    },
+    "GHC-NOV-7-14": {
+      "published_at": "2026-11-07T16:45:15.610716+00:00",
+      "message_id": 920,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACartoon_by_Archibald_B._Chapin_-_South_Bend_News-Times_-_November_8_1919.jpg",
+      "image_credit": "Wikimedia Commons · South Bend News-Times · Public domain"
+    },
+    "GHC-NOV-7-15": {
+      "published_at": "2026-11-07T16:45:20.046783+00:00",
+      "message_id": 921,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_National_Museum_of_Modern_Art%2C_Tokyo.jpg",
+      "image_credit": "Wikimedia Commons · Syced · CC0"
+    },
+    "GHC-NOV-7-20": {
+      "published_at": "2026-11-07T16:45:23.821071+00:00",
+      "message_id": 922,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATunisia-3213_-_Mausoleum_of_Habib_Bourguiba_%287846799584%29.jpg",
+      "image_credit": "Wikimedia Commons · Dennis G. Jarvis · CC BY-SA 2.0"
+    },
+    "GHC-NOV-7-03": {
+      "published_at": "2026-11-07T16:45:29.736427+00:00",
+      "message_id": 923,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMeteorite_Ensisheim_MNHN_Min%C3%A9ralogie.jpg",
+      "image_credit": "Wikimedia Commons · Marie-Lan Taÿ Pamart · CC BY 4.0"
     }
   },
   "runs": [
@@ -5895,6 +5965,12 @@
     {
       "date": "2026-11-07",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-07",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
