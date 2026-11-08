@@ -5543,6 +5543,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AAlgiers_New_Orleans_-_Homer_%26_Nunez_-_April_2016_01.jpg",
       "image_credit": "Wikimedia Commons · Infrogmation of New Orleans · CC BY 2.0"
+    },
+    "GHC-NOV-8-16": {
+      "published_at": "2026-11-08T16:54:59.486042+00:00",
+      "message_id": 934,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOperationGrappleXmasIslandHbomb.jpg",
+      "image_credit": "Wikimedia Commons · Royal Air Force · Public domain"
+    },
+    "GHC-NOV-8-17": {
+      "published_at": "2026-11-08T16:55:04.153104+00:00",
+      "message_id": 935,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVice_President_Richard_Nixon_Welcomes_President-Elect_John_F._Kennedy_to_Key_Biscayne%2C_Florida_A10-024-42-44-1_RN_%281%29.jpg",
+      "image_credit": "Wikimedia Commons · Richard Nixon Presidential Library · Public domain"
+    },
+    "GHC-NOV-8-18": {
+      "published_at": "2026-11-08T16:55:11.733766+00:00",
+      "message_id": 936,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AS_v_Makwanyane_and_Another.djvu",
+      "image_credit": "Wikimedia Commons · Justices of the Constitutional Court of South Africa · Public domain"
+    },
+    "GHC-NOV-8-19": {
+      "published_at": "2026-11-08T16:55:21.369657+00:00",
+      "message_id": 937,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A2d_TSB_hosts_9-11_Remembrance_Prayer_Luncheon_%289308860%29.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Army photo by Candy C Knight · Public domain"
+    },
+    "GHC-NOV-8-20": {
+      "published_at": "2026-11-08T16:55:30.575551+00:00",
+      "message_id": 938,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALower_Manhattan_from_Jersey_City_September_2020_panorama.jpg",
+      "image_credit": "Wikimedia Commons · King of Hearts · CC BY-SA 4.0"
+    },
+    "GHC-NOV-8-05": {
+      "published_at": "2026-11-08T16:55:38.039917+00:00",
+      "message_id": 939,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOhio_Historical_Marker_-_The_Willoughby_University_of_Lake_Erie_Medical_College.jpg",
+      "image_credit": "Wikimedia Commons · Jbarta · CC0"
+    },
+    "GHC-NOV-8-07": {
+      "published_at": "2026-11-08T16:55:44.654577+00:00",
+      "message_id": 940,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASights_and_scenes_in_Idaho_and_Montana_for_tourists_%281892%29_%2814571793599%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-8-08": {
+      "published_at": "2026-11-08T16:55:52.828690+00:00",
+      "message_id": 941,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACollier%27s_New_Encyclopedia_v._03.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-8-13": {
+      "published_at": "2026-11-08T16:56:01.368614+00:00",
+      "message_id": 942,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AImperial_Hall%2C_Residenz_Munich%2C_Germany.jpg",
+      "image_credit": "Wikimedia Commons · Wilfredor · CC0"
+    },
+    "GHC-NOV-8-15": {
+      "published_at": "2026-11-08T16:56:05.363992+00:00",
+      "message_id": 943,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANorth_American_F-86F_Sabre_%2852577544260%29.jpg",
+      "image_credit": "Wikimedia Commons · Clemens Vasters from Viersen, Germany, Germany · CC BY 2.0"
     }
   },
   "runs": [
@@ -6047,6 +6117,12 @@
     {
       "date": "2026-11-08",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-08",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
