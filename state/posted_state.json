@@ -5473,6 +5473,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AMeteorite_Ensisheim_MNHN_Min%C3%A9ralogie.jpg",
       "image_credit": "Wikimedia Commons · Marie-Lan Taÿ Pamart · CC BY 4.0"
+    },
+    "GHC-NOV-8-01": {
+      "published_at": "2026-11-08T08:14:48.000087+00:00",
+      "message_id": 924,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACaptura_de_Hern%C3%A1n_Cort%C3%A9s_en_Copolco%2C_en_el_folio_275r.png",
+      "image_credit": "Wikimedia Commons · Manuscript and copy of the illustration by Diego Muñoz Camargo. Original Lienzo de Tlaxcala by an uknown author. · Public domain"
+    },
+    "GHC-NOV-8-02": {
+      "published_at": "2026-11-08T08:14:56.498402+00:00",
+      "message_id": 925,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJules_De_Keghel_drawing_1876-remembrance_of_the_Pacification_of_Ghent_of_1576.jpg",
+      "image_credit": "Wikimedia Commons · Jules De Keghel · CC BY-SA 4.0"
+    },
+    "GHC-NOV-8-03": {
+      "published_at": "2026-11-08T08:15:02.315034+00:00",
+      "message_id": 926,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Battle_of_White_Mountain_%28by_Peter_Snayers%29.jpg",
+      "image_credit": "Wikimedia Commons · Peter Snayers · Public domain"
+    },
+    "GHC-NOV-8-04": {
+      "published_at": "2026-11-08T08:15:08.436888+00:00",
+      "message_id": 927,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABeijing_Castle_Boxer_Rebellion_1900_FINAL.jpg",
+      "image_credit": "Wikimedia Commons · Kasai Torajirō · Public domain"
+    },
+    "GHC-NOV-8-06": {
+      "published_at": "2026-11-08T08:15:19.311682+00:00",
+      "message_id": 928,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Trent_Affair",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-8-09": {
+      "published_at": "2026-11-08T08:15:25.529289+00:00",
+      "message_id": 929,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFirst_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg",
+      "image_credit": "Wikimedia Commons · Wilhelm Röntgen · Public domain"
+    },
+    "GHC-NOV-8-10": {
+      "published_at": "2026-11-08T08:15:33.812236+00:00",
+      "message_id": 930,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AResolution_of_the_Council_of_People%27s_Commissars_of_the_SSRB_%281921-03-21%29.png",
+      "image_credit": "Wikimedia Commons · Council of People's Commissars of the Byelorussian SSR · Public domain"
+    },
+    "GHC-NOV-8-11": {
+      "published_at": "2026-11-08T08:15:40.611055+00:00",
+      "message_id": 931,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AImperial_Hall%2C_Residenz_Munich%2C_Germany.jpg",
+      "image_credit": "Wikimedia Commons · Wilfredor · CC0"
+    },
+    "GHC-NOV-8-12": {
+      "published_at": "2026-11-08T08:15:52.939761+00:00",
+      "message_id": 932,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJANUS-T%C3%AAte-%C3%A0-T%C3%AAte-_Sitting_President_%26_President-elect%2C_Barack_Obama_%26_Donald_Trump_squatting_next_to_each_other_on_arm-chairs_in_the_Oval_Office_on_November_10th_2016._%2831196987133%29.jpg",
+      "image_credit": "Wikimedia Commons · Pete Souza · CC BY 2.0"
+    },
+    "GHC-NOV-8-14": {
+      "published_at": "2026-11-08T08:16:01.540953+00:00",
+      "message_id": 933,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAlgiers_New_Orleans_-_Homer_%26_Nunez_-_April_2016_01.jpg",
+      "image_credit": "Wikimedia Commons · Infrogmation of New Orleans · CC BY 2.0"
     }
   },
   "runs": [
@@ -5971,6 +6041,12 @@
     {
       "date": "2026-11-07",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-08",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
