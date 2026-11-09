@@ -5613,6 +5613,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ANorth_American_F-86F_Sabre_%2852577544260%29.jpg",
       "image_credit": "Wikimedia Commons · Clemens Vasters from Viersen, Germany, Germany · CC BY 2.0"
+    },
+    "GHC-NOV-9-04": {
+      "published_at": "2026-11-09T08:48:49.637561+00:00",
+      "message_id": 944,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AStockholm_bloodbath_1520_greyscale.jpg",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-9-06": {
+      "published_at": "2026-11-09T08:48:53.414548+00:00",
+      "message_id": 945,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg",
+      "image_credit": "Wikimedia Commons · François Bouchot · Public domain"
+    },
+    "GHC-NOV-9-07": {
+      "published_at": "2026-11-09T08:48:59.342210+00:00",
+      "message_id": 946,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-9-11": {
+      "published_at": "2026-11-09T08:49:01.995620+00:00",
+      "message_id": 947,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1913_Events_Collage_V_1.0.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC0"
+    },
+    "GHC-NOV-9-12": {
+      "published_at": "2026-11-09T08:49:10.493608+00:00",
+      "message_id": 948,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABalfour_Building_plaque_119_Spadina_Avenue_Toronto_ON_M5V_2L1_Canada.jpg",
+      "image_credit": "Wikimedia Commons · Spudgun67 · CC0"
+    },
+    "GHC-NOV-9-13": {
+      "published_at": "2026-11-09T08:49:17.164278+00:00",
+      "message_id": 949,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAbdication_of_Wilhelm_II_-_Writing_desk_in_the_Tower_room%2C_Castle_Amerongen%2C_where_former_Emperor_Wilhelm_II_signed_his_abdication_letter_on_28_November_1918_-_copy_of_the_abdication_letter_04.jpg",
+      "image_credit": "Wikimedia Commons · Txllxt TxllxT · CC BY-SA 4.0"
+    },
+    "GHC-NOV-9-14": {
+      "published_at": "2026-11-09T08:49:20.512663+00:00",
+      "message_id": 950,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKristallnacht_-_4974.webp",
+      "image_credit": "Wikimedia Commons · AnonymousUnknown author · Public domain"
+    },
+    "GHC-NOV-9-15": {
+      "published_at": "2026-11-09T08:49:25.483852+00:00",
+      "message_id": 951,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFranklin_D._Roosevelt_in_Washington%2C_Washington%2C_D.C_-_NARA_-_196067.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author or not provided · Public domain"
+    },
+    "GHC-NOV-9-16": {
+      "published_at": "2026-11-09T08:49:30.824013+00:00",
+      "message_id": 952,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Cambodia%E2%80%93Laos_border",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-9-19": {
+      "published_at": "2026-11-09T08:49:34.724233+00:00",
+      "message_id": 953,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AApollo_4_Launch_-_GPN-2000-000044.jpg",
+      "image_credit": "Wikimedia Commons · NASA · Public domain"
     }
   },
   "runs": [
@@ -6123,6 +6193,12 @@
     {
       "date": "2026-11-08",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-09",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
