@@ -5683,6 +5683,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AApollo_4_Launch_-_GPN-2000-000044.jpg",
       "image_credit": "Wikimedia Commons · NASA · Public domain"
+    },
+    "GHC-NOV-10-03": {
+      "published_at": "2026-11-09T21:17:43.351396+00:00",
+      "message_id": 954,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APont_de_Bercy%2C_Paris_23_December_2021.jpg",
+      "image_credit": "Wikimedia Commons · Pierre Blaché from Paris, France · CC0"
+    },
+    "GHC-NOV-10-04": {
+      "published_at": "2026-11-09T21:17:49.360534+00:00",
+      "message_id": 955,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIglesia_San_Atanasio_de_La_Villa_de_Los_Santos.jpg",
+      "image_credit": "Wikimedia Commons · Ssaucedoc · CC BY-SA 4.0"
+    },
+    "GHC-NOV-10-07": {
+      "published_at": "2026-11-09T21:17:54.014863+00:00",
+      "message_id": 956,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIosif_Berman_-_Marele_cutremur_din_anul_1940.jpg",
+      "image_credit": "Wikimedia Commons · Iosif Berman · Public domain"
+    },
+    "GHC-NOV-10-09": {
+      "published_at": "2026-11-09T21:17:58.736925+00:00",
+      "message_id": 957,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEyewitness_account_of_the_USS_Mount_Hood_explosion_.jpg",
+      "image_credit": "Wikimedia Commons · Susan Bogden-Fraser · CC BY-SA 4.0"
+    },
+    "GHC-NOV-10-11": {
+      "published_at": "2026-11-09T21:18:03.900052+00:00",
+      "message_id": 958,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Dial_%28Volume_12%29.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-10-12": {
+      "published_at": "2026-11-09T21:18:09.702002+00:00",
+      "message_id": 959,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Nauru_Regional_Processing_Centre",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-10-13": {
+      "published_at": "2026-11-09T21:18:14.217917+00:00",
+      "message_id": 960,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACan_you_tell_me_how_to_get_to_Peterson_AFB%3F_%282776715%29.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Air Force photo by Senior Airman Rose Gudex · Public domain"
+    },
+    "GHC-NOV-10-14": {
+      "published_at": "2026-11-09T21:18:19.033773+00:00",
+      "message_id": 961,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AReplica_of_Lunokhod_1_at_the_Mus%C3%A9e_de_l%27air_et_de_l%27espace%2C_Le_Bourget%2C_France_%2853431883419%29.jpg",
+      "image_credit": "Wikimedia Commons · Alan Wilson from Peterborough, Cambs, UK · CC BY-SA 2.0"
+    },
+    "GHC-NOV-10-15": {
+      "published_at": "2026-11-09T21:18:24.249262+00:00",
+      "message_id": 962,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWaves_sinking_of_SS_Edmund_Fitzgerald.gif",
+      "image_credit": "Wikimedia Commons · US National Weather Service Office in Marquette, MI · Public domain"
+    },
+    "GHC-NOV-10-17": {
+      "published_at": "2026-11-09T21:18:29.029298+00:00",
+      "message_id": 963,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Windows_1.0_page1.jpg",
+      "image_credit": "Wikimedia Commons · Microsoft. · Public domain"
     }
   },
   "runs": [
@@ -6199,6 +6269,12 @@
     {
       "date": "2026-11-09",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-10",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
