@@ -5753,6 +5753,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Windows_1.0_page1.jpg",
       "image_credit": "Wikimedia Commons · Microsoft. · Public domain"
+    },
+    "GHC-NOV-10-01": {
+      "published_at": "2026-11-10T08:55:00.201635+00:00",
+      "message_id": 964,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Varna_in_1444._Tadj_al-Tawarikh_%28The_Crown_of_the_Chronicles%29%2C_1616%2C_Ottoman_%28Mus%C3%A9e_Jacquemart-Andr%C3%A9%2C_Ms_13141%29.jpg",
+      "image_credit": "Wikimedia Commons · 1616 artist · Public domain"
+    },
+    "GHC-NOV-10-02": {
+      "published_at": "2026-11-10T08:55:04.903447+00:00",
+      "message_id": 965,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AU.S._Naval_Sea_Cadet_Corps_%28NSCC%29_Cadet_Max_Walsh_of_the_Henry_E._Mooberry_Division_at_the_Washington_%28DC%29_Navy_Yard_and_a_U.S._Marine.jpg",
+      "image_credit": "Wikimedia Commons · Joseph P. Cirone · Public domain"
+    },
+    "GHC-NOV-10-05": {
+      "published_at": "2026-11-10T08:55:29.832340+00:00",
+      "message_id": 966,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADaring_deeds_in_the_tropics._A_thrilling_narrative_of_remarkable_adventures%2C_terrible_experiences%2C_amazing_achievements_and_important_discoveries_of_great_travelers_in_southern_climes_%281894%29_%2814764174955%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-10-06": {
+      "published_at": "2026-11-10T08:55:35.101799+00:00",
+      "message_id": 967,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANewspaper_Clippings_Regarding_the_Wilmington_Riot_in_November_1898_-_DPLA_-_f15fb2ef6eea127379436837e7399e9d_%28page_13%29.jpg",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-10-08": {
+      "published_at": "2026-11-10T08:56:27.400638+00:00",
+      "message_id": 968,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Government_of_Vichy_France",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-10-10": {
+      "published_at": "2026-11-10T08:56:33.783740+00:00",
+      "message_id": 969,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADestroyed_trucks_after_Battle_of_Surabaya%2C_Impressions_of_the_Fight_..._in_Indonesia%2C_p21.jpg",
+      "image_credit": "Wikimedia Commons · Berita Film Indonesia · Public domain"
+    },
+    "GHC-NOV-10-16": {
+      "published_at": "2026-11-10T08:56:38.287268+00:00",
+      "message_id": 970,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThousands_demonstrating_against_the_UNO_resolution_3379_condemning_the_Zionist_Movement_%28FL62412486%29.jpg",
+      "image_credit": "Wikimedia Commons · IPPA photographer · CC BY 4.0"
+    },
+    "GHC-NOV-10-18": {
+      "published_at": "2026-11-10T08:56:48.280057+00:00",
+      "message_id": 971,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APanoramic_view_over_central_Sofia_and_the_Vitosha_Mountain_2017-10-08.jpg",
+      "image_credit": "Wikimedia Commons · Deensel · CC BY 2.0"
+    },
+    "GHC-NOV-10-19": {
+      "published_at": "2026-11-10T08:58:15.533741+00:00",
+      "message_id": 972,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABerlin-Panorama_vom_Fernsehturm.jpg",
+      "image_credit": "Wikimedia Commons · Jörg Braukmann · CC BY-SA 4.0"
+    },
+    "GHC-NOV-10-20": {
+      "published_at": "2026-11-10T08:58:18.290411+00:00",
+      "message_id": 973,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABus_Memorial_to_Ken_Saro-Wiwa_%285927206987%29.jpg",
+      "image_credit": "Wikimedia Commons · Alan Stanton · CC BY-SA 2.0"
     }
   },
   "runs": [
@@ -6275,6 +6345,12 @@
     {
       "date": "2026-11-10",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-10",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
