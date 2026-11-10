@@ -5823,6 +5823,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ABus_Memorial_to_Ken_Saro-Wiwa_%285927206987%29.jpg",
       "image_credit": "Wikimedia Commons · Alan Stanton · CC BY-SA 2.0"
+    },
+    "GHC-NOV-11-16": {
+      "published_at": "2026-11-10T18:28:42.310519+00:00",
+      "message_id": 974,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAnkara_asv2021-10_img73_Republic_Museum.jpg",
+      "image_credit": "Wikimedia Commons · A.Savin · FAL"
+    },
+    "GHC-NOV-11-17": {
+      "published_at": "2026-11-10T18:28:47.143860+00:00",
+      "message_id": 975,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AONU_-_R%C3%A9solutions_et_d%C3%A9cisions_du_conseil_de_s%C3%A9curit%C3%A9%2C_1965.djvu",
+      "image_credit": "Wikimedia Commons · UN/ONU · Public domain"
+    },
+    "GHC-NOV-11-19": {
+      "published_at": "2026-11-10T18:29:11.528021+00:00",
+      "message_id": 976,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAustralian_paper%2C_11_November_1975%2C_stating_that_Whitlam_was_dismissed_by_the_Governor-General%2C_Sir_John_Kerr.jpg",
+      "image_credit": "Wikimedia Commons · Flickr user 'djackmanson' · CC BY 2.0"
+    },
+    "GHC-NOV-11-20": {
+      "published_at": "2026-11-10T18:29:16.635007+00:00",
+      "message_id": 977,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Grigori_Perelman",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-11-04": {
+      "published_at": "2026-11-10T18:30:00.767602+00:00",
+      "message_id": 978,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMWP_husaria_detale_c.1673.jpg",
+      "image_credit": "Wikimedia Commons · UnknownUnknown  from Polish-Lithuanian Commonwealth · FAL"
+    },
+    "GHC-NOV-11-05": {
+      "published_at": "2026-11-10T18:30:08.059282+00:00",
+      "message_id": 979,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACherry_Valley_Massacre_Monument.jpg",
+      "image_credit": "Wikimedia Commons · Peelmazs · CC BY-SA 4.0"
+    },
+    "GHC-NOV-11-06": {
+      "published_at": "2026-11-10T18:30:13.224971+00:00",
+      "message_id": 980,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_durenstein_1805.png",
+      "image_credit": "Wikimedia Commons · Artist: A. Sandoz\nEngraver: John Outhwaite · Public domain"
+    },
+    "GHC-NOV-11-10": {
+      "published_at": "2026-11-10T18:30:31.577330+00:00",
+      "message_id": 981,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAn_Act_Declaring_the_Consent_of_Congress_That_a_New_State_Be_Formed_Within_the_Jurisdiction_of_the_Commonwealth_of_Virginia_and_Admitted_Into_This_Union_By_the_Name_of_Kentucky_-_DPLA_-_d3b18d9d96ce4214cc08305d7c5ed287.jpg",
+      "image_credit": "Wikimedia Commons · National Archives and Records Administration. Office of the Federal Register. 4/1/1985 · Public domain"
+    },
+    "GHC-NOV-11-13": {
+      "published_at": "2026-11-10T18:30:38.408732+00:00",
+      "message_id": 982,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AImperial_Hall%2C_Residenz_Munich%2C_Germany.jpg",
+      "image_credit": "Wikimedia Commons · Wilfredor · CC0"
+    },
+    "GHC-NOV-11-18": {
+      "published_at": "2026-11-10T18:30:44.499485+00:00",
+      "message_id": 983,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGEMINI-TITAN_%28GT%29-11_-_ON_PAD_-_ATLAS-AGENA_-_CAPE_%28s66-50724%29.jpg",
+      "image_credit": "Wikimedia Commons · NASA Johnson Space Center / N/A · Public domain"
     }
   },
   "runs": [
@@ -6351,6 +6421,12 @@
     {
       "date": "2026-11-10",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-11",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
