@@ -5893,6 +5893,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AGEMINI-TITAN_%28GT%29-11_-_ON_PAD_-_ATLAS-AGENA_-_CAPE_%28s66-50724%29.jpg",
       "image_credit": "Wikimedia Commons · NASA Johnson Space Center / N/A · Public domain"
+    },
+    "GHC-NOV-11-01": {
+      "published_at": "2026-11-11T08:35:11.870975+00:00",
+      "message_id": 984,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADisciplinary_Decrees_of_the_General_Councils.djvu",
+      "image_credit": "Wikimedia Commons · Henry Joseph Schroeder · Public domain"
+    },
+    "GHC-NOV-11-02": {
+      "published_at": "2026-11-11T08:35:40.938648+00:00",
+      "message_id": 985,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/1677_Tycho_Brahe",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-11-03": {
+      "published_at": "2026-11-11T08:35:47.686791+00:00",
+      "message_id": 986,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APilgrims_signing_the_compact_on_board_the_Mayflower%2C_Nov_11%2C_1620%2C_Provincetown_Harbor%2C_Mass_%2876237%29.jpg",
+      "image_credit": "Wikimedia Commons · Pub. by The Mayflower Sales Co., Provincetown, Mass. Tichnor Bros. Inc., Boston, Mass. · Public domain"
+    },
+    "GHC-NOV-11-07": {
+      "published_at": "2026-11-11T08:35:52.402595+00:00",
+      "message_id": 987,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVictims_who_lost_their_homes_in_the_Ansei_Edo_Earthquake%2C_sleeping_in_the_open%2C_woodblock_print%2C_1855_AD_-_Edo-Tokyo_Museum_-_Sumida%2C_Tokyo%2C_Japan_-_DSC06718.jpg",
+      "image_credit": "Wikimedia Commons · Daderot · Public domain"
+    },
+    "GHC-NOV-11-08": {
+      "published_at": "2026-11-11T08:36:38.384514+00:00",
+      "message_id": 988,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMelbourne_%28AU%29%2C_Northbank_--_2019_--_1422-7.jpg",
+      "image_credit": "Wikimedia Commons · Dietmar Rabich · CC BY-SA 4.0"
+    },
+    "GHC-NOV-11-09": {
+      "published_at": "2026-11-11T08:36:44.744071+00:00",
+      "message_id": 989,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAnarchists_Executed%2C_Chicago_by_Will_E._Chapin%2C_1887_%28LOC%29_%28446822758%29.jpg",
+      "image_credit": "Wikimedia Commons · pingnews.com · Public domain"
+    },
+    "GHC-NOV-11-11": {
+      "published_at": "2026-11-11T08:36:52.874576+00:00",
+      "message_id": 990,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACeremonies_-_New_York_City_-_Crowds_surging_up_Fifth_Avenue_on_%22Victory_Day.%22_When_Germany_signed_the_armistice_and_the_world_war_came_to_an_end%2C_the_people_of_the_nation_went_absolutely_wild_with_joy._The_traffi%28...%29_-_NARA_-_23921853.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author or not provided · Public domain"
+    },
+    "GHC-NOV-11-12": {
+      "published_at": "2026-11-11T08:38:02.224154+00:00",
+      "message_id": 991,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACeremonies_-_Independence_Day_Parades_%28All_States%29_-_Polish_Red_Cross_section_in_the_Independence_Day_Parade_in_Philadelphia%2C_PA.%2C_July_4%2C_1918_-_NARA_-_23922551.jpg",
+      "image_credit": "Wikimedia Commons · International Film Service · Public domain"
+    },
+    "GHC-NOV-11-14": {
+      "published_at": "2026-11-11T08:38:06.787090+00:00",
+      "message_id": 992,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AItalian_ship_BB_LIttorio_on_November_12%2C_1940%2C_after_Taranto_attack_%28P00090.091%29.jpg",
+      "image_credit": "Wikimedia Commons · Australian War Memorial · Public domain"
+    },
+    "GHC-NOV-11-15": {
+      "published_at": "2026-11-11T08:38:16.723099+00:00",
+      "message_id": 993,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Government_of_Vichy_France",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -6427,6 +6497,12 @@
     {
       "date": "2026-11-11",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-11",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
