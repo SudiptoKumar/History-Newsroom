@@ -5963,6 +5963,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Government_of_Vichy_France",
       "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-12-15": {
+      "published_at": "2026-11-11T18:23:31.198144+00:00",
+      "message_id": 994,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVoyager_2_Launch_-_GPN-2003-000002.jpg",
+      "image_credit": "Wikimedia Commons · NASA · Public domain"
+    },
+    "GHC-NOV-12-16": {
+      "published_at": "2026-11-11T18:23:56.969164+00:00",
+      "message_id": 995,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-12-18": {
+      "published_at": "2026-11-11T18:24:03.354727+00:00",
+      "message_id": 996,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATim_Berners-Lee%E2%80%99s_proposal_for_a_World_Wide_Web_hypertext_proposal%2C_notice_board%2C_CERN.jpg",
+      "image_credit": "Wikimedia Commons · Mramoeba · CC0"
+    },
+    "GHC-NOV-12-19": {
+      "published_at": "2026-11-11T18:24:08.671642+00:00",
+      "message_id": 997,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A2021-11-12_Memorial_day_of_Santa_Cruz_massacre_in_Dili.jpg",
+      "image_credit": "Wikimedia Commons · Juliao Fernandes, Média Presidência da República Democrática de Timor-Leste · Public domain"
+    },
+    "GHC-NOV-12-01": {
+      "published_at": "2026-11-11T18:24:53.275434+00:00",
+      "message_id": 998,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Posada_%28Chronica_Hungarorum%29.jpg",
+      "image_credit": "Wikimedia Commons · János Thuróczy · Public domain"
+    },
+    "GHC-NOV-12-07": {
+      "published_at": "2026-11-11T18:24:59.583680+00:00",
+      "message_id": 999,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHampton_Roads_by_Sentinel-2.jpg",
+      "image_credit": "Wikimedia Commons · Copernicus Sentinel-2, ESA · CC BY-SA 3.0 igo"
+    },
+    "GHC-NOV-12-09": {
+      "published_at": "2026-11-11T18:25:04.815473+00:00",
+      "message_id": 1000,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABaie_du_cap%2C_l%E2%80%99estuaire_de_Libreville_au_Gabon.jpg",
+      "image_credit": "Wikimedia Commons · VIGNA christian · CC BY-SA 4.0"
+    },
+    "GHC-NOV-12-13": {
+      "published_at": "2026-11-11T18:25:09.491795+00:00",
+      "message_id": 1001,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUp_Close.jpg",
+      "image_credit": "Wikimedia Commons · Rich Lemonie · CC BY-SA 4.0"
+    },
+    "GHC-NOV-12-17": {
+      "published_at": "2026-11-11T18:26:16.191661+00:00",
+      "message_id": 1002,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWooden_footbridge_in_Shinjuku_Gyoen_National_Garden%2C_Tokyo%2C_Japan%2C_a_sunny_day_with_blue_sky.jpg",
+      "image_credit": "Wikimedia Commons · Basile Morin · CC BY-SA 4.0"
+    },
+    "GHC-NOV-12-20": {
+      "published_at": "2026-11-11T18:26:19.019601+00:00",
+      "message_id": 1003,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADuzce_1999_earthquake_damage_Bilham_884.jpg",
+      "image_credit": "Wikimedia Commons · Roger Bilham · Public domain"
     }
   },
   "runs": [
@@ -6503,6 +6573,12 @@
     {
       "date": "2026-11-11",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-12",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
