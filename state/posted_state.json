@@ -6033,6 +6033,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ADuzce_1999_earthquake_damage_Bilham_884.jpg",
       "image_credit": "Wikimedia Commons · Roger Bilham · Public domain"
+    },
+    "GHC-NOV-12-02": {
+      "published_at": "2026-11-12T08:55:58.624400+00:00",
+      "message_id": 1004,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Abdur_Rahman_Khan",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-12-03": {
+      "published_at": "2026-11-12T08:56:04.793465+00:00",
+      "message_id": 1005,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFrixos_Aristeus_-_Entry_of_the_Crown_Prince_in_Thessaloniki.jpg",
+      "image_credit": "Wikimedia Commons · Frixos Aristeus · Public domain"
+    },
+    "GHC-NOV-12-04": {
+      "published_at": "2026-11-12T08:56:33.103678+00:00",
+      "message_id": 1006,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASTS-133_ISS-26_Eric_Boe_and_Scott_Kelly_with_Robonaut2_container.jpg",
+      "image_credit": "Wikimedia Commons · NASA · Public domain"
+    },
+    "GHC-NOV-12-05": {
+      "published_at": "2026-11-12T08:56:40.676772+00:00",
+      "message_id": 1007,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAustria-02941_-_St._Peter%27s_Church_Dome_%2832089794294%29.jpg",
+      "image_credit": "Wikimedia Commons · Dennis G. Jarvis · CC BY-SA 2.0"
+    },
+    "GHC-NOV-12-06": {
+      "published_at": "2026-11-12T08:56:44.523458+00:00",
+      "message_id": 1008,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMarx_and_Engels_on_Revolution_in_America_-_Heinz_Neumann.djvu",
+      "image_credit": "Wikimedia Commons · Heinz Neumann · Public domain"
+    },
+    "GHC-NOV-12-08": {
+      "published_at": "2026-11-12T08:57:33.227502+00:00",
+      "message_id": 1009,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABerlin_-_Friedrichswerdersche_Kirche_-_Innenansicht_%289734%29.jpg",
+      "image_credit": "Wikimedia Commons · T meltzer · CC BY-SA 4.0"
+    },
+    "GHC-NOV-12-10": {
+      "published_at": "2026-11-12T08:58:38.400188+00:00",
+      "message_id": 1010,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALloyd_Fuller_Diary%2C_December_1-2%2C_1942_%2814957808476%29.jpg",
+      "image_credit": "Wikimedia Commons · USMC Archives from Quantico, USA · CC BY 2.0"
+    },
+    "GHC-NOV-12-11": {
+      "published_at": "2026-11-12T08:58:41.805875+00:00",
+      "message_id": 1011,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATirpitz_Sinking_Site_%2852598004017%29.jpg",
+      "image_credit": "Wikimedia Commons · David Stanley from Nanaimo, Canada · CC BY 2.0"
+    },
+    "GHC-NOV-12-12": {
+      "published_at": "2026-11-12T08:58:47.156580+00:00",
+      "message_id": 1012,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APublic_Domain_General_Tojo%2C_Japanese_War_Crimes_Trials._Manila%2C_ca._1945_-_ca._1948_%28NARA%29_%28441531324%29.gif",
+      "image_credit": "Wikimedia Commons · pingnews.com · Public domain"
+    },
+    "GHC-NOV-12-14": {
+      "published_at": "2026-11-12T08:58:50.730053+00:00",
+      "message_id": 1013,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1970_Bhola_Cyclone.jpg",
+      "image_credit": "Wikimedia Commons · NOAA · Public domain"
     }
   },
   "runs": [
@@ -6579,6 +6649,12 @@
     {
       "date": "2026-11-12",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-12",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
