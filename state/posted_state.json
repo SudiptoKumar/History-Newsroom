@@ -6103,6 +6103,69 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3A1970_Bhola_Cyclone.jpg",
       "image_credit": "Wikimedia Commons · NOAA · Public domain"
+    },
+    "GHC-NOV-13-05": {
+      "published_at": "2026-11-12T18:41:22.155683+00:00",
+      "message_id": 1014,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_El_Herri_2.jpg",
+      "image_credit": "Wikimedia Commons · Khadija Serraf · CC BY-SA 4.0"
+    },
+    "GHC-NOV-13-07": {
+      "published_at": "2026-11-12T18:41:47.025340+00:00",
+      "message_id": 1015,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Vaccination_policy_of_the_United_States",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-13-08": {
+      "published_at": "2026-11-12T18:41:53.641278+00:00",
+      "message_id": 1016,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHolland_Tunnel_--_1927_%2853753501716%29.jpg",
+      "image_credit": "Wikimedia Commons · Jim Griffin · CC0"
+    },
+    "GHC-NOV-13-11": {
+      "published_at": "2026-11-12T18:42:44.882407+00:00",
+      "message_id": 1017,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMarch_against_the_decision_to_not_prosecute_the_police_for_the_death_of_Jamar_Clark_%2825542267583%29.jpg",
+      "image_credit": "Wikimedia Commons · Fibonacci Blue from Minnesota, USA · CC BY 2.0"
+    },
+    "GHC-NOV-13-13": {
+      "published_at": "2026-11-12T18:42:47.795886+00:00",
+      "message_id": 1018,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJohn_Vietnam_Veterans_Memorial_Plaza%2C_Chicago_Illinois_%283670302557%29.jpg",
+      "image_credit": "Wikimedia Commons · Ray Dumas from Warren, USA · CC BY-SA 2.0"
+    },
+    "GHC-NOV-13-15": {
+      "published_at": "2026-11-12T18:42:54.913146+00:00",
+      "message_id": 1019,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAramoana_massacre_memorial.jpg",
+      "image_credit": "Wikimedia Commons · Benchill · CC BY-SA 3.0"
+    },
+    "GHC-NOV-13-16": {
+      "published_at": "2026-11-12T18:42:58.117501+00:00",
+      "message_id": 1020,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASwedish_EU_membership_referendum%2C_1994_result_by_provinces.png",
+      "image_credit": "Wikimedia Commons · Paasikivi · CC BY-SA 4.0"
+    },
+    "GHC-NOV-13-17": {
+      "published_at": "2026-11-12T18:43:04.745289+00:00",
+      "message_id": 1021,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Joanna_Kuenssberg",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-13-04": {
+      "published_at": "2026-11-12T18:43:07.166340+00:00",
+      "message_id": 1022,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABell%27s_3rd%2C_4th%2C_and_5th_Addition_to_the_City_of_Seattle%2C_circa_1890_%28MOHAI_13330%29.jpg",
+      "image_credit": "Wikimedia Commons · Anderson, Oliver P. (Oliver Phelps) · Public domain"
     }
   },
   "runs": [
@@ -6657,6 +6720,12 @@
       "batch_index": 1,
       "selected": 10,
       "published_now": 10
+    },
+    {
+      "date": "2026-11-13",
+      "batch_index": 2,
+      "selected": 9,
+      "published_now": 9
     }
   ]
 }
