@@ -6236,6 +6236,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APanorama_360_of_Basilique_Saint-Patrick%2C_Montreal%2C_Quebec%2C_Canada.jpg",
       "image_credit": "Wikimedia Commons · Wilfredor · CC BY-SA 4.0"
+    },
+    "GHC-NOV-14-20": {
+      "published_at": "2026-11-13T18:22:54.490677+00:00",
+      "message_id": 1033,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APoland_2025_144A_Cieszyn_Piast_Tower.jpg",
+      "image_credit": "Wikimedia Commons · Scotch Mist · CC BY-SA 4.0"
+    },
+    "GHC-NOV-14-01": {
+      "published_at": "2026-11-13T18:23:20.671802+00:00",
+      "message_id": 1034,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASilver_medal_with_comet_illustration%2C_Hamburg%2C_1681.jpg",
+      "image_credit": "Wikimedia Commons · UnknownUnknown  / Photography: CNG coins · CC BY-SA 3.0"
+    },
+    "GHC-NOV-14-02": {
+      "published_at": "2026-11-13T18:23:24.047082+00:00",
+      "message_id": 1035,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Smoliantsy_-_Smoliani%2C_2_%2815%29_November_1812.png",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-14-03": {
+      "published_at": "2026-11-13T18:24:11.588627+00:00",
+      "message_id": 1036,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMoby-Dick_%281851%29_US_edition.djvu",
+      "image_credit": "Wikimedia Commons · Herman Melville · Public domain"
+    },
+    "GHC-NOV-14-04": {
+      "published_at": "2026-11-13T18:24:21.562182+00:00",
+      "message_id": 1037,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-14-05": {
+      "published_at": "2026-11-13T18:24:25.201219+00:00",
+      "message_id": 1038,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_060117-N-4935L-003_A_RQ-8A_Fire_Scout_Vertical_Takeoff_and_Landing_Tactical_Unmanned_Aerial_Vehicle_%28VTUAV%29_System_prepares_for_the_first_autonomous_landing_aboard_the_amphibious_transport_dock_ship_USS_Nashville_%28LPD_1.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Navy photo by Kurt Lengfield · Public domain"
+    },
+    "GHC-NOV-14-06": {
+      "published_at": "2026-11-13T18:24:32.201925+00:00",
+      "message_id": 1039,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-14-07": {
+      "published_at": "2026-11-13T18:24:43.221364+00:00",
+      "message_id": 1040,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Australian_Broadcasting_Corporation",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-14-09": {
+      "published_at": "2026-11-13T18:24:46.270331+00:00",
+      "message_id": 1041,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Sinking_of_HMS_Ark_Royal._13_November_1941_A6327.jpg",
+      "image_credit": "Wikimedia Commons · Beadell, S J (Lt) · Public domain"
+    },
+    "GHC-NOV-14-11": {
+      "published_at": "2026-11-13T18:25:49.417458+00:00",
+      "message_id": 1042,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Central_Terminal_Historical_Building_Tour%2C_2016-09-18_-_14.jpg",
+      "image_credit": "Wikimedia Commons · Andre Carrotflower · CC BY-SA 4.0"
     }
   },
   "runs": [
@@ -6800,6 +6870,12 @@
     {
       "date": "2026-11-13",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-14",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
