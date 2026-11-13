@@ -43,4 +43,4 @@ def test_generated_card_is_content_fit(tmp_path: Path):
     generate_event_card(event, _fallback(event), output)
     with Image.open(output) as result:
         assert result.width == 1200
-        assert result.height in (1200, 1500, 1800)
+        assert result.height in (800, 1200, 1500, 1800)

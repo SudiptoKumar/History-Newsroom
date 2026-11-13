@@ -22,9 +22,17 @@ HANDLE = "@HistoryNewsroom"
 # first shipped in DailyFacts): cream paper, dashed ink border, badge +
 # channel-name header, red kicker, DM Serif Display content type with
 # Archivo label type. Card width is always 1200; height follows the
-# content with a 1:1 minimum: 1200 (1:1), 1500 (4:5), 1800 (2:3).
+# content: 800 (3:2) for short events, then 1200 (1:1), 1500 (4:5),
+# 1800 (2:3). The 800 tier (Karn, 2026-11-12) uses the compact
+# geometry of the approved sample; taller tiers keep the original layout.
 CARD_WIDTH = 1200
-CARD_HEIGHTS = (1200, 1500, 1800)
+CARD_HEIGHTS = (800, 1200, 1500, 1800)
+# Compact (800) tier: content zone between the kicker and the footer
+# rule. A card only earns the tier if its whole stack fits this zone
+# with the title at 56px or larger.
+COMPACT_TEXT_TOP = 262
+COMPACT_TEXT_BOTTOM = 800 - 144 - 32
+COMPACT_MIN_FONT = 56
 PAPER = (247, 242, 231)
 INK = (24, 22, 19)
 TEXT_INK = (28, 25, 21)
@@ -305,70 +313,109 @@ def generate_event_card(event: Event, enriched, output: Path) -> Path:
             essence_lines = _wrap(probe, trimmed, _font("display", essence_size), text_w)
             essence_h = 36 + len(essence_lines) * essence_lh
             needed = 292 + len(title_lines) * title_lh + essence_h + 214 + 24
-    height = next((h for h in CARD_HEIGHTS if h >= needed), CARD_HEIGHTS[-1])
+
+    # Compact (800) tier: re-measure the title and essence at the
+    # compact width against the compact middle zone; the card earns the
+    # tier only if the whole stack fits with the title still at a
+    # readable size (>= 56px).
+    c_text_w = CARD_WIDTH - 80 - 80
+    c_essence_size = essence_size
+    c_essence_lines = _wrap(probe, essence, _font("display", c_essence_size), c_text_w) if essence else []
+    if len(c_essence_lines) > 5:
+        c_essence_size = 30
+        c_essence_lines = _wrap(probe, essence, _font("display", c_essence_size), c_text_w)
+    c_essence_lh = round(c_essence_size * 1.38)
+    c_essence_h = (36 + len(c_essence_lines) * c_essence_lh) if c_essence_lines else 0
+    c_zone_h = COMPACT_TEXT_BOTTOM - COMPACT_TEXT_TOP
+    c_title_size, c_title_lines = 40, []
+    for candidate in range(88, COMPACT_MIN_FONT - 1, -2):
+        lines = _wrap(probe, title, _font("display", candidate), c_text_w)
+        if len(lines) * candidate * 1.24 + c_essence_h <= c_zone_h:
+            c_title_size, c_title_lines = candidate, lines
+            break
+    compact = bool(c_title_lines)
+    if compact:
+        title_size, title_lines = c_title_size, c_title_lines
+        title_lh = title_size * 1.24
+        essence_size, essence_lines = c_essence_size, c_essence_lines
+        essence_lh, essence_h = c_essence_lh, c_essence_h
+        height = CARD_HEIGHTS[0]
+    else:
+        height = next((h for h in CARD_HEIGHTS[1:] if h >= needed), CARD_HEIGHTS[-1])
+
+    # Per-tier geometry: the compact tier tightens every spacing
+    # (Karn's approved sample); taller tiers keep the original layout.
+    inset = 36 if compact else 44
+    badge_x, badge_y, logo_h = (72, 56, 54) if compact else (84, 72, 60)
+    badge_pad = 12 if compact else 14
+    mx = 80 if compact else 92
 
     img = Image.new("RGB", (CARD_WIDTH, height), PAPER)
     draw = ImageDraw.Draw(img)
 
     # Dashed label border.
-    _dashed_rectangle(draw, (44, 44, CARD_WIDTH - 44, height - 44), INK)
+    _dashed_rectangle(draw, (inset, inset, CARD_WIDTH - inset, height - inset), INK)
 
     # Header: the TH logo in a white badge; the channel name centered on
     # the badge's midline by its measured pixel box.
-    badge_x, badge_y, logo_h = 84, 72, 60
     logo = _logo_mark(logo_h)
-    badge_w = (logo.width if logo is not None else 97) + 28
-    badge_h = logo_h + 28
+    badge_w = (logo.width if logo is not None else 97) + badge_pad * 2
+    badge_h = logo_h + badge_pad * 2
     badge = Image.new("RGBA", (badge_w, badge_h), (0, 0, 0, 0))
     bd = ImageDraw.Draw(badge)
-    bd.rounded_rectangle((1, 1, badge_w - 2, badge_h - 2), radius=20, fill=(255, 255, 255), outline=INK, width=3)
+    bd.rounded_rectangle((1, 1, badge_w - 2, badge_h - 2), radius=18 if compact else 20, fill=(255, 255, 255), outline=INK, width=3)
     if logo is not None:
-        badge.alpha_composite(logo.convert("RGBA"), (14, 14))
+        badge.alpha_composite(logo.convert("RGBA"), (badge_pad, badge_pad))
     else:
-        tf = _font("archivo_black", 34)
+        tf = _font("archivo_black", 30 if compact else 34)
         tb = bd.textbbox((0, 0), "TH", font=tf)
         bd.text(((badge_w - (tb[2] - tb[0])) / 2 - tb[0], (badge_h - (tb[3] - tb[1])) / 2 - tb[1]), "TH", font=tf, fill=RED)
     base = img.convert("RGBA")
     base.alpha_composite(badge, (badge_x, badge_y))
-    name = _tracked_strip("TODAY IN HISTORY", _font("archivo_black", 46), INK, 9)
-    base.alpha_composite(name, (badge_x + badge_w + 42, badge_y + badge_h // 2 - name.height // 2))
+    name = _tracked_strip("TODAY IN HISTORY", _font("archivo_black", 42 if compact else 46), INK, 9)
+    base.alpha_composite(name, (badge_x + badge_w + (38 if compact else 42), badge_y + badge_h // 2 - name.height // 2))
     img = base.convert("RGB")
     draw = ImageDraw.Draw(img)
 
     # Header rule, then the kicker row: the date in red at the left, the
     # category quiet at the right.
-    draw.line((92, 200, CARD_WIDTH - 92, 200), fill=INK, width=3)
-    _draw_tracked(draw, 92, 238, date_text, _font("archivo", 32), RED, 5)
+    draw.line((mx, 168 if compact else 200, CARD_WIDTH - mx, 168 if compact else 200), fill=INK, width=3)
+    _draw_tracked(draw, mx, 196 if compact else 238, date_text, _font("archivo", 30 if compact else 32), RED, 5)
     cat_size = 24
     while cat_size > 18 and _tracked_width(probe, category, _font("archivo", cat_size), 4) > 620:
         cat_size -= 2
     cat = _tracked_strip(category, _font("archivo", cat_size), MUTED, 4)
     base = img.convert("RGBA")
-    base.alpha_composite(cat, (CARD_WIDTH - 92 - cat.width, 242))
+    base.alpha_composite(cat, (CARD_WIDTH - mx - cat.width, 200 if compact else 242))
     img = base.convert("RGB")
     draw = ImageDraw.Draw(img)
 
-    # Headline, then the essence line under it.
-    y = 292
+    # Headline, then the essence line under it. The compact tier centers
+    # the whole stack in its middle zone; taller tiers start at the top.
+    if compact:
+        stack_h = len(title_lines) * title_lh + essence_h
+        y = COMPACT_TEXT_TOP + (c_zone_h - stack_h) / 2
+    else:
+        y = 292
     title_font = _font("display", title_size)
     for line in title_lines:
-        draw.text((92, y), line, font=title_font, fill=TEXT_INK)
+        draw.text((mx, y), line, font=title_font, fill=TEXT_INK)
         y += title_lh
     if essence_lines:
         y += 36
         essence_font = _font("display", essence_size)
         for line in essence_lines:
-            draw.text((92, y), line, font=essence_font, fill=TEXT_INK)
+            draw.text((mx, y), line, font=essence_font, fill=TEXT_INK)
             y += essence_lh
 
     # Footer: ink rule, source left and handle right on one baseline.
-    rule_y = height - 214
-    draw.line((92, rule_y, CARD_WIDTH - 92, rule_y), fill=INK, width=3)
-    baseline = rule_y + 74
-    hf = _font("archivo_black", 38)
-    draw.text((CARD_WIDTH - 92 - draw.textlength(HANDLE, font=hf), baseline - hf.getmetrics()[0]), HANDLE, font=hf, fill=INK)
-    sf = _font("archivo_medium", 30)
-    draw.text((92, baseline - sf.getmetrics()[0]), f"Source: {domain}", font=sf, fill=MUTED)
+    rule_y = height - 144 if compact else height - 214
+    draw.line((mx, rule_y, CARD_WIDTH - mx, rule_y), fill=INK, width=3)
+    baseline = rule_y + (62 if compact else 74)
+    hf = _font("archivo_black", 34 if compact else 38)
+    draw.text((CARD_WIDTH - mx - draw.textlength(HANDLE, font=hf), baseline - hf.getmetrics()[0]), HANDLE, font=hf, fill=INK)
+    sf = _font("archivo_medium", 28 if compact else 30)
+    draw.text((mx, baseline - sf.getmetrics()[0]), f"Source: {domain}", font=sf, fill=MUTED)
 
     output.parent.mkdir(parents=True, exist_ok=True)
     _save_jpeg(img, output, 92)
