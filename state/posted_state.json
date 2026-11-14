@@ -6306,6 +6306,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Central_Terminal_Historical_Building_Tour%2C_2016-09-18_-_14.jpg",
       "image_credit": "Wikimedia Commons · Andre Carrotflower · CC BY-SA 4.0"
+    },
+    "GHC-NOV-14-08": {
+      "published_at": "2026-11-14T08:15:30.227490+00:00",
+      "message_id": 1043,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACoventry_Cathedral_-_geograph.org.uk_-_19036.jpg",
+      "image_credit": "Wikimedia Commons · Kevin Croucher · CC BY-SA 2.0"
+    },
+    "GHC-NOV-14-10": {
+      "published_at": "2026-11-14T08:15:55.900300+00:00",
+      "message_id": 1044,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AS%C5%82onim%2C_Bernardynski._%D0%A1%D0%BB%D0%BE%D0%BD%D1%96%D0%BC%2C_%D0%91%D1%8D%D1%80%D0%BD%D0%B0%D1%80%D0%B4%D1%8B%D0%BD%D1%81%D0%BA%D1%96_%281922%29.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-14-12": {
+      "published_at": "2026-11-14T08:16:01.946486+00:00",
+      "message_id": 1045,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Ruby_Bridges",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-14-13": {
+      "published_at": "2026-11-14T08:16:05.246089+00:00",
+      "message_id": 1046,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGarryOwen_commemorates_Battle_of_Ia_Drang_Valley_DVIDS790061.jpg",
+      "image_credit": "Wikimedia Commons · Sgt. John Couffer · Public domain"
+    },
+    "GHC-NOV-14-14": {
+      "published_at": "2026-11-14T08:16:50.639046+00:00",
+      "message_id": 1047,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Timeline_of_United_States_inventions_(1946%E2%80%931991)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-14-15": {
+      "published_at": "2026-11-14T08:16:53.678447+00:00",
+      "message_id": 1048,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AApollo_12_launches_from_Kennedy_Space_Center.jpg",
+      "image_credit": "Wikimedia Commons · NASA · Public domain"
+    },
+    "GHC-NOV-14-16": {
+      "published_at": "2026-11-14T08:16:58.761977+00:00",
+      "message_id": 1049,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-14-17": {
+      "published_at": "2026-11-14T08:17:01.236198+00:00",
+      "message_id": 1050,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAlgeria_Morocco_Locator_1975-1979.png",
+      "image_credit": "Wikimedia Commons · Omar-toons · CC BY-SA 4.0"
+    },
+    "GHC-NOV-14-18": {
+      "published_at": "2026-11-14T08:18:09.050180+00:00",
+      "message_id": 1051,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUnited_States_Statutes_at_Large_Volume_123.djvu",
+      "image_credit": "Wikimedia Commons · United States Congress · Public domain"
+    },
+    "GHC-NOV-14-19": {
+      "published_at": "2026-11-14T08:18:14.362608+00:00",
+      "message_id": 1052,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/November_1982",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
@@ -6876,6 +6946,12 @@
     {
       "date": "2026-11-14",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-14",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
