@@ -6376,6 +6376,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/November_1982",
       "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-15-01": {
+      "published_at": "2026-11-15T08:35:33.367445+00:00",
+      "message_id": 1053,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APhiladelphia_Map%2C_1777_Philadelphia_Campaign2.jpg",
+      "image_credit": "Wikimedia Commons · This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID gm71000933.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. · Public domain"
+    },
+    "GHC-NOV-15-02": {
+      "published_at": "2026-11-15T08:35:37.774653+00:00",
+      "message_id": 1054,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABrigadier_General_Charles_C._Walcutt_%287393894918%29.jpg",
+      "image_credit": "Wikimedia Commons · TradingCardsNPS · CC BY 2.0"
+    },
+    "GHC-NOV-15-03": {
+      "published_at": "2026-11-15T08:36:01.505416+00:00",
+      "message_id": 1055,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEdi_Rama%2C_press_conference%2C_ITB_2025%2C_Berlin_%28ITB56440%29.jpg",
+      "image_credit": "Wikimedia Commons · Matti Blume · CC BY-SA 4.0"
+    },
+    "GHC-NOV-15-04": {
+      "published_at": "2026-11-15T08:36:12.456512+00:00",
+      "message_id": 1056,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_Brazilian_family_in_Rio_de_Janeiro_by_Jean-Baptiste_Debret_1839.jpg",
+      "image_credit": "Wikimedia Commons · Jean-Baptiste Debret · Public domain"
+    },
+    "GHC-NOV-15-05": {
+      "published_at": "2026-11-15T08:37:02.138070+00:00",
+      "message_id": 1057,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHelsinki_July_2013-15.jpg",
+      "image_credit": "Wikimedia Commons · Alvesgaspar · CC BY-SA 3.0"
+    },
+    "GHC-NOV-15-06": {
+      "published_at": "2026-11-15T08:38:06.447605+00:00",
+      "message_id": 1058,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALeague_of_Nations_1923.jpg",
+      "image_credit": "Wikimedia Commons · Anonyymi uutiskuva · Public domain"
+    },
+    "GHC-NOV-15-07": {
+      "published_at": "2026-11-15T08:38:11.978440+00:00",
+      "message_id": 1059,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Anti-Jewish_legislation_in_pre-war_Nazi_Germany",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-15-08": {
+      "published_at": "2026-11-15T08:38:15.728528+00:00",
+      "message_id": 1060,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Guadalcanal_Japanese_Plaque_on_cenotaph_at_Central_Police_Station%2C_Point_Cruz_Honiara._1993_Honiara_Association_Fukuoka_Japan.jpg",
+      "image_credit": "Wikimedia Commons · Phenss · CC BY-SA 4.0"
+    },
+    "GHC-NOV-15-09": {
+      "published_at": "2026-11-15T08:38:20.932581+00:00",
+      "message_id": 1061,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-NOV-15-12": {
+      "published_at": "2026-11-15T08:38:25.472495+00:00",
+      "message_id": 1062,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUnicom_141P_Calculator_1.jpg",
+      "image_credit": "Wikimedia Commons · Swtpc6800 Michael Holley · Public domain"
     }
   },
   "runs": [
@@ -6960,6 +7030,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-11-15",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
