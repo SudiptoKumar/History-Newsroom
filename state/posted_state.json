@@ -6446,6 +6446,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AUnicom_141P_Calculator_1.jpg",
       "image_credit": "Wikimedia Commons · Swtpc6800 Michael Holley · Public domain"
+    },
+    "GHC-NOV-15-13": {
+      "published_at": "2026-11-15T17:34:05.224456+00:00",
+      "message_id": 1063,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALife_and_death_of_the_Irish_parliament.djvu",
+      "image_credit": "Wikimedia Commons · James Whiteside · Public domain"
+    },
+    "GHC-NOV-15-15": {
+      "published_at": "2026-11-15T17:34:33.159725+00:00",
+      "message_id": 1064,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/History_of_Palestine",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-15-18": {
+      "published_at": "2026-11-15T17:34:41.808262+00:00",
+      "message_id": 1065,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABeijing_city_subway_passage.jpg",
+      "image_credit": "Wikimedia Commons · Nacaru · CC BY-SA 4.0"
+    },
+    "GHC-NOV-15-20": {
+      "published_at": "2026-11-15T17:34:47.404533+00:00",
+      "message_id": 1066,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_071124-M-7696M-074_Capt._Robert_Bougher%2C_center%2C_commander%2C_Kearsarge_Strike_Group%2C_meets_with_Bangladeshi_military_officials_during_a_humanitarian_assistance_capabilities_brief.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Navy photo · Public domain"
+    },
+    "GHC-NOV-15-10": {
+      "published_at": "2026-11-15T17:35:31.712811+00:00",
+      "message_id": 1067,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASaturn_Apollo_Program_%286635141%29.jpg",
+      "image_credit": "Wikimedia Commons · NASA Marshall Space Flight Center · Public domain"
+    },
+    "GHC-NOV-15-11": {
+      "published_at": "2026-11-15T17:35:34.778824+00:00",
+      "message_id": 1068,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADIG13875MM_0256.jpg",
+      "image_credit": "Wikimedia Commons · Marsha Miller · Public domain"
+    },
+    "GHC-NOV-15-14": {
+      "published_at": "2026-11-15T17:35:43.801706+00:00",
+      "message_id": 1069,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_spaceflight_records",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-15-16": {
+      "published_at": "2026-11-15T17:35:46.457724+00:00",
+      "message_id": 1070,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APower_barge_displaced_by_the_1994_Mindoro_tsunami.png",
+      "image_credit": "Wikimedia Commons · Mateooo101 · CC BY-SA 4.0"
+    },
+    "GHC-NOV-15-17": {
+      "published_at": "2026-11-15T17:36:49.734149+00:00",
+      "message_id": 1071,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AActs_of_the_Parliament_of_India_2013.djvu",
+      "image_credit": "Wikimedia Commons · Parliament of India · EdictGov-India"
+    },
+    "GHC-NOV-15-19": {
+      "published_at": "2026-11-15T17:36:55.081418+00:00",
+      "message_id": 1072,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIstanbul_asv2020-02_img12_Sirkeci_Terminal.jpg",
+      "image_credit": "Wikimedia Commons · A.Savin · FAL"
     }
   },
   "runs": [
@@ -7034,6 +7104,12 @@
     {
       "date": "2026-11-15",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-15",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
