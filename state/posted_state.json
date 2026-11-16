@@ -6586,15 +6586,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ABasel_-_M%C3%BCnsterpfalz1.jpg",
       "image_credit": "Wikimedia Commons · Taxiarchos228 · FAL"
+    },
+    "GHC-NOV-17-03": {
+      "published_at": "2026-11-16T20:49:10.071830+00:00",
+      "message_id": 1083,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistoire_de_la_Revolution_francaise._T._2_1866_%28143261180%29.jpg",
+      "image_credit": "Wikimedia Commons · Adolphe Thiers · Public domain"
+    },
+    "GHC-NOV-17-05": {
+      "published_at": "2026-11-16T20:49:33.837218+00:00",
+      "message_id": 1084,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACyclopedia_of_American_horticulture%2C_comprising_suggestions_for_cultivation_of_horticultural_plants%2C_descriptions_of_the_species_of_fruits%2C_vegetables%2C_flowers_and_ornamental_plants_sold_in_the_United_%2820204283863%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-17-06": {
+      "published_at": "2026-11-16T20:49:37.198928+00:00",
+      "message_id": 1085,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGreat_Chilean_Earthquake_%2814184006691%29.jpg",
+      "image_credit": "Wikimedia Commons · Archives New Zealand from New Zealand · CC BY-SA 2.0"
+    },
+    "GHC-NOV-17-11": {
+      "published_at": "2026-11-16T20:50:19.915894+00:00",
+      "message_id": 1086,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADalai_Lama_in_Hamburg_%2815022520726%29.jpg",
+      "image_credit": "Wikimedia Commons · Photo  YourSpace from lisbon, Portugal · CC BY 2.0"
+    },
+    "GHC-NOV-17-14": {
+      "published_at": "2026-11-16T20:50:25.816761+00:00",
+      "message_id": 1087,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AErechtheum_Acropolis_Athens_evening_moon.jpg",
+      "image_credit": "Wikimedia Commons · Jebulon · CC0"
+    },
+    "GHC-NOV-17-16": {
+      "published_at": "2026-11-16T20:50:32.903865+00:00",
+      "message_id": 1088,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAerial_view_of_White_House_and_downtown%2C_Washington%2C_D.C_LCCN2010630891.jpg",
+      "image_credit": "Wikimedia Commons · Carol M. Highsmith · Public domain"
+    },
+    "GHC-NOV-17-17": {
+      "published_at": "2026-11-16T20:50:39.132906+00:00",
+      "message_id": 1089,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASecretary_Blinken_Arrives_Abuja_-_53481958522.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Department of State · Public domain"
+    },
+    "GHC-NOV-17-18": {
+      "published_at": "2026-11-16T20:51:42.890621+00:00",
+      "message_id": 1090,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFlickr_-_Dave_B_-_the_luxor_massacre.jpg",
+      "image_credit": "Wikimedia Commons · Davidlohr Bueso from Santiago, Chile · CC BY 2.0"
+    },
+    "GHC-NOV-17-19": {
+      "published_at": "2026-11-16T20:52:25.324600+00:00",
+      "message_id": 1091,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALima%2C_Province_of_Lima%2C_Lima_Metropolitan_Area%2C_Lima%2C_Peru_%28CAPELLA_C17_SP_GEO_HH_20250708064827_20250708064906_preview%29.tiff",
+      "image_credit": "Wikimedia Commons · Capella Space · CC BY 4.0"
+    },
+    "GHC-NOV-17-20": {
+      "published_at": "2026-11-16T20:52:30.733413+00:00",
+      "message_id": 1092,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMudflow-Breaker_in_Log_pod_Mangartom.JPG",
+      "image_credit": "Wikimedia Commons · Tadeáš Gregor · CC BY-SA 4.0"
     }
   },
   "runs": [
-    {
-      "date": "2026-09-27",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-09-28",
       "batch_index": 1,
@@ -7186,6 +7250,12 @@
     {
       "date": "2026-11-16",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-17",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
