@@ -6516,6 +6516,76 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AIstanbul_asv2020-02_img12_Sirkeci_Terminal.jpg",
       "image_credit": "Wikimedia Commons · A.Savin · FAL"
+    },
+    "GHC-NOV-16-01": {
+      "published_at": "2026-11-16T08:44:37.389473+00:00",
+      "message_id": 1073,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALa_Captura_de_Atahualpa_-_Juan_Lepiani_1920s.png",
+      "image_credit": "Wikimedia Commons · Juan Lepiani · Public domain"
+    },
+    "GHC-NOV-16-02": {
+      "published_at": "2026-11-16T08:45:03.452580+00:00",
+      "message_id": 1074,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADeath_of_King_Gustav_II_Adolf_of_Sweden_at_the_Battle_of_L%C3%BCtzen_%28Carl_Wahlbom%29_-_Nationalmuseum_-_18031.tif",
+      "image_credit": "Wikimedia Commons · Carl Wahlbom · Public domain"
+    },
+    "GHC-NOV-16-03": {
+      "published_at": "2026-11-16T08:45:13.731629+00:00",
+      "message_id": 1075,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AView_of_the_Attack_Against_Fort_Washington.jpeg",
+      "image_credit": "Wikimedia Commons · Thomas Davies · Public domain"
+    },
+    "GHC-NOV-16-05": {
+      "published_at": "2026-11-16T08:45:20.009661+00:00",
+      "message_id": 1076,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_League_of_Nations_%28Pollock%2C_1922%29.djvu",
+      "image_credit": "Wikimedia Commons · Sir Frederick Pollock, 3rd Baronet · Public domain"
+    },
+    "GHC-NOV-16-08": {
+      "published_at": "2026-11-16T08:47:07.232707+00:00",
+      "message_id": 1077,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALouis_David_Riel_Grave%2C_Saint_Boniface_Cathedral%2C_Winnipeg%2C_Manitoba_%2830104592628%29.jpg",
+      "image_credit": "Wikimedia Commons · Ken Lund from Reno, Nevada, USA · CC BY-SA 2.0"
+    },
+    "GHC-NOV-16-09": {
+      "published_at": "2026-11-16T08:47:15.820668+00:00",
+      "message_id": 1078,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/John_Ambrose_Fleming",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-16-10": {
+      "published_at": "2026-11-16T08:47:21.138503+00:00",
+      "message_id": 1079,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APresidential_Proclamation_780_of_November_16%2C_1907%2C_by_President_Theodore_Roosevelt_declaring_the_state_of_Oklahoma%27s..._-_NARA_-_299964.tif",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author or not provided · Public domain"
+    },
+    "GHC-NOV-16-11": {
+      "published_at": "2026-11-16T08:47:32.899756+00:00",
+      "message_id": 1080,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOfficials_at_opening_of_Federal_Reserve_Bldg.%2C_Oct_15%2C_1937._Wayne_C._Taylor%2C_Asst._Secy._of_Treasury%3B_Roy_C._Young%2C_Pres._of_Fed._Reserve_Bank_of_Boston%3B_Henry_Morgenthau%2C_Secy._of_LCCN2016873349.jpg",
+      "image_credit": "Wikimedia Commons · Harris &amp; Ewing, photographer · Public domain"
+    },
+    "GHC-NOV-16-12": {
+      "published_at": "2026-11-16T08:47:37.755267+00:00",
+      "message_id": 1081,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Soviet_Socialist_Constitution_of_december_5%2C_1936.djvu",
+      "image_credit": "Wikimedia Commons · SSSR · Public domain"
+    },
+    "GHC-NOV-16-13": {
+      "published_at": "2026-11-16T08:47:45.633907+00:00",
+      "message_id": 1082,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABasel_-_M%C3%BCnsterpfalz1.jpg",
+      "image_credit": "Wikimedia Commons · Taxiarchos228 · FAL"
     }
   },
   "runs": [
@@ -7110,6 +7180,12 @@
     {
       "date": "2026-11-15",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-16",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
