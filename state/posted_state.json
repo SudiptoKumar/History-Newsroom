@@ -6726,15 +6726,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APrague_Panorama_-_Oct_2010.jpg",
       "image_credit": "Wikimedia Commons · Diliff · CC BY-SA 3.0"
+    },
+    "GHC-NOV-18-20": {
+      "published_at": "2026-11-17T19:37:25.290120+00:00",
+      "message_id": 1103,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFourie_v_Minister_of_Home_Affairs_%28SCA%29.djvu",
+      "image_credit": "Wikimedia Commons · Justices Cameron and Farlam, in the Supreme Court of Appeal of South Africa · Public domain"
+    },
+    "GHC-NOV-18-03": {
+      "published_at": "2026-11-17T19:37:49.051163+00:00",
+      "message_id": 1104,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Saint_Elizabeth%E2%80%99s_Day_Flood_by_Master_of_the_St_Elizabeth_Panels_c1490-1495.jpg",
+      "image_credit": "Wikimedia Commons · Master of the St Elizabeth Panels · Public domain"
+    },
+    "GHC-NOV-18-04": {
+      "published_at": "2026-11-17T19:37:54.948196+00:00",
+      "message_id": 1105,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Fourteenth_Ohio_national_guard-the_Fourth_Ohio_volunteer_infantry_%281899%29_%2814581947110%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-18-06": {
+      "published_at": "2026-11-17T19:38:41.980346+00:00",
+      "message_id": 1106,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFriday_evening%2C_6_November_2020_Constitution_Avenue_between_15th_and_17th_Street%2C_NW%2C_Washington_DC_IMG_9106_%2850598347793%29.jpg",
+      "image_credit": "Wikimedia Commons · Elvert Barnes · CC BY-SA 2.0"
+    },
+    "GHC-NOV-18-08": {
+      "published_at": "2026-11-17T19:38:46.016226+00:00",
+      "message_id": 1107,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHaasis_%26_Lubrecht_American_Union_Railroad_Map_1871_UTA.jpg",
+      "image_credit": "Wikimedia Commons · Haasis &amp; Lubrecht · Public domain"
+    },
+    "GHC-NOV-18-11": {
+      "published_at": "2026-11-17T19:38:49.515873+00:00",
+      "message_id": 1108,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AArrest_of_Captain_Charles_Melvill_Gonne_Suffragist_on_Black_Friday.png",
+      "image_credit": "Wikimedia Commons · Butheremails · CC BY-SA 4.0"
+    },
+    "GHC-NOV-18-13": {
+      "published_at": "2026-11-17T19:38:53.832216+00:00",
+      "message_id": 1109,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANPG-NPG_86_193Disney-000001.jpg",
+      "image_credit": "Wikimedia Commons · Henry Major, 1889 - 1948 · Public domain"
+    },
+    "GHC-NOV-18-14": {
+      "published_at": "2026-11-17T19:39:00.089930+00:00",
+      "message_id": 1110,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APaskaart_van_de_Grand_Banks_bij_Newfoundland_Pas-kaart_van_de_Grand_Banq_By_Terra_Neuff_%28titel_op_object%29%2C_RP-P-1896-A-19368-3104.jpg",
+      "image_credit": "Wikimedia Commons · Rijksmuseum · CC0"
+    },
+    "GHC-NOV-18-15": {
+      "published_at": "2026-11-17T19:40:03.684992+00:00",
+      "message_id": 1111,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AInto_Action_Art.IWMPST14882.jpg",
+      "image_credit": "Wikimedia Commons · Ministry of Information (publisher/sponsor), Jobson (artist), Fosh and Cross Ltd, London (printer), Her Majesty's Stationery Office (publisher/sponsor) · Public domain"
+    },
+    "GHC-NOV-18-16": {
+      "published_at": "2026-11-17T19:40:06.885322+00:00",
+      "message_id": 1112,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFuneral_for_the_victims_of_the_Ballantyne%27s_Department_Store_fire%2C_Ruru_Lawn_Cemetery%2C_Christchurch.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-09-29",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-09-29",
       "batch_index": 1,
@@ -7326,6 +7390,12 @@
     {
       "date": "2026-11-17",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-18",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
