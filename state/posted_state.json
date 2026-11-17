@@ -6656,15 +6656,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AMudflow-Breaker_in_Log_pod_Mangartom.JPG",
       "image_credit": "Wikimedia Commons · Tadeáš Gregor · CC BY-SA 4.0"
+    },
+    "GHC-NOV-17-01": {
+      "published_at": "2026-11-17T09:51:59.533671+00:00",
+      "message_id": 1093,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMary_Barton_-_1848_-_Volume_2.djvu",
+      "image_credit": "Wikimedia Commons · Mary Barton Elizabeth Cleghorn Gaskell · Public domain"
+    },
+    "GHC-NOV-17-02": {
+      "published_at": "2026-11-17T09:52:33.331727+00:00",
+      "message_id": 1094,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Articles_of_Confederation",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-17-04": {
+      "published_at": "2026-11-17T09:52:36.904004+00:00",
+      "message_id": 1095,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJoint_Session_with_King_Charles_III_at_the_US_Congress.jpg",
+      "image_credit": "Wikimedia Commons · Office of Congresswoman Monica De La Cruz · Public domain"
+    },
+    "GHC-NOV-17-07": {
+      "published_at": "2026-11-17T09:52:40.358913+00:00",
+      "message_id": 1096,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOpening_van_het_Suezkanaal%2C_het_inschepen_van_zeelieden_in_Port_Said_Inauguration_du_Canal_de_Suez%2C_embarquement_des_troupes_a_Port-Said_%28instantanee%29_%28titel_op_object%29%2C_RP-F-F12909-A.jpg",
+      "image_credit": "Wikimedia Commons · Rijksmuseum · CC0"
+    },
+    "GHC-NOV-17-08": {
+      "published_at": "2026-11-17T09:53:23.915730+00:00",
+      "message_id": 1097,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARussian_Social_Deomcratic_Workers%27_Party_%2824332352754%29.jpg",
+      "image_credit": "Wikimedia Commons · Center for Jewish History, NYC · No restrictions"
+    },
+    "GHC-NOV-17-09": {
+      "published_at": "2026-11-17T09:54:29.115870+00:00",
+      "message_id": 1098,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKampfgruppe_B%C3%B6hmen-M%C3%A4hren_Division_Logo.png",
+      "image_credit": "Wikimedia Commons · GereonGG · Public domain"
+    },
+    "GHC-NOV-17-10": {
+      "published_at": "2026-11-17T09:54:36.516922+00:00",
+      "message_id": 1099,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABell_Telephone_Laboratories%2C_Murray_Hill%2C_New_Jersey._LOC_gsc.5a08397.jpg",
+      "image_credit": "Wikimedia Commons · Gottscho-Schleisner Collection · Public domain"
+    },
+    "GHC-NOV-17-12": {
+      "published_at": "2026-11-17T09:54:40.494202+00:00",
+      "message_id": 1100,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHelsinki_July_2013-15.jpg",
+      "image_credit": "Wikimedia Commons · Alvesgaspar · CC BY-SA 3.0"
+    },
+    "GHC-NOV-17-13": {
+      "published_at": "2026-11-17T09:54:44.119133+00:00",
+      "message_id": 1101,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/List_of_retroreflectors_on_the_Moon",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-17-15": {
+      "published_at": "2026-11-17T09:54:48.284722+00:00",
+      "message_id": 1102,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APrague_Panorama_-_Oct_2010.jpg",
+      "image_credit": "Wikimedia Commons · Diliff · CC BY-SA 3.0"
     }
   },
   "runs": [
-    {
-      "date": "2026-09-28",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-09-29",
       "batch_index": 2,
@@ -7256,6 +7320,12 @@
     {
       "date": "2026-11-17",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-17",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
