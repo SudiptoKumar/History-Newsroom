@@ -6796,15 +6796,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AFuneral_for_the_victims_of_the_Ballantyne%27s_Department_Store_fire%2C_Ruru_Lawn_Cemetery%2C_Christchurch.jpg",
       "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-18-01": {
+      "published_at": "2026-11-18T09:25:41.632421+00:00",
+      "message_id": 1113,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AClermont_replica.jpg",
+      "image_credit": "Wikimedia Commons · Detroit Publishing Co. · Public domain"
+    },
+    "GHC-NOV-18-02": {
+      "published_at": "2026-11-18T09:25:48.241501+00:00",
+      "message_id": 1114,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARitratto_di_Papa_Bonifacio_VIII_per_Dell%27Altissimo%2C_Uffizi.jpg",
+      "image_credit": "Wikimedia Commons · Cristofano dell'Altissimo · Public domain"
+    },
+    "GHC-NOV-18-05": {
+      "published_at": "2026-11-18T09:26:11.076821+00:00",
+      "message_id": 1115,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABataille_de_Verti%C3%A8res.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-18-07": {
+      "published_at": "2026-11-18T09:26:15.573737+00:00",
+      "message_id": 1116,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOntario_County_Courthouse%2C_Canandaigua%2C_New_York_-_20210610.jpg",
+      "image_credit": "Wikimedia Commons · Andre Carrotflower · CC BY-SA 4.0"
+    },
+    "GHC-NOV-18-09": {
+      "published_at": "2026-11-18T09:26:59.942820+00:00",
+      "message_id": 1117,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJohn_Hay_%281%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-18-10": {
+      "published_at": "2026-11-18T09:27:03.934577+00:00",
+      "message_id": 1118,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_World_almanac_and_encyclopedia_%281904%29_%2814784683272%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-18-12": {
+      "published_at": "2026-11-18T09:27:11.459622+00:00",
+      "message_id": 1119,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAlytus_Church_01.jpg",
+      "image_credit": "Wikimedia Commons · Scotch Mist · CC BY-SA 4.0"
+    },
+    "GHC-NOV-18-17": {
+      "published_at": "2026-11-18T09:27:14.553300+00:00",
+      "message_id": 1120,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUnited_States_Statutes_at_Large_Volume_106_Part_4.djvu",
+      "image_credit": "Wikimedia Commons · United States Congress · Public domain"
+    },
+    "GHC-NOV-18-18": {
+      "published_at": "2026-11-18T09:28:18.260762+00:00",
+      "message_id": 1121,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJonestown_helicopter_2.jpg",
+      "image_credit": "Wikimedia Commons · Federal Bureau of Investigation · Public domain"
+    },
+    "GHC-NOV-18-19": {
+      "published_at": "2026-11-18T09:28:24.685489+00:00",
+      "message_id": 1122,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHrvatska-Vukovar_2021.jpg",
+      "image_credit": "Wikimedia Commons · August Dominus · CC BY-SA 4.0"
     }
   },
   "runs": [
-    {
-      "date": "2026-09-29",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-09-29",
       "batch_index": 2,
@@ -7396,6 +7460,12 @@
     {
       "date": "2026-11-18",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-18",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
