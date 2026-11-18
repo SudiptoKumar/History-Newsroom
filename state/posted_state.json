@@ -6866,15 +6866,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AHrvatska-Vukovar_2021.jpg",
       "image_credit": "Wikimedia Commons · August Dominus · CC BY-SA 4.0"
+    },
+    "GHC-NOV-19-17": {
+      "published_at": "2026-11-18T19:14:25.180362+00:00",
+      "message_id": 1123,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAerial_view_of_White_House_and_downtown%2C_Washington%2C_D.C_LCCN2010630891.jpg",
+      "image_credit": "Wikimedia Commons · Carol M. Highsmith · Public domain"
+    },
+    "GHC-NOV-19-19": {
+      "published_at": "2026-11-18T19:14:49.780785+00:00",
+      "message_id": 1124,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUnited_States_Statutes_at_Large_Volume_55_Part_1.djvu",
+      "image_credit": "Wikimedia Commons · United States Congress · Public domain"
+    },
+    "GHC-NOV-19-20": {
+      "published_at": "2026-11-18T19:14:53.597667+00:00",
+      "message_id": 1125,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AS-vicente1-Prestige_oil_spill.jpg",
+      "image_credit": "Wikimedia Commons · Adela Leiro · CC BY-SA 3.0"
+    },
+    "GHC-NOV-19-02": {
+      "published_at": "2026-11-18T19:15:39.775912+00:00",
+      "message_id": 1126,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANationalConsecrationtotheImmaculateHeartofMaryjf0001_09.JPG",
+      "image_credit": "Wikimedia Commons · Ramon FVelasquez · CC BY-SA 3.0"
+    },
+    "GHC-NOV-19-05": {
+      "published_at": "2026-11-18T19:15:42.818570+00:00",
+      "message_id": 1127,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Slivnitsa.jpg",
+      "image_credit": "Wikimedia Commons · Dimitar Gjudzenov · Public domain"
+    },
+    "GHC-NOV-19-06": {
+      "published_at": "2026-11-18T19:15:47.998083+00:00",
+      "message_id": 1128,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACaptured_Arnauts_after_the_Battle_of_Bitola.jpg",
+      "image_credit": "Wikimedia Commons · Unknown author · Public domain"
+    },
+    "GHC-NOV-19-10": {
+      "published_at": "2026-11-18T19:15:53.280732+00:00",
+      "message_id": 1129,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Spanish_question_(United_Nations)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-19-12": {
+      "published_at": "2026-11-18T19:15:58.317134+00:00",
+      "message_id": 1130,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARibeiro_Frio_%28Madeira%2C_Portugal%29%2C_Levada_zur_Forellenzucht_--_2025_--_1510.jpg",
+      "image_credit": "Wikimedia Commons · Dietmar Rabich · CC BY-SA 4.0"
+    },
+    "GHC-NOV-19-18": {
+      "published_at": "2026-11-18T19:17:01.095971+00:00",
+      "message_id": 1131,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AShenzhou_spacecraft_assembly.jpg",
+      "image_credit": "Wikimedia Commons · 中国新闻网 · CC BY 4.0"
+    },
+    "GHC-NOV-19-16": {
+      "published_at": "2026-11-18T19:17:05.526301+00:00",
+      "message_id": 1132,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_cotton_kingdom_%28Volume_1%29.djvu",
+      "image_credit": "Wikimedia Commons · Frederick Law Olmsted · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-09-29",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 0
-    },
     {
       "date": "2026-09-30",
       "batch_index": 1,
@@ -7466,6 +7530,12 @@
     {
       "date": "2026-11-18",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-19",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
