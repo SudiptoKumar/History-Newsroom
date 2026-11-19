@@ -7006,15 +7006,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APresident_Ronald_Reagan_Nancy_Reagan_with_Mikhail_Gorbachev_and_Raisa_Gorbachev_During_a_Trip_to_Switzerland_at_The_Geneva_Summit_and_Their_Arrival_for_Dinner_at_The_Soviet_Mission_-_DPLA_-_61e62822f71110e584c604bbe679ac38.jpg",
       "image_credit": "Wikimedia Commons · President (1981-1989 : Reagan). White House Photographic Office. 1981-1989 · Public domain"
+    },
+    "GHC-NOV-20-16": {
+      "published_at": "2026-11-19T19:21:45.791504+00:00",
+      "message_id": 1143,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASan_Francisco_Bay_ESA22014515.jpeg",
+      "image_credit": "Wikimedia Commons · European Space Agency · Attribution"
+    },
+    "GHC-NOV-20-17": {
+      "published_at": "2026-11-19T19:21:51.587645+00:00",
+      "message_id": 1144,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASadat_and_Begin_Commemorative_Coin.jpg",
+      "image_credit": "Wikimedia Commons · LGLou · CC BY-SA 4.0"
+    },
+    "GHC-NOV-20-18": {
+      "published_at": "2026-11-19T19:22:19.608092+00:00",
+      "message_id": 1145,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASupplicating_Pilgrim_at_Masjid_Al_Haram._Mecca%2C_Saudi_Arabia.jpg",
+      "image_credit": "Wikimedia Commons · Ali Mansuri · CC BY-SA 2.5"
+    },
+    "GHC-NOV-20-20": {
+      "published_at": "2026-11-19T19:22:29.211212+00:00",
+      "message_id": 1146,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/French_Revolution",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-20-02": {
+      "published_at": "2026-11-19T19:22:34.369639+00:00",
+      "message_id": 1147,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEastern_han_husband_and_wife_banquet_mural_BM2_Zhucun_Luoyang_%E6%B4%9B%E9%98%B3%E6%9C%B1%E6%9D%91%E4%B8%9C%E6%B1%89%E5%A2%93BM2%E5%A4%AB%E5%A6%87%E5%AE%B4%E9%A5%AE%E5%9B%BE.jpg",
+      "image_credit": "Wikimedia Commons · 马学曾 · Public domain"
+    },
+    "GHC-NOV-20-03": {
+      "published_at": "2026-11-19T19:23:21.264284+00:00",
+      "message_id": 1148,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Zumbi_(song)",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-20-04": {
+      "published_at": "2026-11-19T19:23:26.711597+00:00",
+      "message_id": 1149,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACharles_Lee_Papers_1871_Vol_I.djvu",
+      "image_credit": "Wikimedia Commons · Charles Lee · Public domain"
+    },
+    "GHC-NOV-20-07": {
+      "published_at": "2026-11-19T19:23:31.430569+00:00",
+      "message_id": 1150,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMan_upon_the_sea_-_or%2C_a_history_of_maritime_adventure%2C_exploration%2C_and_discovery%2C_from_the_earliest_ages_to_the_present_time_%281858%29_%2814597036657%29.jpg",
+      "image_credit": "Wikimedia Commons · Goodrich, Frank B. (Frank Boott), 1826-1894 · No restrictions"
+    },
+    "GHC-NOV-20-09": {
+      "published_at": "2026-11-19T19:23:41.265290+00:00",
+      "message_id": 1151,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGenerals_of_the_British_Army.djvu",
+      "image_credit": "Wikimedia Commons · Francis Dodd · Public domain"
+    },
+    "GHC-NOV-20-19": {
+      "published_at": "2026-11-19T19:23:45.717278+00:00",
+      "message_id": 1152,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Windows_1.0_page1.jpg",
+      "image_credit": "Wikimedia Commons · Microsoft. · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-09-30",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-01",
       "batch_index": 1,
@@ -7606,6 +7670,12 @@
     {
       "date": "2026-11-19",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-20",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
