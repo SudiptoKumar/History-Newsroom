@@ -6936,15 +6936,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_cotton_kingdom_%28Volume_1%29.djvu",
       "image_credit": "Wikimedia Commons · Frederick Law Olmsted · Public domain"
+    },
+    "GHC-NOV-19-01": {
+      "published_at": "2026-11-19T09:37:30.633823+00:00",
+      "message_id": 1133,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUmar_Farrukh%27s_Battle_of_al-Q%C4%81disiyyah.png",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-19-03": {
+      "published_at": "2026-11-19T09:37:54.586909+00:00",
+      "message_id": 1134,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APlaque_on_H%C3%B4tel_d%27York%2C_Paris_8_April_2017_02.jpg",
+      "image_credit": "Wikimedia Commons · Bobo Boom · CC BY 2.0"
+    },
+    "GHC-NOV-19-04": {
+      "published_at": "2026-11-19T09:37:59.375908+00:00",
+      "message_id": 1135,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Gettysburg_address_delivered_by_Abraham_Lincoln_Nov._19_1863_at_the_dedication_services_on_the_battle_field_LCCN2004671506.jpg",
+      "image_credit": "Wikimedia Commons · Miscellaneous Items in High Demand, PPOC, Library of Congress · Public domain"
+    },
+    "GHC-NOV-19-07": {
+      "published_at": "2026-11-19T09:38:42.617092+00:00",
+      "message_id": 1136,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHMAS_Sydney_%28AWM_301473%29.jpg",
+      "image_credit": "Wikimedia Commons · Fox photos · Public domain"
+    },
+    "GHC-NOV-19-08": {
+      "published_at": "2026-11-19T09:39:45.736066+00:00",
+      "message_id": 1137,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_People_Behind_Webb_%2801HR7MGPXEV39A2HNWHVEW3J7Y%29.png",
+      "image_credit": "Wikimedia Commons · Image: NASA, ESA, CSA, STScI · Public domain"
+    },
+    "GHC-NOV-19-09": {
+      "published_at": "2026-11-19T09:39:50.915657+00:00",
+      "message_id": 1138,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A46-101-0548_Lviv_Latin_Cathedral_RB_18.jpg",
+      "image_credit": "Wikimedia Commons · Rbrechko · CC BY-SA 4.0"
+    },
+    "GHC-NOV-19-11": {
+      "published_at": "2026-11-19T09:39:53.764586+00:00",
+      "message_id": 1139,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASurveyor_3-Apollo_12.jpg",
+      "image_credit": "Wikimedia Commons · NASA, Alan L. Bean · Public domain"
+    },
+    "GHC-NOV-19-13": {
+      "published_at": "2026-11-19T09:39:56.820844+00:00",
+      "message_id": 1140,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMan_holding_sign_during_Iranian_hostage_crisis_protest%2C_1979.jpg",
+      "image_credit": "Wikimedia Commons · Marion S. Trikosko · Public domain"
+    },
+    "GHC-NOV-19-14": {
+      "published_at": "2026-11-19T09:39:59.725729+00:00",
+      "message_id": 1141,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1984_Events_montage_16-grid_version.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
+    },
+    "GHC-NOV-19-15": {
+      "published_at": "2026-11-19T09:40:03.431974+00:00",
+      "message_id": 1142,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APresident_Ronald_Reagan_Nancy_Reagan_with_Mikhail_Gorbachev_and_Raisa_Gorbachev_During_a_Trip_to_Switzerland_at_The_Geneva_Summit_and_Their_Arrival_for_Dinner_at_The_Soviet_Mission_-_DPLA_-_61e62822f71110e584c604bbe679ac38.jpg",
+      "image_credit": "Wikimedia Commons · President (1981-1989 : Reagan). White House Photographic Office. 1981-1989 · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-09-30",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-09-30",
       "batch_index": 2,
@@ -7536,6 +7600,12 @@
     {
       "date": "2026-11-19",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-19",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
