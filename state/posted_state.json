@@ -7146,15 +7146,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AArt_Workers%27_Coalition%2C_Q._And_babies%3F_A._And_babies.jpg",
       "image_credit": "Wikimedia Commons · Irving Petlin, Jon Hendricks, and Frazer Dougherty / The Artists' Poster Committee of the Art Workers' Coalition · Public domain"
+    },
+    "GHC-NOV-21-16": {
+      "published_at": "2026-11-20T18:58:10.344665+00:00",
+      "message_id": 1163,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A3990_Menlo_Ave%2C_Los_Angeles.jpg",
+      "image_credit": "Wikimedia Commons · Downtowngal · CC0"
+    },
+    "GHC-NOV-21-17": {
+      "published_at": "2026-11-20T18:58:14.086437+00:00",
+      "message_id": 1164,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABirmingham_pub_bombings_plaque_Birmingham_England.jpg",
+      "image_credit": "Wikimedia Commons · Flickr contributor Elliott Brown · CC BY-SA 2.5"
+    },
+    "GHC-NOV-21-19": {
+      "published_at": "2026-11-20T18:58:37.537130+00:00",
+      "message_id": 1165,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADaytonAgreement.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Air Force/Staff Sgt. Brian Schlumbohm · Public domain"
+    },
+    "GHC-NOV-21-20": {
+      "published_at": "2026-11-20T18:58:43.752503+00:00",
+      "message_id": 1166,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVessel_used_for_cooking%2C_City_of_Prague_Museum%2C_200227.jpg",
+      "image_credit": "Wikimedia Commons · Zde · CC BY-SA 4.0"
+    },
+    "GHC-NOV-21-01": {
+      "published_at": "2026-11-20T18:59:29.634974+00:00",
+      "message_id": 1167,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AView_of_Havlabar_%28Tbilisi%29%2C_in_the_early_1900s%2C_Sergei_Mikhailovich_Prokudin-Gorskii.jpg",
+      "image_credit": "Wikimedia Commons · Sergei Prokudin-Gorskii · Public domain"
+    },
+    "GHC-NOV-21-05": {
+      "published_at": "2026-11-20T18:59:38.226906+00:00",
+      "message_id": 1168,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACertification_by_Thad_Eure%2C_Secretary_of_State_of_North_Carolina_on_the_Passage_of_Chapter_327%2C_1971_Session_of_Laws_by_the_General_Assembly_of_North_Carolina_Ratifying_the_19th_Ame_-_DPLA_-_4a3b104c508897d0d18b6114cfd173f9.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Government. 3/4/1789 · Public domain"
+    },
+    "GHC-NOV-21-09": {
+      "published_at": "2026-11-20T18:59:41.185302+00:00",
+      "message_id": 1169,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABritannic%27s_1st_Class_Restaurant_Conception.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-21-12": {
+      "published_at": "2026-11-20T18:59:46.689710+00:00",
+      "message_id": 1170,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Sacramento_International_Airport",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-21-14": {
+      "published_at": "2026-11-20T18:59:51.020988+00:00",
+      "message_id": 1171,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Sino-Indian_War",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-21-18": {
+      "published_at": "2026-11-20T18:59:54.620958+00:00",
+      "message_id": 1172,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_flight_engineer_straps_a_survivor_onto_a_forest_penetrator_of_a_hovering_CH-3E_Jolly_Green_Giant_helicopter._The_airman_is_a_302nd_Special_Operations_Squadron_member_rescuing_gues_-_DPLA_-_a2ce970b516db01a71500e772152f116.jpeg",
+      "image_credit": "Wikimedia Commons · Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994 · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-01",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-02",
       "batch_index": 1,
@@ -7746,6 +7810,12 @@
     {
       "date": "2026-11-20",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-21",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
