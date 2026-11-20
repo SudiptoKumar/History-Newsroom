@@ -7076,15 +7076,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AMicrosoft_Windows_1.0_page1.jpg",
       "image_credit": "Wikimedia Commons · Microsoft. · Public domain"
+    },
+    "GHC-NOV-20-01": {
+      "published_at": "2026-11-20T09:21:03.217526+00:00",
+      "message_id": 1153,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADecline_and_Fall_of_the_Roman_Empire_vol_2_%281901%29.djvu",
+      "image_credit": "Wikimedia Commons · Gibbon, Edward, 1737-1794; Bury, J. B. (John Bagnell), 1861-1927 · Public domain"
+    },
+    "GHC-NOV-20-05": {
+      "published_at": "2026-11-20T09:21:34.412543+00:00",
+      "message_id": 1154,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Presidents_of_the_United_States%2C_1789-1914%2C_v._I.djvu",
+      "image_credit": "Wikimedia Commons · James Grant Wilson (editor) · Public domain"
+    },
+    "GHC-NOV-20-06": {
+      "published_at": "2026-11-20T09:21:47.048401+00:00",
+      "message_id": 1155,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AChamp-de-Mars_-_20150801_15h29_%2810620%29.jpg",
+      "image_credit": "Wikimedia Commons · Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any purpose as long as you credit the author (William Crochot), the Source (Wikimedia Commons) and the license (CC-BY-SA 4.0) in close relation to the image.\n\n\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source RAW. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · CC BY-SA 4.0"
+    },
+    "GHC-NOV-20-08": {
+      "published_at": "2026-11-20T09:22:02.211456+00:00",
+      "message_id": 1156,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJard%C3%ADn_San_Francisco%2C_San_Luis_Potos%C3%AD%2C_M%C3%A9xico.jpg",
+      "image_credit": "Wikimedia Commons · Alejandro · CC BY 2.0"
+    },
+    "GHC-NOV-20-10": {
+      "published_at": "2026-11-20T09:22:07.063138+00:00",
+      "message_id": 1157,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATeleki_%26_Hitler_Tripartite-pact.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-20-11": {
+      "published_at": "2026-11-20T09:22:10.874453+00:00",
+      "message_id": 1158,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADPAA_Repatriates_Possible_Remains_from_the_Battle_of_Tarawa_%285589324%29.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Marine Corps photo by Sgt. Melanye Martinez · Public domain"
+    },
+    "GHC-NOV-20-12": {
+      "published_at": "2026-11-20T09:23:00.959817+00:00",
+      "message_id": 1159,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_defendants_at_Nuremberg_Trials.jpg",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-20-13": {
+      "published_at": "2026-11-20T09:23:04.933200+00:00",
+      "message_id": 1160,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACairo_Declaration_on_Human_Rights_in_Islam.djvu",
+      "image_credit": "Wikimedia Commons · Orqanisation of the Islamic Conference · Public domain"
+    },
+    "GHC-NOV-20-14": {
+      "published_at": "2026-11-20T09:23:13.269594+00:00",
+      "message_id": 1161,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-20-15": {
+      "published_at": "2026-11-20T09:24:17.699860+00:00",
+      "message_id": 1162,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AArt_Workers%27_Coalition%2C_Q._And_babies%3F_A._And_babies.jpg",
+      "image_credit": "Wikimedia Commons · Irving Petlin, Jon Hendricks, and Frazer Dougherty / The Artists' Poster Committee of the Art Workers' Coalition · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-01",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-01",
       "batch_index": 2,
@@ -7676,6 +7740,12 @@
     {
       "date": "2026-11-20",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-20",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
