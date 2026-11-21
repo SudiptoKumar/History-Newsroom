@@ -7216,15 +7216,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AA_flight_engineer_straps_a_survivor_onto_a_forest_penetrator_of_a_hovering_CH-3E_Jolly_Green_Giant_helicopter._The_airman_is_a_302nd_Special_Operations_Squadron_member_rescuing_gues_-_DPLA_-_a2ce970b516db01a71500e772152f116.jpeg",
       "image_credit": "Wikimedia Commons · Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994 · Public domain"
+    },
+    "GHC-NOV-21-02": {
+      "published_at": "2026-11-21T08:56:16.726928+00:00",
+      "message_id": 1173,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APilgrims_signing_the_compact_on_board_the_Mayflower%2C_Nov_11%2C_1620%2C_Provincetown_Harbor%2C_Mass_%2876237%29.jpg",
+      "image_credit": "Wikimedia Commons · Pub. by The Mayflower Sales Co., Provincetown, Mass. Tichnor Bros. Inc., Boston, Mass. · Public domain"
+    },
+    "GHC-NOV-21-03": {
+      "published_at": "2026-11-21T08:56:52.398521+00:00",
+      "message_id": 1174,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AParis_Parc_Bercy_voie_pav%C3%A9e_2014.jpg",
+      "image_credit": "Wikimedia Commons · JLPC · CC BY-SA 3.0"
+    },
+    "GHC-NOV-21-04": {
+      "published_at": "2026-11-21T08:56:56.854464+00:00",
+      "message_id": 1175,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAeronautics2.jpg",
+      "image_credit": "Wikimedia Commons · Warren, Ambrose William, 1781?-1856, engraver. · Public domain"
+    },
+    "GHC-NOV-21-06": {
+      "published_at": "2026-11-21T08:57:01.533855+00:00",
+      "message_id": 1176,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARecord%2C_phonograph_%28AM_1966.2%29.jpg",
+      "image_credit": "Wikimedia Commons · Edison Records · CC BY 4.0"
+    },
+    "GHC-NOV-21-07": {
+      "published_at": "2026-11-21T08:57:46.877025+00:00",
+      "message_id": 1177,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATwee_gezichten_op_forten_nabij_Port_Arthur%2C_RP-F-2001-7-1637A-51.jpg",
+      "image_credit": "Wikimedia Commons · Rijksmuseum · CC0"
+    },
+    "GHC-NOV-21-08": {
+      "published_at": "2026-11-21T08:58:53.937289+00:00",
+      "message_id": 1178,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAnharmonic_Oscillator_%26_Probability_Position_of_the_Particle_through_the_mass-energy_equivalence_by_Scalar_Density.png",
+      "image_credit": "Wikimedia Commons · Kartazion · CC BY-SA 4.0"
+    },
+    "GHC-NOV-21-10": {
+      "published_at": "2026-11-21T08:59:02.075363+00:00",
+      "message_id": 1179,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOutlines_of_the_women%27s_franchise_movement_in_New_Zealand.djvu",
+      "image_credit": "Wikimedia Commons · William Lovell-Smith · Public domain"
+    },
+    "GHC-NOV-21-11": {
+      "published_at": "2026-11-21T08:59:06.932519+00:00",
+      "message_id": 1180,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASt._Nahi%27s_Is_An_18th-century_Church_And_Graveyard_in_Dundrum.jpg",
+      "image_credit": "Wikimedia Commons · William Murphy · CC BY-SA 2.0"
+    },
+    "GHC-NOV-21-13": {
+      "published_at": "2026-11-21T08:59:11.126596+00:00",
+      "message_id": 1181,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APiltdown_Man_public_house_-_geograph.org.uk_-_21000.jpg",
+      "image_credit": "Wikimedia Commons · Nigel Freeman · CC BY-SA 2.0"
+    },
+    "GHC-NOV-21-15": {
+      "published_at": "2026-11-21T08:59:18.510675+00:00",
+      "message_id": 1182,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Protests_against_the_US_military_presence_in_Okinawa",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-02",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-02",
       "batch_index": 2,
@@ -7816,6 +7880,12 @@
     {
       "date": "2026-11-21",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-21",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
