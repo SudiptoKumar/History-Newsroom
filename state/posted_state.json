@@ -7356,15 +7356,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242",
       "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-23-17": {
+      "published_at": "2026-11-22T18:14:06.390425+00:00",
+      "message_id": 1193,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHUN-2015-Budapest-Hungarian_Parliament_%28Budapest%29_2015-02.jpg",
+      "image_credit": "Wikimedia Commons · Godot13 · CC BY-SA 4.0"
+    },
+    "GHC-NOV-23-18": {
+      "published_at": "2026-11-22T18:14:33.946915+00:00",
+      "message_id": 1194,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AView_of_Havlabar_%28Tbilisi%29%2C_in_the_early_1900s%2C_Sergei_Mikhailovich_Prokudin-Gorskii.jpg",
+      "image_credit": "Wikimedia Commons · Sergei Prokudin-Gorskii · Public domain"
+    },
+    "GHC-NOV-23-19": {
+      "published_at": "2026-11-22T18:14:37.766670+00:00",
+      "message_id": 1195,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APresident_George_W._Bush_and_President_Ellen_Johnson_Sirleaf_of_Liberia_Participate_in_a_Press_Pool_After_a_Meeting_in_the_Oval_Office.jpg",
+      "image_credit": "Wikimedia Commons · Series: Photographs Related to the George W. Bush Administration, 1/20/2001 - 1/20/2009\n\nCollection: Records of the White House Photo Office (George W. Bush Administration), 1/20/2001 - 1/20/2009 · Public domain"
+    },
+    "GHC-NOV-23-20": {
+      "published_at": "2026-11-22T18:15:21.669701+00:00",
+      "message_id": 1196,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AIntramurosjf9916_02.JPG",
+      "image_credit": "Wikimedia Commons · Ramon FVelasquez · CC BY-SA 3.0"
+    },
+    "GHC-NOV-23-02": {
+      "published_at": "2026-11-22T18:15:26.787024+00:00",
+      "message_id": 1197,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAreopagitica_gobeirne.png",
+      "image_credit": "Wikimedia Commons · John Milton, scanned and uploaded by gobeirne. · Public domain"
+    },
+    "GHC-NOV-23-03": {
+      "published_at": "2026-11-22T18:15:31.173060+00:00",
+      "message_id": 1198,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJohn_James_Audubon_%28Burroughs%29.djvu",
+      "image_credit": "Wikimedia Commons · John Burroughs · Public domain"
+    },
+    "GHC-NOV-23-05": {
+      "published_at": "2026-11-22T18:15:34.699893+00:00",
+      "message_id": 1199,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Hessians_and_the_other_German_auxiliaries_of_Great_Britain_in_the_revolutionary_war.djvu",
+      "image_credit": "Wikimedia Commons · Edward Jackson Lowell · Public domain"
+    },
+    "GHC-NOV-23-06": {
+      "published_at": "2026-11-22T18:15:39.938448+00:00",
+      "message_id": 1200,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AISS030-E-7742_-_View_of_Mexico.jpg",
+      "image_credit": "Wikimedia Commons · Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center · Public domain"
+    },
+    "GHC-NOV-23-07": {
+      "published_at": "2026-11-22T18:16:46.908350+00:00",
+      "message_id": 1201,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACivil_Rights_March_on_Washington%2C_D.C._%28Dr._Martin_Luther_King%2C_Jr._and_Mathew_Ahmann_in_a_crowd.%29_-_NARA_-_542015_-_Restoration.jpg",
+      "image_credit": "Wikimedia Commons · Rowland Scherman / Adam Cuerden · Public domain"
+    },
+    "GHC-NOV-23-14": {
+      "published_at": "2026-11-22T18:16:50.641740+00:00",
+      "message_id": 1202,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1978_Events_montage_16-grid_version.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-03",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-04",
       "batch_index": 1,
@@ -7956,6 +8020,12 @@
     {
       "date": "2026-11-22",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-23",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
