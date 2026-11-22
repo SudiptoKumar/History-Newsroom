@@ -7286,15 +7286,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://en.wikipedia.org/wiki/Protests_against_the_US_military_presence_in_Okinawa",
       "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-22-01": {
+      "published_at": "2026-11-22T08:58:45.962328+00:00",
+      "message_id": 1183,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFrederick_II_swear_an_oath_to_pope_honorius_III_in_haguenau_september_1219_%28parchment_from_the_vatican_secret_archives_-_verso%29.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-22-02": {
+      "published_at": "2026-11-22T08:58:52.066273+00:00",
+      "message_id": 1184,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_History_of_the_Knights_of_Malta%2C_or_the_Order_of_St._John_of_Jerusalem.djvu",
+      "image_credit": "Wikimedia Commons · Whitworth Porter · Public domain"
+    },
+    "GHC-NOV-22-05": {
+      "published_at": "2026-11-22T08:59:24.291883+00:00",
+      "message_id": 1185,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A%D0%9F%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D0%B0_%D0%BD%D0%B0_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80.jpg",
+      "image_credit": "Wikimedia Commons · Petrovskyz · CC BY-SA 4.0"
+    },
+    "GHC-NOV-22-06": {
+      "published_at": "2026-11-22T08:59:31.392075+00:00",
+      "message_id": 1186,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFirst_air_mail_pacific.jpg",
+      "image_credit": "Wikimedia Commons · Johnajarboe · CC BY-SA 4.0"
+    },
+    "GHC-NOV-22-08": {
+      "published_at": "2026-11-22T08:59:39.804031+00:00",
+      "message_id": 1187,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ADestoyed_Buildings_in_Stalingrad%2C_1942_%2816%29.jpg",
+      "image_credit": "Wikimedia Commons · Public Domain · Public domain"
+    },
+    "GHC-NOV-22-09": {
+      "published_at": "2026-11-22T08:59:47.711296+00:00",
+      "message_id": 1188,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACMH_Pub_9-2_-_Stilwell%27s_Command_Problems.djvu",
+      "image_credit": "Wikimedia Commons · Charles F. Romanus · Public domain"
+    },
+    "GHC-NOV-22-10": {
+      "published_at": "2026-11-22T09:01:38.328724+00:00",
+      "message_id": 1189,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFrance_and_the_Levant_peace_conference_1920.djvu",
+      "image_credit": "Wikimedia Commons · Great Britain. Foreign Office. Historical Section · Public domain"
+    },
+    "GHC-NOV-22-11": {
+      "published_at": "2026-11-22T09:01:47.376178+00:00",
+      "message_id": 1190,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASemipalatinsk_crater_and_lake.jpg",
+      "image_credit": "Wikimedia Commons · The Official CTBTO Photostream · CC BY 2.0"
+    },
+    "GHC-NOV-22-12": {
+      "published_at": "2026-11-22T09:01:52.869911+00:00",
+      "message_id": 1191,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJFK_Motorcade_GettyImages-517330536.jpg",
+      "image_credit": "Wikimedia Commons · Walt Cisco, Dallas Morning News · Public domain"
+    },
+    "GHC-NOV-22-13": {
+      "published_at": "2026-11-22T09:02:02.723575+00:00",
+      "message_id": 1192,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-03",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-03",
       "batch_index": 2,
@@ -7888,6 +7952,12 @@
       "batch_index": 2,
       "selected": 10,
       "published_now": 0
+    },
+    {
+      "date": "2026-11-22",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
