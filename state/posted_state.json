@@ -7496,15 +7496,44 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AWelcome_to_Fabulous_Las_Vegas.jpg",
       "image_credit": "Wikimedia Commons · Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0"
+    },
+    "GHC-NOV-24-15": {
+      "published_at": "2026-11-23T22:27:09.493961+00:00",
+      "message_id": 1213,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKucera_Jaroslav_Praha%2C_Laterna_Magica_24.listopad_1989_HAVEL_A_DUB%C4%8CEK.jpg",
+      "image_credit": "Wikimedia Commons · Jaroslav Kučera · CC BY-SA 3.0"
+    },
+    "GHC-NOV-24-02": {
+      "published_at": "2026-11-23T22:27:33.435645+00:00",
+      "message_id": 1214,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A%28Australia_%26_New_Zealand%29_663_%28ca._1672%29.jpg",
+      "image_credit": "Wikimedia Commons · Varius geographers · Public domain"
+    },
+    "GHC-NOV-24-06": {
+      "published_at": "2026-11-23T22:27:37.612978+00:00",
+      "message_id": 1215,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABomb_Squad_Called_out_at_the_Goodwill_in_West_Allis_%282908815145%29.jpg",
+      "image_credit": "Wikimedia Commons · Purple Slog from West Allis Wisconsin, USA · CC BY 2.0"
+    },
+    "GHC-NOV-24-07": {
+      "published_at": "2026-11-23T22:28:24.347625+00:00",
+      "message_id": 1216,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABerliner_Fernsehturm%2C_Sicht_vom_Neptunbrunnen_-_Berlin_Mitte.jpg",
+      "image_credit": "Wikimedia Commons · Christian Wolf (www.c-w-design.de) · CC BY-SA 3.0 de"
+    },
+    "GHC-NOV-24-08": {
+      "published_at": "2026-11-23T22:28:28.927635+00:00",
+      "message_id": 1217,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUSS_Tarawa_%28LHA-1%29_and_USS_Peleliu_%28LHA-5%29_laid_up_at_Pearl_Harbor_in_May_2016.JPG",
+      "image_credit": "Wikimedia Commons · U.S. Navy photo by Mass Communication Specialist 1st Class Charles E. White · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-04",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-05",
       "batch_index": 1,
@@ -8098,6 +8127,12 @@
       "batch_index": 1,
       "selected": 10,
       "published_now": 10
+    },
+    {
+      "date": "2026-11-24",
+      "batch_index": 2,
+      "selected": 5,
+      "published_now": 5
     }
   ]
 }
