@@ -7426,15 +7426,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3A1978_Events_montage_16-grid_version.jpg",
       "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
+    },
+    "GHC-NOV-23-01": {
+      "published_at": "2026-11-23T09:57:20.588755+00:00",
+      "message_id": 1203,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHistory_of_the_Reign_of_Ferdinand_and_Isabella_the_Catholic_Vol._I.djvu",
+      "image_credit": "Wikimedia Commons · William Hickling Prescott · Public domain"
+    },
+    "GHC-NOV-23-04": {
+      "published_at": "2026-11-23T09:57:34.339342+00:00",
+      "message_id": 1204,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AA_Bonefish_Grill_restaurant_in_Chattanooga%2C_Tennessee.jpg",
+      "image_credit": "Wikimedia Commons · Harrison Keely · CC BY 4.0"
+    },
+    "GHC-NOV-23-08": {
+      "published_at": "2026-11-23T09:57:39.935452+00:00",
+      "message_id": 1205,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-NOV-23-09": {
+      "published_at": "2026-11-23T09:58:09.427297+00:00",
+      "message_id": 1206,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABlatangeta_Lorenzo_Taezaz.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-23-10": {
+      "published_at": "2026-11-23T09:58:54.027366+00:00",
+      "message_id": 1207,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Japan%E2%80%93Romania_relations",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-23-11": {
+      "published_at": "2026-11-23T10:00:03.212468+00:00",
+      "message_id": 1208,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMakin_Atoll_Area_Map%2C_1943.jpg",
+      "image_credit": "Wikimedia Commons · Archives Branch, USMC History Division · CC BY 2.0"
+    },
+    "GHC-NOV-23-12": {
+      "published_at": "2026-11-23T10:00:09.584701+00:00",
+      "message_id": 1209,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHang_Temple_-_Hai_Phong_-_Vietnam.jpg",
+      "image_credit": "Wikimedia Commons · Kohoihan · CC BY-SA 4.0"
+    },
+    "GHC-NOV-23-13": {
+      "published_at": "2026-11-23T10:00:20.107596+00:00",
+      "message_id": 1210,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APortrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg",
+      "image_credit": "Wikimedia Commons · William P. Gottlieb · Public domain"
+    },
+    "GHC-NOV-23-15": {
+      "published_at": "2026-11-23T10:00:26.029262+00:00",
+      "message_id": 1211,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1980_Events_montage_16-grid_version.jpg",
+      "image_credit": "Wikimedia Commons · From a variety of images credited above. · CC BY 4.0"
+    },
+    "GHC-NOV-23-16": {
+      "published_at": "2026-11-23T10:00:31.318344+00:00",
+      "message_id": 1212,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWelcome_to_Fabulous_Las_Vegas.jpg",
+      "image_credit": "Wikimedia Commons · Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-04",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-04",
       "batch_index": 2,
@@ -8026,6 +8090,12 @@
     {
       "date": "2026-11-23",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-23",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
