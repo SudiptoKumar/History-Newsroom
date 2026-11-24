@@ -7531,15 +7531,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AUSS_Tarawa_%28LHA-1%29_and_USS_Peleliu_%28LHA-5%29_laid_up_at_Pearl_Harbor_in_May_2016.JPG",
       "image_credit": "Wikimedia Commons · U.S. Navy photo by Mass Communication Specialist 1st Class Charles E. White · Public domain"
+    },
+    "GHC-NOV-24-01": {
+      "published_at": "2026-11-24T11:45:11.603424+00:00",
+      "message_id": 1218,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AJalal_al-Din_Khwarazm-Shah_crossing_the_rapid_Indus_river%2C_escaping_Chinggis_Khan_and_his_army.jpg",
+      "image_credit": "Wikimedia Commons · Banwarí Khúrd, Dharm Dás · Public domain"
+    },
+    "GHC-NOV-24-03": {
+      "published_at": "2026-11-24T11:45:35.001472+00:00",
+      "message_id": 1219,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AState_Rights_and_Nullification_Ticket.jpg",
+      "image_credit": "Wikimedia Commons · State Rights and Free Trade (Nullifier) Party · Public domain"
+    },
+    "GHC-NOV-24-04": {
+      "published_at": "2026-11-24T11:45:38.034673+00:00",
+      "message_id": 1220,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AOrigin_of_Species_1872.djvu",
+      "image_credit": "Wikimedia Commons · Charles Darwin · Public domain"
+    },
+    "GHC-NOV-24-05": {
+      "published_at": "2026-11-24T11:46:20.790983+00:00",
+      "message_id": 1221,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Battle_of_Lookout_Mountain_by_James_Walker_%28first_version%29.jpg",
+      "image_credit": "Wikimedia Commons · James Walker · Public domain"
+    },
+    "GHC-NOV-24-09": {
+      "published_at": "2026-11-24T11:46:26.482860+00:00",
+      "message_id": 1222,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFacade_of_the_polyhedral_glass_building_The_Iceberg%2C_Shibuya%2C_Tokyo%2C_Japan.jpg",
+      "image_credit": "Wikimedia Commons · Basile Morin · CC BY-SA 4.0"
+    },
+    "GHC-NOV-24-10": {
+      "published_at": "2026-11-24T11:46:29.686516+00:00",
+      "message_id": 1223,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AExhibit_showing_the_hat_worn_by_Dallas_night-club_owner_Jack_Ruby%2C_who_killed_Lee_Harvey_Oswald%2C_presumptive_assassin_of_President_John_F._Kennedy._Dallas%2C_Texas_LCCN2014632041.tif",
+      "image_credit": "Wikimedia Commons · Carol M. Highsmith · Public domain"
+    },
+    "GHC-NOV-24-11": {
+      "published_at": "2026-11-24T11:47:35.627860+00:00",
+      "message_id": 1224,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACongo_River_from_Kinshasa_in_Democratic_Republic_of_the_Congo_%28DRC%29.jpg",
+      "image_credit": "Wikimedia Commons · EdwinAlden.1995 · CC BY-SA 4.0"
+    },
+    "GHC-NOV-24-12": {
+      "published_at": "2026-11-24T11:47:41.480941+00:00",
+      "message_id": 1225,
+      "send_mode": "card_rich",
+      "image_page": "",
+      "image_credit": ""
+    },
+    "GHC-NOV-24-13": {
+      "published_at": "2026-11-24T11:47:44.466554+00:00",
+      "message_id": 1226,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALucy_%2830826226995%29.jpg",
+      "image_credit": "Wikimedia Commons · Erik Drost · CC BY 2.0"
+    },
+    "GHC-NOV-24-14": {
+      "published_at": "2026-11-24T11:47:47.460049+00:00",
+      "message_id": 1227,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A1976_Caldiran_earthquake_surface_rupture.png",
+      "image_credit": "Wikimedia Commons · Mikenorton · CC BY-SA 3.0"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-05",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-06",
       "batch_index": 2,
@@ -8133,6 +8197,12 @@
       "batch_index": 2,
       "selected": 5,
       "published_now": 5
+    },
+    {
+      "date": "2026-11-24",
+      "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
     }
   ]
 }
