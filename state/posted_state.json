@@ -7671,15 +7671,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AUnited_States_Statutes_at_Large_Volume_110_Part_6.djvu",
       "image_credit": "Wikimedia Commons · United States Congress · Public domain"
+    },
+    "GHC-NOV-25-01": {
+      "published_at": "2026-11-25T10:38:57.062554+00:00",
+      "message_id": 1238,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AWhiteShipSinking.jpg",
+      "image_credit": "Wikimedia Commons · UnknownUnknown , produced for the Corporation of the City of London · Public domain"
+    },
+    "GHC-NOV-25-04": {
+      "published_at": "2026-11-25T10:39:20.274169+00:00",
+      "message_id": 1239,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALa_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg",
+      "image_credit": "Wikimedia Commons · Francisco Pradilla y Ortiz · Public domain"
+    },
+    "GHC-NOV-25-05": {
+      "published_at": "2026-11-25T10:39:22.774793+00:00",
+      "message_id": 1240,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AGoa_gate.jpg",
+      "image_credit": "Wikimedia Commons · nImAdestiny · CC BY 2.0"
+    },
+    "GHC-NOV-25-08": {
+      "published_at": "2026-11-25T10:40:06.557337+00:00",
+      "message_id": 1241,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAn_earthquake_raised_Rhodes_island._Greece.jpg",
+      "image_credit": "Wikimedia Commons · Ввласенко · CC BY-SA 3.0"
+    },
+    "GHC-NOV-25-09": {
+      "published_at": "2026-11-25T10:40:11.704768+00:00",
+      "message_id": 1242,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEvacuation_Day_and_Washington%27s_Triumphal_Entry.jpg",
+      "image_credit": "Wikimedia Commons · E.P. &amp; L. Restein · Public domain"
+    },
+    "GHC-NOV-25-10": {
+      "published_at": "2026-11-25T10:40:16.556835+00:00",
+      "message_id": 1243,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAGAD_Stanislaw_August%2C_krol_polski%2C_zezwala_Andrzejowi_Zamoyskiemu%2C_kanclerzowi_wielkiemu_koronnemu%2C_na_lokacje_Kutna_1.png",
+      "image_credit": "Wikimedia Commons · Stanisław August Poniatowski · Public domain"
+    },
+    "GHC-NOV-25-11": {
+      "published_at": "2026-11-25T10:40:20.386121+00:00",
+      "message_id": 1244,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_050106-N-4166B-349_Indonesian_nationals_unload_supplies_from_a_foreign_military_UH-1_Iroquois_helicopter_in_Lamno%2C_Sumatra%2C_Indonesia.jpg",
+      "image_credit": "Wikimedia Commons · U.S. Navy photo by Photographer’s Mate Airman Jordon R. Beesley · Public domain"
+    },
+    "GHC-NOV-25-12": {
+      "published_at": "2026-11-25T10:41:23.627971+00:00",
+      "message_id": 1245,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_aftermath_of_the_1839_Coringa_cyclone.jpg",
+      "image_credit": "Wikimedia Commons · Monsters and Critics · Public domain"
+    },
+    "GHC-NOV-25-13": {
+      "published_at": "2026-11-25T10:41:27.186531+00:00",
+      "message_id": 1246,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Missionary_Ridge_McCormick_Harvesting.jpg",
+      "image_credit": "Wikimedia Commons · McCormick · Public domain"
+    },
+    "GHC-NOV-25-14": {
+      "published_at": "2026-11-25T10:41:31.418331+00:00",
+      "message_id": 1247,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APhilosophical_Review_Volume_24.djvu",
+      "image_credit": "Wikimedia Commons · multiple · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-06",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-06",
       "batch_index": 2,
@@ -8271,6 +8335,12 @@
     {
       "date": "2026-11-25",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-25",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
