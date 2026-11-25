@@ -7741,15 +7741,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APhilosophical_Review_Volume_24.djvu",
       "image_credit": "Wikimedia Commons · multiple · Public domain"
+    },
+    "GHC-NOV-26-03": {
+      "published_at": "2026-11-25T20:22:40.685685+00:00",
+      "message_id": 1248,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUnited_States_Statutes_at_Large_Volume_57_Part_2.djvu",
+      "image_credit": "Wikimedia Commons · United States Congress · Public domain"
+    },
+    "GHC-NOV-26-05": {
+      "published_at": "2026-11-25T20:24:14.626939+00:00",
+      "message_id": 1249,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APassage_de_Berezina_Fournier.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-26-06": {
+      "published_at": "2026-11-25T20:24:17.529719+00:00",
+      "message_id": 1250,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A2019-06-24_Saumlaki%2C_Indonesia_M7.3_earthquake_shakemap_%28USGS%29.jpg",
+      "image_credit": "Wikimedia Commons · United States Geological Survey · Public domain"
+    },
+    "GHC-NOV-26-07": {
+      "published_at": "2026-11-25T20:24:24.954060+00:00",
+      "message_id": 1251,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ALife_and_Works_of_Abraham_Lincoln%2C_v7.djvu",
+      "image_credit": "Wikimedia Commons · Abraham Lincoln; Marion Mills Miller, ed. · Public domain"
+    },
+    "GHC-NOV-26-09": {
+      "published_at": "2026-11-25T20:24:29.128176+00:00",
+      "message_id": 1252,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFrom_left%2C_U.S._Army_Maj._Gen._David_J._Conboy%2C_the_commander_of_the_416th_Theater_Engineer_Command%2C_his_aide_Capt._Curtis_Miller%2C_and_Sgt._John_Pudowski_watch_a_National_Hockey_League_%28NHL%29_game_at_Soldier_140301-A-TI382-534.jpg",
+      "image_credit": "Wikimedia Commons · SFC Michel Sauret · Public domain"
+    },
+    "GHC-NOV-26-13": {
+      "published_at": "2026-11-25T20:24:34.453893+00:00",
+      "message_id": 1253,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-26-14": {
+      "published_at": "2026-11-25T20:24:39.946567+00:00",
+      "message_id": 1254,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANatural_History_Museum_London_South_Facade_2020_01.jpg",
+      "image_credit": "Wikimedia Commons · Julian Herzog (Website) · CC BY 4.0"
+    },
+    "GHC-NOV-26-18": {
+      "published_at": "2026-11-25T20:24:42.765130+00:00",
+      "message_id": 1255,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ANagorno_Karabakh03.png",
+      "image_credit": "Wikimedia Commons · user:PANONIAN · Public domain"
+    },
+    "GHC-NOV-26-19": {
+      "published_at": "2026-11-25T20:24:47.934106+00:00",
+      "message_id": 1256,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABristol_Planetarium.jpg",
+      "image_credit": "Wikimedia Commons · Chris Mitchell · CC BY-SA 4.0"
+    },
+    "GHC-NOV-26-04": {
+      "published_at": "2026-11-25T20:25:31.509263+00:00",
+      "message_id": 1257,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3APontcysyllte_Aqueduct_aerial_view.jpg",
+      "image_credit": "Wikimedia Commons · DronePics.Wales · CC BY 4.0"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-06",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 0
-    },
     {
       "date": "2026-10-07",
       "batch_index": 1,
@@ -8341,6 +8405,12 @@
     {
       "date": "2026-11-25",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-26",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
