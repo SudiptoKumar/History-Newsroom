@@ -7811,15 +7811,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3APontcysyllte_Aqueduct_aerial_view.jpg",
       "image_credit": "Wikimedia Commons · DronePics.Wales · CC BY 4.0"
+    },
+    "GHC-NOV-26-08": {
+      "published_at": "2026-11-26T10:09:56.301781+00:00",
+      "message_id": 1258,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABritish_War_Cabinet_note_regarding_the_Agreement_of_Saint-Jean-de-Maurienne.png",
+      "image_credit": "Wikimedia Commons · UK Government · Public domain"
+    },
+    "GHC-NOV-26-10": {
+      "published_at": "2026-11-26T10:10:20.217942+00:00",
+      "message_id": 1259,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHoward_Carter%2C_Lord_Carnarvon_and_Lady_Evelyn_Herbert_at_Tutankhamen%27s_tomb.jpg",
+      "image_credit": "Wikimedia Commons · Harry Burton (Photographer) · Public domain"
+    },
+    "GHC-NOV-26-11": {
+      "published_at": "2026-11-26T10:10:25.628740+00:00",
+      "message_id": 1260,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AVyacheslav_Molotov_signing_the_Treaty_of_Mutual_Assistance_between_the_USSR_and_the_Mongolian_People%27s_Republic_in_1946.png",
+      "image_credit": "Wikimedia Commons · Посольство Российской Федерации в Монголии · Public domain"
+    },
+    "GHC-NOV-26-12": {
+      "published_at": "2026-11-26T10:11:10.124478+00:00",
+      "message_id": 1261,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AHull_Note.djvu",
+      "image_credit": "Wikimedia Commons · Cordell Hull · Public domain"
+    },
+    "GHC-NOV-26-15": {
+      "published_at": "2026-11-26T10:12:14.322111+00:00",
+      "message_id": 1262,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Constitution_of_India_1949_%28Gazette_Notification_Version%29.djvu",
+      "image_credit": "Wikimedia Commons · Constituent Assembly of India · EdictGov-India"
+    },
+    "GHC-NOV-26-16": {
+      "published_at": "2026-11-26T10:12:18.723525+00:00",
+      "message_id": 1263,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AU.S._Marine_Operations_In_Korea_1950-1953_%28Volume_2%29.djvu",
+      "image_credit": "Wikimedia Commons · United States. Marine Corps · Public domain"
+    },
+    "GHC-NOV-26-17": {
+      "published_at": "2026-11-26T10:12:23.297972+00:00",
+      "message_id": 1264,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARue_Ren%C3%A9-Goscinny_%28Paris%29_-_dalle_au_sol_%28Non%2C_tu_ne_chanteras_pas_%21%21%21%29.jpg",
+      "image_credit": "Wikimedia Commons · Benoît Prieur · CC0"
+    },
+    "GHC-NOV-26-20": {
+      "published_at": "2026-11-26T10:12:27.958380+00:00",
+      "message_id": 1265,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Happiness_of_Independence.jpg",
+      "image_credit": "Wikimedia Commons · Aryan Jadav · CC BY-SA 4.0"
+    },
+    "GHC-NOV-26-01": {
+      "published_at": "2026-11-26T10:12:30.709284+00:00",
+      "message_id": 1266,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASongrivership3.jpg",
+      "image_credit": "Wikimedia Commons · Zeng Gongliang, uploaded by Liang Jieming · Public domain"
+    },
+    "GHC-NOV-26-02": {
+      "published_at": "2026-11-26T10:12:35.393026+00:00",
+      "message_id": 1267,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_ornamental_trees_of_Hawaii_%281917%29_%2814765936225%29.jpg",
+      "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-07",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-07",
       "batch_index": 2,
@@ -8411,6 +8475,12 @@
     {
       "date": "2026-11-26",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-26",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
