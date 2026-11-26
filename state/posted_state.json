@@ -7881,15 +7881,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_ornamental_trees_of_Hawaii_%281917%29_%2814765936225%29.jpg",
       "image_credit": "Wikimedia Commons · Internet Archive Book Images · No restrictions"
+    },
+    "GHC-NOV-27-04": {
+      "published_at": "2026-11-26T19:59:24.506723+00:00",
+      "message_id": 1268,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_new_and_complete_Newgate_calendar%3B_or%2C_villany_displayed_in_all_its_branches_Fleuron_T117003-7.png",
+      "image_credit": "Wikimedia Commons · Jackson, William · Public domain"
+    },
+    "GHC-NOV-27-05": {
+      "published_at": "2026-11-26T19:59:48.392034+00:00",
+      "message_id": 1269,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_Battle_of_Washita%2C_the_attack_on_Black_Kettle%27s_Cheyenne_camp.jpg",
+      "image_credit": "Wikimedia Commons · J &amp; H · Public domain"
+    },
+    "GHC-NOV-27-07": {
+      "published_at": "2026-11-26T20:00:05.247084+00:00",
+      "message_id": 1270,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A111-SC-10567_-_Major_A._W._Lane%2C_General_Staff%2C_%28Inf.%29_Army_War_College%2C_Washington%2C_D.C._-_NARA_-_55181467.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author or not provided · Public domain"
+    },
+    "GHC-NOV-27-08": {
+      "published_at": "2026-11-26T20:00:12.894273+00:00",
+      "message_id": 1271,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Morocco%E2%80%93Western_Sahara_border",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-27-11": {
+      "published_at": "2026-11-26T20:00:57.315696+00:00",
+      "message_id": 1272,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABombs_falling_astern_of_HMS_Ark_Royal_A2298.jpg",
+      "image_credit": "Wikimedia Commons · Leslie Cornish Priest · Public domain"
+    },
+    "GHC-NOV-27-13": {
+      "published_at": "2026-11-26T20:01:02.208010+00:00",
+      "message_id": 1273,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAerial_view_of_the_RAF_Fauld_explosion_crater_4_December_1944_%28cropped%29.jpg",
+      "image_credit": "Wikimedia Commons · Royal Air Force · Public domain"
+    },
+    "GHC-NOV-27-14": {
+      "published_at": "2026-11-26T20:01:06.246462+00:00",
+      "message_id": 1274,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AAlligator_mississippiensis_113744549.jpg",
+      "image_credit": "Wikimedia Commons · Zygy · CC0"
+    },
+    "GHC-NOV-27-18": {
+      "published_at": "2026-11-26T20:01:13.966676+00:00",
+      "message_id": 1275,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Abdullah_%C3%96calan",
+      "image_credit": "Wikipedia"
+    },
+    "GHC-NOV-27-19": {
+      "published_at": "2026-11-26T20:01:25.467837+00:00",
+      "message_id": 1276,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AForeign_Secretary_David_Cameron_with_European_Commission_Executive_Vice-President_Maro%C5%A1_%C5%A0ef%C4%8Dovi%C4%8D%2C_Spanish_Minister_of_Foreign_Affairs_Jose_Manuel_Albares%2C_and_Gibraltar_Chief_Minister_Fabian_Picardo.jpg",
+      "image_credit": "Wikimedia Commons · The Foreign, Commonwealth &amp; Development Office · OGL 3"
+    },
+    "GHC-NOV-27-09": {
+      "published_at": "2026-11-26T20:01:29.244743+00:00",
+      "message_id": 1277,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMacy%27s_Thanksgiving_Day_Parade_%2823049627713%29.jpg",
+      "image_credit": "Wikimedia Commons · DHSgov · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-07",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-08",
       "batch_index": 1,
@@ -8481,6 +8545,12 @@
     {
       "date": "2026-11-26",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-27",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
