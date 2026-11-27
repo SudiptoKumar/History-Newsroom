@@ -7951,15 +7951,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3AMacy%27s_Thanksgiving_Day_Parade_%2823049627713%29.jpg",
       "image_credit": "Wikimedia Commons · DHSgov · Public domain"
+    },
+    "GHC-NOV-27-01": {
+      "published_at": "2026-11-27T10:15:32.895488+00:00",
+      "message_id": 1278,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AClermont_replica.jpg",
+      "image_credit": "Wikimedia Commons · Detroit Publishing Co. · Public domain"
+    },
+    "GHC-NOV-27-06": {
+      "published_at": "2026-11-27T10:15:44.344364+00:00",
+      "message_id": 1279,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AParis_Notre-Dame_Vaults_01.JPG",
+      "image_credit": "Wikimedia Commons · Uoaei1 · CC BY-SA 4.0"
+    },
+    "GHC-NOV-27-10": {
+      "published_at": "2026-11-27T10:16:08.392534+00:00",
+      "message_id": 1280,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AMihai_Stelescu%2C_Diminea%C8%9Ba_1936-07-19.png",
+      "image_credit": "Wikimedia Commons · Anonymous (writer)Unknown author · Public domain"
+    },
+    "GHC-NOV-27-12": {
+      "published_at": "2026-11-27T10:16:11.986934+00:00",
+      "message_id": 1281,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFrench_destroyers_Vauquelin_and_Kersaint_scuttled_at_Toulon_in_November_1942.jpg",
+      "image_credit": "Wikimedia Commons · Unknown authorUnknown author · Public domain"
+    },
+    "GHC-NOV-27-15": {
+      "published_at": "2026-11-27T10:17:54.976273+00:00",
+      "message_id": 1282,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3A593419main_pia14834-full_full_Mars_Science_Laboratory_Guided_Entry_at_Mars.jpg",
+      "image_credit": "Wikimedia Commons · NASA/JPL-Caltech · Public domain"
+    },
+    "GHC-NOV-27-16": {
+      "published_at": "2026-11-27T10:17:59.592738+00:00",
+      "message_id": 1283,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AFlickr_-_USCapitol_-_President_Gerald_Ford_-_Lying_in_State.jpg",
+      "image_credit": "Wikimedia Commons · USCapitol · Public domain"
+    },
+    "GHC-NOV-27-17": {
+      "published_at": "2026-11-27T10:18:02.833366+00:00",
+      "message_id": 1284,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ACover_of_San_Francisco_Chronicle_November_28_1978.jpg",
+      "image_credit": "Wikimedia Commons · The San Francisco Chronicle · Public domain"
+    },
+    "GHC-NOV-27-20": {
+      "published_at": "2026-11-27T10:18:06.540650+00:00",
+      "message_id": 1285,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AExoplanet_HD_189733_b.jpg",
+      "image_credit": "Wikimedia Commons · X-ray: NASA/CXC/SAO/K. Poppenhaeger et al; Illustration: NASA/CXC/M. Weiss · Public domain"
+    },
+    "GHC-NOV-27-02": {
+      "published_at": "2026-11-27T10:18:12.902384+00:00",
+      "message_id": 1286,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AROUTE_MEKNES_FES_Commune_SEBAA_ROUADI.jpg",
+      "image_credit": "Wikimedia Commons · RACHID BAYA · CC0"
+    },
+    "GHC-NOV-27-03": {
+      "published_at": "2026-11-27T10:18:18.601629+00:00",
+      "message_id": 1287,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABrandes_-_Poland%2C_a_Study_of_the_Land%2C_People%2C_and_Literature.djvu",
+      "image_credit": "Wikimedia Commons · Georg Brandes · Public domain"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-08",
-      "batch_index": 1,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-08",
       "batch_index": 2,
@@ -8551,6 +8615,12 @@
     {
       "date": "2026-11-27",
       "batch_index": 2,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-27",
+      "batch_index": 1,
       "selected": 10,
       "published_now": 10
     }
