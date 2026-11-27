@@ -8021,15 +8021,79 @@
       "send_mode": "rich_photo",
       "image_page": "https://commons.wikimedia.org/wiki/File%3ABrandes_-_Poland%2C_a_Study_of_the_Land%2C_People%2C_and_Literature.djvu",
       "image_credit": "Wikimedia Commons · Georg Brandes · Public domain"
+    },
+    "GHC-NOV-28-04": {
+      "published_at": "2026-11-27T19:47:49.340612+00:00",
+      "message_id": 1288,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ARatified_Indian_Treaty_11-_Cherokee_-_Hopewell%2C_November_28%2C_1785_-_DPLA_-_3d595367802b368fdfdb42d749c95efc_%28page_1%29.tiff",
+      "image_credit": "Wikimedia Commons · U.S. Government. 3/4/1789 · Public domain"
+    },
+    "GHC-NOV-28-05": {
+      "published_at": "2026-11-27T19:47:52.834264+00:00",
+      "message_id": 1289,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AThe_art_of_printing_%281871%29_%2814586155377%29.jpg",
+      "image_credit": "Wikimedia Commons · Summers, Thomas O. (Thomas Osmond), 1812-1882 · No restrictions"
+    },
+    "GHC-NOV-28-06": {
+      "published_at": "2026-11-27T19:48:15.913675+00:00",
+      "message_id": 1290,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABolivia_and_the_opening_of_the_Panama_Canal_%281912%3B_Consulado_General_de_Bolivia%29.djvu",
+      "image_credit": "Wikimedia Commons · Public domain"
+    },
+    "GHC-NOV-28-07": {
+      "published_at": "2026-11-27T19:48:20.371567+00:00",
+      "message_id": 1291,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AUnited_States_Statutes_at_Large_Volume_51.djvu",
+      "image_credit": "Wikimedia Commons · United States Congress · Public domain"
+    },
+    "GHC-NOV-28-09": {
+      "published_at": "2026-11-27T19:49:04.095040+00:00",
+      "message_id": 1292,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ABattle_of_Modder_River_-_Bacon%27s_South_Africa_War_Prints.jpg",
+      "image_credit": "Wikimedia Commons · G W Bacon &amp; Co London · Public domain"
+    },
+    "GHC-NOV-28-10": {
+      "published_at": "2026-11-27T19:49:07.246402+00:00",
+      "message_id": 1293,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ASinn_F%C3%A9in_Bank_at_No._6_Harcourt_Street%2C_Dublin_following_shelling.jpg",
+      "image_credit": "Wikimedia Commons · National Library of Ireland on The Commons · No restrictions"
+    },
+    "GHC-NOV-28-12": {
+      "published_at": "2026-11-27T19:49:11.895527+00:00",
+      "message_id": 1294,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3ATallinn_Landmarks_01.jpg",
+      "image_credit": "Wikimedia Commons · Scotch Mist · CC BY-SA 4.0"
+    },
+    "GHC-NOV-28-13": {
+      "published_at": "2026-11-27T19:50:14.889222+00:00",
+      "message_id": 1295,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AEstonian_soldier_types_during_the_Estonian_War_of_Independence_by_O._S%C3%A4dek.jpg",
+      "image_credit": "Wikimedia Commons · Oskar Sädek · Public domain"
+    },
+    "GHC-NOV-28-15": {
+      "published_at": "2026-11-27T19:50:17.564772+00:00",
+      "message_id": 1296,
+      "send_mode": "rich_photo",
+      "image_page": "https://commons.wikimedia.org/wiki/File%3AKilmichael_Ambush_Site_Monument_-_geograph.org.uk_-_499014.jpg",
+      "image_credit": "Wikimedia Commons · Mike Searle · CC BY-SA 2.0"
+    },
+    "GHC-NOV-28-19": {
+      "published_at": "2026-11-27T19:50:22.367035+00:00",
+      "message_id": 1297,
+      "send_mode": "rich_photo",
+      "image_page": "https://en.wikipedia.org/wiki/Greater_Mauritania",
+      "image_credit": "Wikipedia"
     }
   },
   "runs": [
-    {
-      "date": "2026-10-08",
-      "batch_index": 2,
-      "selected": 10,
-      "published_now": 10
-    },
     {
       "date": "2026-10-09",
       "batch_index": 1,
@@ -8621,6 +8685,12 @@
     {
       "date": "2026-11-27",
       "batch_index": 1,
+      "selected": 10,
+      "published_now": 10
+    },
+    {
+      "date": "2026-11-28",
+      "batch_index": 2,
       "selected": 10,
       "published_now": 10
     }
